@@ -1,0 +1,657 @@
+cable_key,length_km,importance_tier,risk_tier,material,reliability_tier,baseline_cost,optimized_cost
+id-2africa,45000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,14400.000000000004,3599.9999999999995
+id-5-villages-6-islands,355.0,5,7,"GFRP, epoxy matrix (isotropic)",7,49.699999999999996,37.275000000000006
+id-acs-alaska-oregon-network-akorn,3000.0,7,3,Stainless steel (duplex grades),6,251.99999999999997,251.99999999999997
+id-aden-djibouti,269.0,7,7,Nickel‑based superalloys,8,52.724,26.36199999999999
+id-adria-1,440.0,5,9,Nickel‑based superalloys,8,79.2,39.599999999999994
+id-aec-1,5521.0,4,4,Commercially pure titanium,5,353.3440000000001,441.68000000000006
+id-africa-1,10000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,3200.0000000000005,799.9999999999999
+id-africa-coast-to-europe-ace,17000.0,7,10,Titanium alloys,9,4759.999999999999,1189.9999999999995
+id-airraq,680.0,1,1,Silica glass,2,2.7200000000000006,5.440000000000001
+id-alaska-united-east-au-east,3751.0,7,6,"GFRP, epoxy matrix (isotropic)",7,630.1679999999999,472.626
+id-alaska-united-southeast-au-se,626.0,9,7,Titanium alloys,9,157.752,39.43799999999999
+id-alaska-united-turnagain-arm-auta,53.0,1,1,Silica glass,2,0.21200000000000005,0.4240000000000001
+id-alaska-united-west-au-west,2485.0,10,1,Stainless steel (duplex grades),6,99.40000000000002,99.40000000000002
+id-alba-1,1860.0,5,8,"GFRP, epoxy matrix (isotropic)",7,297.6000000000001,223.20000000000005
+id-aletar,787.0,6,4,Stainless steel (duplex grades),6,75.552,75.552
+id-almera-melilla-alme,198.0,2,3,Zirconia,3,4.752,8.316
+id-alonso-de-ojeda,128.0,6,1,Cast magnesium alloys,4,3.0720000000000005,4.608
+id-alpal-2,312.0,2,8,Stainless steel (duplex grades),6,19.968000000000004,19.968000000000004
+id-america-movil-submarine-cable-system-1-amx-1,17800.0,8,10,"CFRP, epoxy matrix (isotropic)",10,5696.000000000001,1423.9999999999998
+id-american-1,140.0,3,7,Stainless steel (duplex grades),6,11.759999999999998,11.759999999999998
+id-americas-i-north,2012.0,7,1,Commercially pure titanium,5,56.336000000000006,70.41999999999999
+id-americas-ii,8373.0,9,10,"CFRP, epoxy matrix (isotropic)",10,3014.28,753.5699999999998
+id-amerigo-vespucci,85.0,6,1,Cast magnesium alloys,4,2.0400000000000005,3.0599999999999996
+id-amitie,6792.0,10,4,Nickel‑based superalloys,8,1086.7200000000003,543.3599999999999
+id-andromeda,734.5,7,8,Nickel‑based superalloys,8,164.52800000000002,82.26399999999998
+id-anjana,7121.0,9,1,Stainless steel (duplex grades),6,256.35600000000005,256.35600000000005
+id-antillas-1,650.0,5,10,Nickel‑based superalloys,8,130.0,64.99999999999999
+id-apcn-2,19000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,6840.000000000001,1709.9999999999998
+id-apocs-1,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-apocs-2,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-apollo,13000.0,10,8,"CFRP, epoxy matrix (isotropic)",10,4160.000000000001,1039.9999999999998
+id-apollo-east-and-west,670.0,4,8,"GFRP, epoxy matrix (isotropic)",7,85.76000000000002,64.32000000000002
+id-apricot,11972.0,10,10,"CFRP, epoxy matrix (isotropic)",10,4788.8,1197.1999999999998
+id-aqualink,734.5,5,10,Nickel‑based superalloys,8,146.9,73.44999999999999
+id-arcos,8600.0,7,10,Titanium alloys,9,2407.9999999999995,601.9999999999998
+id-arctic-way,734.5,5,1,Cast magnesium alloys,4,14.690000000000003,22.035
+id-arimao,2470.0,2,9,Stainless steel (duplex grades),6,177.84000000000003,177.84000000000003
+id-arsat-submarine-fiber-optic-cable,40.0,1,4,Zirconia,3,0.6400000000000001,1.1199999999999999
+id-asia-africa-europe-1-aae-1,25000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,8000.000000000002,1999.9999999999998
+id-asia-america-gateway-aag-cable-system,20000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,6400.000000000001,1599.9999999999998
+id-asia-connect-cable-1-acc-1,19000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,6840.000000000001,1709.9999999999998
+id-asia-direct-cable-adc,9988.0,10,10,"CFRP, epoxy matrix (isotropic)",10,3995.2000000000003,998.7999999999997
+id-asia-link-cable-alc,7200.0,5,10,Nickel‑based superalloys,8,1440.0,719.9999999999999
+id-asia-pacific-gateway-apg,10400.0,10,10,"CFRP, epoxy matrix (isotropic)",10,4160.0,1039.9999999999998
+id-asia-submarine-cable-express-asecahaya-malaysia,8148.0,9,10,"CFRP, epoxy matrix (isotropic)",10,2933.28,733.3199999999998
+id-atisa,279.0,9,1,Stainless steel (duplex grades),6,10.044000000000002,10.044000000000002
+id-atlantic-crossing-1-ac-1,14301.0,8,6,Nickel‑based superalloys,8,2745.792,1372.8959999999997
+id-atlas-offshore,1634.0,9,5,Nickel‑based superalloys,8,294.12000000000006,147.05999999999997
+id-au-aleutian,1491.0,5,1,Cast magnesium alloys,4,29.820000000000007,44.73
+id-aurora,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-australia-connect-interlink,734.5,7,4,Stainless steel (duplex grades),6,82.26400000000001,82.26400000000001
+id-australia-japan-cable-ajc,12700.0,10,7,Titanium alloys,9,3555.9999999999995,888.9999999999998
+id-australia-singapore-cable-asc,4600.0,6,7,"GFRP, epoxy matrix (isotropic)",7,772.8,579.6
+id-avassa,260.0,6,6,"GFRP, epoxy matrix (isotropic)",7,37.44,28.080000000000002
+id-awashima-murakami,66.0,1,8,Commercially pure titanium,5,2.1120000000000005,2.6400000000000006
+id-azores-fiber-optic-system-afos,1100.0,5,1,Cast magnesium alloys,4,22.000000000000004,33.0
+id-bahamas-2,470.0,7,1,Commercially pure titanium,5,13.160000000000002,16.45
+id-bahamas-domestic-submarine-network-bdsni,2817.0,5,8,"GFRP, epoxy matrix (isotropic)",7,450.7200000000001,338.0400000000001
+id-bahamas-internet-cable-system-bics,1100.0,6,5,Stainless steel (duplex grades),6,132.0,132.0
+id-balalink,274.0,5,8,"GFRP, epoxy matrix (isotropic)",7,43.84000000000001,32.88000000000001
+id-balok,60.0,3,10,"GFRP, epoxy matrix (isotropic)",7,7.199999999999999,5.4
+id-baltic-sea-submarine-cable,1042.0,4,1,Zirconia,3,16.672000000000004,29.176
+id-baltica,437.0,3,4,Cast magnesium alloys,4,20.976000000000003,31.464
+id-bangladesh-private-cable-system-bpcs,1300.0,1,4,Zirconia,3,20.800000000000004,36.4
+id-barat-timur-indonesia-1-bti-1,4500.0,8,9,Titanium alloys,9,1296.0000000000002,324.0
+id-barat-timur-indonesia-2-bti-2,11600.0,9,10,"CFRP, epoxy matrix (isotropic)",10,4176.000000000001,1043.9999999999998
+id-bass-strait-1,241.0,1,1,Silica glass,2,0.9640000000000002,1.9280000000000004
+id-bass-strait-2,239.0,1,1,Silica glass,2,0.9560000000000002,1.9120000000000004
+id-basslink,298.0,1,1,Silica glass,2,1.1920000000000004,2.384000000000001
+id-batam-dumai-melaka-bdm,353.0,10,6,Titanium alloys,9,84.72,21.179999999999993
+id-batam-rengit-cable-system-brcs,64.0,4,7,Stainless steel (duplex grades),6,7.167999999999999,7.167999999999999
+id-batam-sarawak-internet-cable-system-basics,762.0,10,6,Titanium alloys,9,182.88,45.719999999999985
+id-batam-singapore-cable-system-bscs,73.0,10,8,"CFRP, epoxy matrix (isotropic)",10,23.360000000000003,5.839999999999999
+id-bay-of-bengal-gateway-bbg,8100.0,9,9,"CFRP, epoxy matrix (isotropic)",10,2624.4000000000005,656.0999999999999
+id-bcs-east,97.0,2,1,Silica glass,2,0.7760000000000001,1.5520000000000003
+id-bcs-east-west-interlink,218.0,2,1,Silica glass,2,1.7440000000000004,3.488000000000001
+id-bcs-north---phase-1,513.0,3,1,Zirconia,3,6.156000000000001,10.773
+id-bcs-north---phase-2,280.0,3,1,Zirconia,3,3.3600000000000008,5.879999999999999
+id-beaufort,734.5,10,4,Nickel‑based superalloys,8,117.52000000000002,58.75999999999999
+id-berytar,134.0,6,7,"GFRP, epoxy matrix (isotropic)",7,22.511999999999997,16.884
+id-besut-perhentian-islands,21.0,1,5,Cast magnesium alloys,4,0.4200000000000001,0.63
+id-bharat-lanka-cable-system,325.0,4,9,"GFRP, epoxy matrix (isotropic)",7,46.800000000000004,35.100000000000016
+id-bicentenario,250.0,4,1,Zirconia,3,4.000000000000001,6.999999999999999
+id-bifrost,19888.0,10,10,"CFRP, epoxy matrix (isotropic)",10,7955.200000000001,1988.7999999999995
+id-biznet-nusantara-cable-system-1-bncs-1,105.0,6,4,Stainless steel (duplex grades),6,10.080000000000002,10.080000000000002
+id-blue,5055.0,8,9,Titanium alloys,9,1455.8400000000001,363.96
+id-bodo-rost-cable,109.0,6,1,Cast magnesium alloys,4,2.6160000000000005,3.9239999999999995
+id-boracay-palawan-submarine-cable-system-bpscs,332.0,5,5,Stainless steel (duplex grades),6,33.2,33.2
+id-bosun,734.5,6,1,Cast magnesium alloys,4,17.628000000000004,26.441999999999997
+id-botnia,93.0,1,1,Silica glass,2,0.3720000000000001,0.7440000000000002
+id-brazilian-festoon,2552.0,5,10,Nickel‑based superalloys,8,510.40000000000003,255.19999999999993
+id-bridge-one,330.0,1,8,Commercially pure titanium,5,10.560000000000002,13.200000000000003
+id-brusa,11000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,3960.0000000000005,989.9999999999998
+id-bt-highlands-and-islands-submarine-cable-system,402.0,1,1,Silica glass,2,1.6080000000000003,3.2160000000000006
+id-bt-mt-1,80.0,3,6,Commercially pure titanium,5,5.76,7.199999999999999
+id-bugio,73.0,10,6,Titanium alloys,9,17.52,4.379999999999999
+id-bulikula,21600.0,10,8,"CFRP, epoxy matrix (isotropic)",10,6912.000000000001,1727.9999999999998
+id-c-lion1,1172.0,4,3,Cast magnesium alloys,4,56.256,84.384
+id-cabo-verde-telecom-domestic-submarine-cable-phase-1,734.5,8,4,"GFRP, epoxy matrix (isotropic)",7,94.01600000000002,70.51200000000003
+id-cabo-verde-telecom-domestic-submarine-cable-phase-2,734.5,3,4,Cast magnesium alloys,4,35.25600000000001,52.88399999999999
+id-cabo-verde-telecom-domestic-submarine-cable-phase-3,734.5,7,5,"GFRP, epoxy matrix (isotropic)",7,102.82999999999998,77.1225
+id-cadmos,230.0,5,7,"GFRP, epoxy matrix (isotropic)",7,32.199999999999996,24.150000000000002
+id-cadmos-2,250.0,6,6,"GFRP, epoxy matrix (isotropic)",7,36.0,27.000000000000004
+id-calvi-st-florent,64.0,1,1,Silica glass,2,0.25600000000000006,0.5120000000000001
+id-cam-ring,1120.0,7,6,"GFRP, epoxy matrix (isotropic)",7,188.15999999999997,141.12
+id-cambodia-hong-kong,2715.0,5,8,"GFRP, epoxy matrix (isotropic)",7,434.4000000000001,325.80000000000007
+id-canalink,1835.0,6,5,Stainless steel (duplex grades),6,220.2,220.2
+id-candalta,110.0,7,1,Commercially pure titanium,5,3.0800000000000005,3.8499999999999996
+id-cantat-3,270.0,7,1,Commercially pure titanium,5,7.560000000000001,9.45
+id-caribbean-bermuda-u-s-cbus,1600.0,6,1,Cast magnesium alloys,4,38.400000000000006,57.599999999999994
+id-caribbean-regional-communications-infrastructure-program-carcip,225.0,5,7,"GFRP, epoxy matrix (isotropic)",7,31.499999999999996,23.625000000000004
+id-carnival-submarine-network-1-csn-1,4670.0,6,8,Nickel‑based superalloys,8,896.6400000000001,448.31999999999994
+id-carnival-submarine-network-2-csn-2,1700.0,4,7,Stainless steel (duplex grades),6,190.39999999999998,190.39999999999998
+id-cat-submarine-network-csn,1240.0,9,8,Titanium alloys,9,357.1200000000001,89.27999999999999
+id-caucasus-cable-system,1200.0,3,5,Commercially pure titanium,5,72.0,90.0
+id-cayman-jamaica-fiber-system-cjfs,870.0,6,7,"GFRP, epoxy matrix (isotropic)",7,146.16,109.62
+id-ceiba-1,287.0,6,4,Stainless steel (duplex grades),6,27.552000000000003,27.552000000000003
+id-ceiba-2,290.0,7,4,Stainless steel (duplex grades),6,32.480000000000004,32.480000000000004
+id-celia,3700.0,9,10,"CFRP, epoxy matrix (isotropic)",10,1332.0000000000002,332.99999999999994
+id-celtixconnect-1-cc-1,131.0,7,5,"GFRP, epoxy matrix (isotropic)",7,18.34,13.755
+id-channel-islands-9-liberty-submarine-cable,734.5,2,3,Zirconia,3,17.628,30.849
+id-chennai-andaman-nicobar-islands-cable-cani,2300.0,5,5,Stainless steel (duplex grades),6,230.0,230.0
+id-chi,3932.0,8,5,"GFRP, epoxy matrix (isotropic)",7,629.1200000000001,471.8400000000001
+id-chuuk-pohnpei-cable,1200.0,6,5,Stainless steel (duplex grades),6,144.0,144.0
+id-circe-north,203.0,6,4,Stainless steel (duplex grades),6,19.488000000000003,19.488000000000003
+id-circe-south,115.0,1,6,Cast magnesium alloys,4,2.7600000000000002,4.14
+id-cobracable,304.0,4,1,Zirconia,3,4.864000000000001,8.511999999999999
+id-cogim,438.0,1,1,Silica glass,2,1.7520000000000004,3.504000000000001
+id-colombia-florida-subsea-fiber-cfx-1,2400.0,8,7,Nickel‑based superalloys,8,537.5999999999999,268.79999999999995
+id-colombian-festoon,400.0,7,6,"GFRP, epoxy matrix (isotropic)",7,67.19999999999999,50.4
+id-columbus-ii-b,2068.0,6,4,Stainless steel (duplex grades),6,198.52800000000002,198.52800000000002
+id-columbus-iii-azores-portugal,734.5,10,5,Nickel‑based superalloys,8,146.9,73.44999999999999
+id-comoros-domestic-cable-system,734.5,4,7,Stainless steel (duplex grades),6,82.264,82.264
+id-concerto,550.0,4,4,Commercially pure titanium,5,35.20000000000001,44.00000000000001
+id-confluence-1,2571.0,10,8,"CFRP, epoxy matrix (isotropic)",10,822.7200000000001,205.67999999999998
+id-connected-coast,734.5,5,6,Stainless steel (duplex grades),6,88.14,88.14
+id-continente-madeira,1179.0,9,6,Nickel‑based superalloys,8,254.664,127.33199999999997
+id-converge-domestic-submarine-cable-network-cdscn,1300.0,4,10,Nickel‑based superalloys,8,208.00000000000003,103.99999999999999
+id-cook-strait,40.0,1,8,Commercially pure titanium,5,1.2800000000000002,1.6000000000000003
+id-coral-bridge,734.5,8,1,Commercially pure titanium,5,23.504000000000005,29.380000000000006
+id-coral-sea-cable-system-cs,4700.0,7,7,Nickel‑based superalloys,8,921.1999999999999,460.5999999999998
+id-corse-continent-4-cc4,190.0,1,7,Commercially pure titanium,5,5.319999999999999,6.6499999999999995
+id-corse-continent-5-cc5,299.0,4,5,Commercially pure titanium,5,23.920000000000005,29.900000000000002
+id-cross-sound-cable,40.0,1,4,Zirconia,3,0.6400000000000001,1.1199999999999999
+id-cross-straits-cable-network-cscn,21.0,1,5,Cast magnesium alloys,4,0.4200000000000001,0.63
+id-crosschannel-fibre,149.0,1,5,Cast magnesium alloys,4,2.9800000000000004,4.47
+id-crosslake-fibre,59.0,1,10,Stainless steel (duplex grades),6,2.3600000000000003,2.3600000000000003
+id-curie,10476.0,10,9,"CFRP, epoxy matrix (isotropic)",10,3771.3600000000006,942.8399999999998
+id-cyclades-a,222.0,3,4,Cast magnesium alloys,4,10.656000000000002,15.983999999999998
+id-cyclades-b,52.0,3,1,Zirconia,3,0.6240000000000001,1.0919999999999999
+id-daito-loop,18.0,8,1,Commercially pure titanium,5,0.5760000000000002,0.7200000000000002
+id-dalian-yantai-cable,146.0,1,1,Silica glass,2,0.5840000000000002,1.1680000000000004
+id-damai-cable-system,575.0,8,5,"GFRP, epoxy matrix (isotropic)",7,92.00000000000001,69.00000000000001
+id-danica-north,25.0,1,1,Silica glass,2,0.10000000000000002,0.20000000000000004
+id-danice,2304.0,9,6,Nickel‑based superalloys,8,497.664,248.83199999999994
+id-darwin-jakarta-singapore-cable-djsc,1000.0,1,1,Silica glass,2,4.000000000000001,8.000000000000002
+id-deep-blue-one,2250.0,8,7,Nickel‑based superalloys,8,503.99999999999994,251.99999999999994
+id-denmark-sweden-17,11.0,1,1,Silica glass,2,0.04400000000000001,0.08800000000000002
+id-denmark-sweden-18,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-denpasar-waingapu-cable-systems,814.0,4,9,"GFRP, epoxy matrix (isotropic)",7,117.21600000000001,87.91200000000003
+id-dhiraagu-cable-network,1253.0,6,1,Cast magnesium alloys,4,30.072000000000006,45.108
+id-dhiraagu-slt-submarine-cable-network,850.0,4,8,"GFRP, epoxy matrix (isotropic)",7,108.80000000000003,81.60000000000002
+id-didon,170.0,10,3,"GFRP, epoxy matrix (isotropic)",7,20.4,15.300000000000002
+id-djibouti-africa-regional-express-1-dare-1,4854.0,7,7,Nickel‑based superalloys,8,951.3839999999999,475.69199999999984
+id-domestic-submarine-cable-of-maldives-dscom,286.0,6,1,Cast magnesium alloys,4,6.864000000000001,10.296
+id-dos-continentes-l-ll,95.0,1,7,Commercially pure titanium,5,2.6599999999999997,3.3249999999999997
+id-dumai-melaka-cable-system-dmcs,159.0,8,1,Commercially pure titanium,5,5.088000000000001,6.360000000000001
+id-dunant,6400.0,7,1,Commercially pure titanium,5,179.20000000000002,223.99999999999997
+id-e-finest,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-e-llan,734.5,6,6,"GFRP, epoxy matrix (isotropic)",7,105.76799999999999,79.32600000000001
+id-e2a,12500.0,10,9,"CFRP, epoxy matrix (isotropic)",10,4500.000000000001,1124.9999999999998
+id-eac-c2c,36500.0,10,10,"CFRP, epoxy matrix (isotropic)",10,14600.0,3649.999999999999
+id-eagle,2750.0,8,9,Titanium alloys,9,792.0000000000001,197.99999999999997
+id-east-micronesia-cable-system-emcs,2250.0,5,1,Cast magnesium alloys,4,45.00000000000001,67.5
+id-east-west,1750.0,1,9,Stainless steel (duplex grades),6,63.00000000000001,63.00000000000001
+id-east-west-submarine-cable-system,950.0,5,6,Stainless steel (duplex grades),6,114.0,114.0
+id-eastern-africa-submarine-system-eassy,10500.0,6,9,Nickel‑based superalloys,8,2268.0000000000005,1133.9999999999998
+id-eastern-caribbean-fiber-system-ecfs,1730.0,6,10,Titanium alloys,9,415.2,103.79999999999997
+id-eastern-light-sweden-finland-i,734.5,4,1,Zirconia,3,11.752000000000002,20.566
+id-eastern-light-sweden-finland-ii,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-eaufon-1,1175.0,3,1,Zirconia,3,14.100000000000003,24.674999999999997
+id-eaufon-2,675.0,3,1,Zirconia,3,8.100000000000001,14.174999999999999
+id-eaufon-3,900.0,3,1,Zirconia,3,10.800000000000002,18.9
+id-echo,17184.0,9,9,"CFRP, epoxy matrix (isotropic)",10,5567.616000000001,1391.9039999999998
+id-eclink,987.0,8,5,"GFRP, epoxy matrix (isotropic)",7,157.92000000000004,118.44000000000003
+id-elektra-globalconnect-1-gc1,44.0,4,4,Commercially pure titanium,5,2.8160000000000007,3.5200000000000005
+id-ellalink,6200.0,10,6,Titanium alloys,9,1488.0,371.9999999999999
+id-emc-west-1,3639.0,6,8,Nickel‑based superalloys,8,698.6880000000001,349.34399999999994
+id-emc-west-2,3978.0,7,8,Nickel‑based superalloys,8,891.0720000000001,445.5359999999999
+id-emerald-bridge-fibres,120.0,4,5,Commercially pure titanium,5,9.600000000000001,12.0
+id-energinet-laeso-varberg,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-energinet-lyngsa-laeso,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-energy-bridge-cable,13.0,2,4,Cast magnesium alloys,4,0.4160000000000001,0.624
+id-epic-malta-sicily-cable-system-emscs,260.0,5,5,Stainless steel (duplex grades),6,26.0,26.0
+id-equiano,15000.0,6,7,"GFRP, epoxy matrix (isotropic)",7,2519.9999999999995,1890.0
+id-esat-2,245.0,5,7,"GFRP, epoxy matrix (isotropic)",7,34.3,25.725
+id-est-tet,113.0,9,6,Nickel‑based superalloys,8,24.408,12.203999999999997
+id-europe-india-gateway-eig,15000.0,9,9,"CFRP, epoxy matrix (isotropic)",10,4860.000000000001,1214.9999999999998
+id-eviny-digital,210.0,9,1,Stainless steel (duplex grades),6,7.560000000000002,7.560000000000002
+id-exa-express,4600.0,4,4,Commercially pure titanium,5,294.4000000000001,368.00000000000006
+id-exa-north-and-south,12200.0,7,7,Nickel‑based superalloys,8,2391.2,1195.5999999999995
+id-exelera-north,345.0,8,5,"GFRP, epoxy matrix (isotropic)",7,55.20000000000001,41.400000000000006
+id-falcon,10300.0,6,10,Titanium alloys,9,2472.0,617.9999999999999
+id-far-east-submarine-cable-system,1855.0,1,1,Silica glass,2,7.420000000000002,14.840000000000003
+id-farice-1,1205.0,1,1,Silica glass,2,4.820000000000001,9.640000000000002
+id-farland-north,150.0,1,4,Zirconia,3,2.4000000000000004,4.199999999999999
+id-faster,11629.0,10,8,"CFRP, epoxy matrix (isotropic)",10,3721.2800000000007,930.3199999999998
+id-fehmarn-blt,20.0,1,5,Cast magnesium alloys,4,0.4000000000000001,0.6
+id-fiber-optic-gulf-fog,1300.0,6,7,"GFRP, epoxy matrix (isotropic)",7,218.39999999999998,163.8
+id-fibra-optica-al-pacfico,1180.0,5,5,Stainless steel (duplex grades),6,118.0,118.0
+id-fibra-optica-austral,2800.0,5,1,Cast magnesium alloys,4,56.000000000000014,84.0
+id-fibralink,1000.0,7,9,Titanium alloys,9,252.0,62.999999999999986
+id-fibre-in-gulf-fig,1931.0,6,3,Commercially pure titanium,5,139.03199999999998,173.79
+id-finland-estonia-2-eesf-2,98.0,3,1,Zirconia,3,1.1760000000000002,2.058
+id-finland-estonia-3-eesf-3,104.0,3,1,Zirconia,3,1.2480000000000002,2.1839999999999997
+id-finland-estonia-connection-1-fec-1,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-finland-estonia-connection-2-fec-2,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-firmina,14517.0,7,7,Nickel‑based superalloys,8,2845.332,1422.6659999999995
+id-fish-north,90.0,9,4,"GFRP, epoxy matrix (isotropic)",7,12.960000000000004,9.720000000000002
+id-fish-south,734.5,7,4,Stainless steel (duplex grades),6,82.26400000000001,82.26400000000001
+id-fish-west,276.0,9,4,"GFRP, epoxy matrix (isotropic)",7,39.744000000000014,29.808000000000007
+id-flag-atlantic-1-fa-1,14500.0,1,10,Stainless steel (duplex grades),6,580.0000000000001,580.0000000000001
+id-flag-europe-asia-fea,28000.0,10,10,"CFRP, epoxy matrix (isotropic)",10,11200.0,2799.9999999999995
+id-flag-north-asia-loopreach-north-asia-loop,9504.0,9,10,"CFRP, epoxy matrix (isotropic)",10,3421.4400000000005,855.3599999999998
+id-flores-corvo-cable-system,685.0,4,1,Zirconia,3,10.960000000000003,19.18
+id-fly-lion3,400.0,7,4,Stainless steel (duplex grades),6,44.800000000000004,44.800000000000004
+id-fos-quellon-chacabuco,350.0,1,5,Cast magnesium alloys,4,7.000000000000002,10.5
+id-galapagos-cable-system,1250.0,5,3,Commercially pure titanium,5,75.0,93.75
+id-gc-lnz-fu-ring,553.0,5,1,Cast magnesium alloys,4,11.060000000000002,16.59
+id-gemini-bermuda,1287.0,5,8,"GFRP, epoxy matrix (isotropic)",7,205.92000000000004,154.44000000000003
+id-geo-eirgrid,187.0,1,5,Cast magnesium alloys,4,3.7400000000000007,5.609999999999999
+id-georgia-russia,433.0,3,6,Commercially pure titanium,5,31.176,38.97
+id-germany-denmark-3,734.5,3,4,Cast magnesium alloys,4,35.25600000000001,52.88399999999999
+id-glo-1,9800.0,10,6,Titanium alloys,9,2352.0,587.9999999999999
+id-global-caribbean-network-gcn,890.0,9,9,"CFRP, epoxy matrix (isotropic)",10,288.36000000000007,72.08999999999999
+id-globalconnect-2-gc2,95.0,1,1,Silica glass,2,0.3800000000000001,0.7600000000000002
+id-globalconnect-3-gc3,19.0,1,4,Zirconia,3,0.30400000000000005,0.5319999999999999
+id-globalconnect-6-gc6,734.5,1,7,Commercially pure titanium,5,20.566,25.707499999999996
+id-globalconnect-denmark-sweden,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-globalconnect-kpn,43.0,4,4,Commercially pure titanium,5,2.7520000000000007,3.440000000000001
+id-globenet,23500.0,8,9,Titanium alloys,9,6768.000000000001,1691.9999999999998
+id-go-1-mediterranean-cable-system,290.0,10,1,Stainless steel (duplex grades),6,11.600000000000001,11.600000000000001
+id-gondwana-1,2151.0,8,6,Nickel‑based superalloys,8,412.992,206.49599999999995
+id-gondwana-2picot-2,1515.0,7,7,Nickel‑based superalloys,8,296.94,148.46999999999994
+id-grace-hopper,7191.0,10,6,Titanium alloys,9,1725.84,431.45999999999987
+id-greenland-connect,4580.0,6,6,"GFRP, epoxy matrix (isotropic)",7,659.52,494.64000000000004
+id-greenland-connect-north,680.0,5,1,Cast magnesium alloys,4,13.600000000000003,20.4
+id-groix-4,7.0,1,1,Silica glass,2,0.028000000000000008,0.056000000000000015
+id-groote-eylandt,95.0,1,1,Silica glass,2,0.3800000000000001,0.7600000000000002
+id-gtmo-1,1528.0,2,7,Commercially pure titanium,5,85.568,106.96
+id-gtmo-pr,1400.0,2,9,Stainless steel (duplex grades),6,100.80000000000001,100.80000000000001
+id-guadeloupe-cable-des-iles-du-sud-gcis,118.0,1,7,Commercially pure titanium,5,3.304,4.13
+id-guam-okinawa-kyushu-incheon-goki,4244.0,8,9,Titanium alloys,9,1222.2720000000002,305.568
+id-guernsey-jersey-4,36.0,7,1,Commercially pure titanium,5,1.0080000000000002,1.2599999999999998
+id-gulf-bridge-international-cable-systemmiddle-east-north-africa-cable-system-gbicsmena,5270.0,7,8,Nickel‑based superalloys,8,1180.4800000000002,590.2399999999999
+id-gulf-of-california-cable,250.0,1,4,Zirconia,3,4.000000000000001,6.999999999999999
+id-gulf-of-mexico-fiber-optic-network,1200.0,1,6,Cast magnesium alloys,4,28.8,43.199999999999996
+id-gulf2africa-g2a,1500.0,6,1,Cast magnesium alloys,4,36.00000000000001,53.99999999999999
+id-hachijojima-mainland,734.5,9,7,Titanium alloys,9,185.094,46.27349999999999
+id-haikou-beihai-cable,198.0,1,3,Zirconia,3,2.376,4.158
+id-hainan-to-hong-kong-express-h2he,675.0,6,9,Nickel‑based superalloys,8,145.8,72.89999999999998
+id-halaihai,17483.0,10,7,Titanium alloys,9,4895.24,1223.8099999999997
+id-hannibal-system,178.0,10,3,"GFRP, epoxy matrix (isotropic)",7,21.36,16.020000000000003
+id-hantru1-cable-system,2917.0,9,4,"GFRP, epoxy matrix (isotropic)",7,420.0480000000001,315.03600000000006
+id-havfrueaec-2,7650.0,10,8,"CFRP, epoxy matrix (isotropic)",10,2448.0000000000005,611.9999999999999
+id-havhingstenceltixconnect-2-cc-2,301.0,5,7,"GFRP, epoxy matrix (isotropic)",7,42.13999999999999,31.605000000000004
+id-havhingstennorth-sea-connect-nsc,661.0,4,4,Commercially pure titanium,5,42.30400000000001,52.88000000000001
+id-havsil,120.0,10,1,Stainless steel (duplex grades),6,4.800000000000001,4.800000000000001
+id-hawaii-inter-island-cable-system-hics,479.0,5,6,Stainless steel (duplex grades),6,57.48,57.48
+id-hawaii-island-fibre-network-hifn,529.0,6,6,"GFRP, epoxy matrix (isotropic)",7,76.17599999999999,57.132000000000005
+id-hawaiian-islands-fiber-link-hifl,675.0,4,4,Commercially pure titanium,5,43.20000000000001,54.00000000000001
+id-hawaiki,14000.0,8,5,"GFRP, epoxy matrix (isotropic)",7,2240.0000000000005,1680.0000000000002
+id-hawaiki-nui-1,10000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,3600.0000000000005,899.9999999999998
+id-hawk,3400.0,9,6,Nickel‑based superalloys,8,734.4,367.1999999999999
+id-high-capacity-undersea-guernsey-optical-fibre-hugo,425.0,10,3,"GFRP, epoxy matrix (isotropic)",7,51.0,38.25000000000001
+id-hokkaido-akita-cable,770.0,4,7,Stainless steel (duplex grades),6,86.24,86.24
+id-hokkaido-rebun-rishiri,64.0,1,1,Silica glass,2,0.25600000000000006,0.5120000000000001
+id-hokkaido-sakhalin-cable-system-hscs,570.0,4,5,Commercially pure titanium,5,45.60000000000001,57.0
+id-honomoana,15215.0,8,7,Nickel‑based superalloys,8,3408.16,1704.0799999999997
+id-honotua,4805.0,5,6,Stainless steel (duplex grades),6,576.6,576.6
+id-hronn,270.0,1,1,Silica glass,2,1.0800000000000003,2.1600000000000006
+id-i2i-cable-network-i2icn,3200.0,10,7,Titanium alloys,9,895.9999999999999,223.99999999999994
+id-ice-iv,11000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,3520.000000000001,879.9999999999999
+id-iceni,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-imewe,12091.0,9,10,"CFRP, epoxy matrix (isotropic)",10,4352.76,1088.1899999999998
+id-india-asia-xpress-iax,5791.0,9,9,"CFRP, epoxy matrix (isotropic)",10,1876.2840000000003,469.0709999999999
+id-india-europe-xpress-iex,9775.0,7,9,Titanium alloys,9,2463.3,615.8249999999998
+id-indigo-central,4850.0,7,5,"GFRP, epoxy matrix (isotropic)",7,678.9999999999999,509.25000000000006
+id-indigo-west,4600.0,10,9,"CFRP, epoxy matrix (isotropic)",10,1656.0000000000002,413.99999999999994
+id-indonesia-global-gateway-igg-system,5300.0,9,10,"CFRP, epoxy matrix (isotropic)",10,1908.0000000000002,476.9999999999999
+id-ingrid,64.0,5,1,Cast magnesium alloys,4,1.2800000000000002,1.92
+id-insica,100.0,10,8,"CFRP, epoxy matrix (isotropic)",10,32.00000000000001,7.999999999999999
+id-interchange-cable-network-1-icn1,1259.0,9,8,Titanium alloys,9,362.5920000000001,90.648
+id-ioema,1620.0,9,7,Titanium alloys,9,408.24,102.05999999999997
+id-ionian,320.0,1,7,Commercially pure titanium,5,8.959999999999999,11.2
+id-iris,1770.0,1,6,Cast magnesium alloys,4,42.480000000000004,63.71999999999999
+id-isle-au-haut-cable,10.0,1,1,Silica glass,2,0.04000000000000001,0.08000000000000002
+id-isles-of-scilly-cable,734.5,10,3,"GFRP, epoxy matrix (isotropic)",7,88.14,66.105
+id-israel-coasting-1-ic-1,340.0,5,9,Nickel‑based superalloys,8,61.20000000000001,30.599999999999994
+id-italy-albania,240.0,7,9,Titanium alloys,9,60.480000000000004,15.119999999999997
+id-italy-croatia,230.0,1,6,Cast magnesium alloys,4,5.5200000000000005,8.28
+id-italy-greece-1-ig-1,169.0,3,3,Cast magnesium alloys,4,6.084,9.126
+id-italy-libya,570.0,10,4,Nickel‑based superalloys,8,91.20000000000002,45.599999999999994
+id-italy-malta,238.0,5,5,Stainless steel (duplex grades),6,23.8,23.8
+id-italy-monaco,162.0,4,7,Stainless steel (duplex grades),6,18.144,18.144
+id-ixchel,20.0,1,6,Cast magnesium alloys,4,0.48,0.72
+id-izu-islands-cable-system,734.5,6,5,Stainless steel (duplex grades),6,88.14,88.14
+id-jaka2ladema,1700.0,5,10,Nickel‑based superalloys,8,340.0,169.99999999999997
+id-jakabare,1330.0,8,9,Titanium alloys,9,383.04,95.75999999999999
+id-jakarta-bangka-batam-singapore-b2js,759.0,9,9,"CFRP, epoxy matrix (isotropic)",10,245.91600000000005,61.47899999999999
+id-jakarta-bangka-bintan-batam-singapore-b3js,1031.0,8,10,"CFRP, epoxy matrix (isotropic)",10,329.9200000000001,82.47999999999999
+id-jakarta-surabaya-cable-system-jayabaya,888.0,6,9,Nickel‑based superalloys,8,191.80800000000002,95.90399999999997
+id-jalapati,45.0,1,5,Cast magnesium alloys,4,0.9000000000000001,1.3499999999999999
+id-jambi-batam-cable-system-jiba,267.0,6,6,"GFRP, epoxy matrix (isotropic)",7,38.448,28.836000000000002
+id-janna,634.0,9,6,Nickel‑based superalloys,8,136.944,68.47199999999998
+id-japan-guam-australia-north-jga-n,2600.0,10,5,Nickel‑based superalloys,8,520.0,259.99999999999994
+id-japan-guam-australia-south-jga-s,7081.0,9,5,Nickel‑based superalloys,8,1274.5800000000002,637.2899999999998
+id-japan-information-highway-jih,5150.0,10,10,"CFRP, epoxy matrix (isotropic)",10,2060.0,514.9999999999999
+id-jasuka,734.5,9,10,"CFRP, epoxy matrix (isotropic)",10,264.42,66.10499999999999
+id-java-bali-cable-system-jbcs,734.5,1,5,Cast magnesium alloys,4,14.690000000000003,22.035
+id-java-kalimantan-sulawesi-jakasusi,1100.0,4,7,Stainless steel (duplex grades),6,123.19999999999999,123.19999999999999
+id-javali,734.5,2,6,Commercially pure titanium,5,35.256,44.07
+id-jeju-mainland-2,191.0,3,5,Commercially pure titanium,5,11.459999999999999,14.325
+id-jeju-mainland-3,236.0,3,4,Cast magnesium alloys,4,11.328000000000001,16.991999999999997
+id-jeju-udo,3.0,3,5,Commercially pure titanium,5,0.18,0.22499999999999998
+id-jerry-newton,734.5,6,1,Cast magnesium alloys,4,17.628000000000004,26.441999999999997
+id-jonah,2297.0,7,7,Nickel‑based superalloys,8,450.21199999999993,225.1059999999999
+id-jscfs,734.5,4,6,Stainless steel (duplex grades),6,70.512,70.512
+id-junior,390.0,6,9,Nickel‑based superalloys,8,84.24000000000001,42.11999999999999
+id-juno,11710.0,10,7,Titanium alloys,9,3278.7999999999997,819.6999999999997
+id-jupiter,14557.0,10,9,"CFRP, epoxy matrix (isotropic)",10,5240.52,1310.1299999999997
+id-kafos,538.0,5,8,"GFRP, epoxy matrix (isotropic)",7,86.08000000000001,64.56000000000002
+id-kanawa,1746.0,2,8,Stainless steel (duplex grades),6,111.74400000000003,111.74400000000003
+id-kangaroo-island-2,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-kattegat-2,75.0,3,1,Zirconia,3,0.9000000000000001,1.5749999999999997
+id-kerch-strait-cable,46.0,2,4,Cast magnesium alloys,4,1.4720000000000004,2.208
+id-ketchcan1-submarine-fiber-cable-system,167.0,10,1,Stainless steel (duplex grades),6,6.6800000000000015,6.6800000000000015
+id-kingisepp-kaliningrad-system-baltika,1115.0,1,1,Silica glass,2,4.460000000000001,8.920000000000002
+id-kitadaito-island,410.0,9,8,Titanium alloys,9,118.08000000000004,29.519999999999996
+id-kochi-lakshadweep-islands-kli-sofc,1989.0,5,6,Stainless steel (duplex grades),6,238.67999999999998,238.67999999999998
+id-kodiak-kenai-fiber-link-kkfl,966.0,9,3,"GFRP, epoxy matrix (isotropic)",7,104.328,78.24600000000001
+id-konstanz-friedrichshafen,26.0,2,3,Zirconia,3,0.624,1.092
+id-konstanz-meersburg,5.0,2,3,Zirconia,3,0.12,0.21000000000000002
+id-korea-japan-cable-network-kjcn,500.0,8,9,Titanium alloys,9,144.00000000000003,36.0
+id-kumul-domestic-submarine-cable-system,5457.0,6,7,"GFRP, epoxy matrix (isotropic)",7,916.776,687.582
+id-kupang-alor-cable-systems,273.0,8,6,Nickel‑based superalloys,8,52.416000000000004,26.20799999999999
+id-kuwait-iran,380.0,5,7,"GFRP, epoxy matrix (isotropic)",7,53.199999999999996,39.900000000000006
+id-la-gomera-el-hierro,734.5,4,1,Zirconia,3,11.752000000000002,20.566
+id-labuan-brunei-submarine-cable,52.0,4,4,Commercially pure titanium,5,3.3280000000000007,4.160000000000001
+id-lake-albert-1,51.0,1,4,Zirconia,3,0.8160000000000002,1.428
+id-lake-albert-2,44.0,1,4,Zirconia,3,0.7040000000000002,1.2319999999999998
+id-lake-michigan-chicago-crossing,734.5,1,7,Commercially pure titanium,5,20.566,25.707499999999996
+id-lake-michigan-crossing-peninsula-and-island-connection,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-lake-tanganyika,370.0,1,8,Commercially pure titanium,5,11.840000000000003,14.800000000000002
+id-lanis-1,113.0,6,6,"GFRP, epoxy matrix (isotropic)",7,16.272,12.204
+id-lanis-2,67.0,3,1,Zirconia,3,0.8040000000000002,1.4069999999999998
+id-lanis-3,122.0,1,1,Silica glass,2,0.4880000000000001,0.9760000000000002
+id-latvia-sweden-1-lv-se-1,304.0,3,1,Zirconia,3,3.6480000000000006,6.3839999999999995
+id-lazaro-cardenas-manzanillo-santiago-submarine-cable-system-lcmsscs,322.0,1,6,Cast magnesium alloys,4,7.728,11.591999999999999
+id-les-dhyres-cable,45.0,1,9,Stainless steel (duplex grades),6,1.62,1.62
+id-lfon-libyan-fiber-optic-network,1639.0,5,8,"GFRP, epoxy matrix (isotropic)",7,262.24000000000007,196.68000000000004
+id-libreville-port-gentil-cable,198.0,7,3,Stainless steel (duplex grades),6,16.631999999999998,16.631999999999998
+id-lic-lin-lamp,240.0,4,1,Zirconia,3,3.8400000000000007,6.719999999999999
+id-link-1-phase-1,368.0,3,7,Stainless steel (duplex grades),6,30.911999999999995,30.911999999999995
+id-link-1-phase-2,94.0,3,9,"GFRP, epoxy matrix (isotropic)",7,10.152000000000001,7.614000000000002
+id-link-2-phase-1,281.0,1,7,Commercially pure titanium,5,7.867999999999999,9.834999999999999
+id-link-2-phase-2,221.0,2,6,Commercially pure titanium,5,10.608,13.26
+id-link-3-phase-1,275.0,3,9,"GFRP, epoxy matrix (isotropic)",7,29.700000000000003,22.275000000000006
+id-link-3-phase-2,342.0,6,10,Titanium alloys,9,82.08,20.519999999999996
+id-link-4-phase-2,300.0,4,3,Cast magnesium alloys,4,14.4,21.599999999999998
+id-link-5-phase-2,365.0,6,4,Stainless steel (duplex grades),6,35.040000000000006,35.040000000000006
+id-lower-indian-ocean-network-2-lion2,2700.0,4,6,Stainless steel (duplex grades),6,259.2,259.2
+id-lower-indian-ocean-network-lion,1060.0,1,6,Cast magnesium alloys,4,25.44,38.16
+id-lumut-pangkor-island,4.0,1,6,Cast magnesium alloys,4,0.096,0.144
+id-luwuk-tutuyan-cable-system-ltcs,446.0,4,6,Stainless steel (duplex grades),6,42.816,42.816
+id-lynn-canal-fiber,138.0,8,1,Commercially pure titanium,5,4.416000000000001,5.520000000000001
+id-mainone,7000.0,8,9,Titanium alloys,9,2016.0000000000002,503.99999999999994
+id-malaysia-cambodia-thailand-mct-cable,1300.0,6,6,"GFRP, epoxy matrix (isotropic)",7,187.2,140.4
+id-malbec,2600.0,5,9,Nickel‑based superalloys,8,468.00000000000006,233.99999999999994
+id-maldives-sri-lanka-cable-msc,863.0,8,8,Titanium alloys,9,220.92800000000005,55.23199999999999
+id-malta-gozo-cable,13.0,1,1,Silica glass,2,0.05200000000000001,0.10400000000000002
+id-malta-italy-interconnector,95.0,2,1,Silica glass,2,0.7600000000000002,1.5200000000000005
+id-manatua,3634.0,7,4,Stainless steel (duplex grades),6,407.00800000000004,407.00800000000004
+id-mandji-fiber-optic-cable,50.0,1,3,Zirconia,3,0.6,1.05
+id-manta,5600.0,8,9,Titanium alloys,9,1612.8000000000002,403.2
+id-marea,6605.0,10,1,Stainless steel (duplex grades),6,264.20000000000005,264.20000000000005
+id-mariana-guam-cable,268.0,8,1,Commercially pure titanium,5,8.576000000000002,10.720000000000002
+id-maroc-telecom-west-africa,8600.0,6,8,Nickel‑based superalloys,8,1651.2000000000003,825.5999999999999
+id-mataram-kupang-cable-system-mkcs,1318.0,6,10,Titanium alloys,9,316.32,79.07999999999998
+id-matrix-cable-system,1055.0,10,9,"CFRP, epoxy matrix (isotropic)",10,379.80000000000007,94.94999999999999
+id-mauritius-and-rodrigues-submarine-cable-system-mars,677.0,5,5,Stainless steel (duplex grades),6,67.7,67.7
+id-maya-1,4400.0,8,8,Titanium alloys,9,1126.4000000000003,281.59999999999997
+id-med-cable-network,1300.0,7,8,Nickel‑based superalloys,8,291.20000000000005,145.59999999999997
+id-medloop,1360.0,8,7,Nickel‑based superalloys,8,304.64,152.31999999999996
+id-mednautilus-submarine-system,7000.0,6,9,Nickel‑based superalloys,8,1512.0000000000002,755.9999999999998
+id-medusa-submarine-cable-system,8760.0,9,10,"CFRP, epoxy matrix (isotropic)",10,3153.6000000000004,788.3999999999999
+id-melita-1,97.0,2,1,Silica glass,2,0.7760000000000001,1.5520000000000003
+id-meltingpot-indianoceanic-submarine-system-metiss,3200.0,1,7,Commercially pure titanium,5,89.6,111.99999999999999
+id-mercator,734.5,1,5,Cast magnesium alloys,4,14.690000000000003,22.035
+id-mid-atlantic-crossing-mac,7500.0,10,7,Titanium alloys,9,2100.0,524.9999999999999
+id-middle-east-north-africa-mena-cable-systemgulf-bridge-international,8000.0,9,5,Nickel‑based superalloys,8,1440.0000000000002,719.9999999999999
+id-minamidaito-island,410.0,8,8,Titanium alloys,9,104.96000000000002,26.239999999999995
+id-minoas-east-and-west,270.0,1,1,Silica glass,2,1.0800000000000003,2.1600000000000006
+id-mishima-village,192.0,1,4,Zirconia,3,3.072000000000001,5.3759999999999994
+id-mist,8100.0,9,9,"CFRP, epoxy matrix (isotropic)",10,2624.4000000000005,656.0999999999999
+id-miyazaki-okinawa-cable-moc,734.5,8,9,Titanium alloys,9,211.53600000000003,52.88399999999999
+id-monet,10556.0,9,8,Titanium alloys,9,3040.128000000001,760.0319999999999
+id-moratelindo-international-cable-system-1-mic-1,70.0,10,8,"CFRP, epoxy matrix (isotropic)",10,22.400000000000006,5.599999999999999
+id-muroran-hachinohe,280.0,1,4,Zirconia,3,4.480000000000001,7.839999999999999
+id-n0r5ke-viking,810.0,6,1,Cast magnesium alloys,4,19.440000000000005,29.159999999999997
+id-n0r5ke-viking-2,900.0,8,1,Commercially pure titanium,5,28.800000000000008,36.00000000000001
+id-national-digital-transmission-network-ndtn,1400.0,4,9,"GFRP, epoxy matrix (isotropic)",7,201.60000000000002,151.20000000000005
+id-nationwide-submarine-cable-ooredoo-maldives-nascom,1136.0,6,1,Cast magnesium alloys,4,27.264000000000003,40.895999999999994
+id-natitua,2680.0,3,1,Zirconia,3,32.160000000000004,56.279999999999994
+id-natitua-sud,820.0,3,1,Zirconia,3,9.840000000000002,17.22
+id-nelson-levin,212.0,1,5,Cast magnesium alloys,4,4.240000000000001,6.359999999999999
+id-new-cam-ring,3812.0,9,7,Titanium alloys,9,960.624,240.15599999999995
+id-new-cross-pacific-ncp-cable-system,13618.0,10,10,"CFRP, epoxy matrix (isotropic)",10,5447.200000000001,1361.7999999999997
+id-nigeria-cameroon-submarine-cable-system-ncscs,1100.0,7,4,Stainless steel (duplex grades),6,123.20000000000002,123.20000000000002
+id-ningbo-zhoushan-cable,35.0,1,1,Silica glass,2,0.14000000000000004,0.2800000000000001
+id-no-uk,713.0,6,4,Stainless steel (duplex grades),6,68.44800000000001,68.44800000000001
+id-nome-to-homer-express-nthe,1545.0,7,1,Commercially pure titanium,5,43.260000000000005,54.074999999999996
+id-nongsa-changi,50.0,5,8,"GFRP, epoxy matrix (isotropic)",7,8.000000000000002,6.000000000000001
+id-nordbalt,400.0,1,1,Silica glass,2,1.6000000000000003,3.2000000000000006
+id-norfest,749.0,8,1,Commercially pure titanium,5,23.968000000000007,29.960000000000004
+id-norte-conectado-infovia-00,770.0,4,1,Zirconia,3,12.320000000000002,21.56
+id-norte-conectado-infovia-01,1100.0,3,4,Cast magnesium alloys,4,52.80000000000001,79.19999999999999
+id-norte-conectado-infovia-02,1076.0,3,7,Stainless steel (duplex grades),6,90.38399999999999,90.38399999999999
+id-norte-conectado-infovia-03,600.0,3,1,Zirconia,3,7.200000000000001,12.599999999999998
+id-norte-conectado-infovia-04,515.0,3,1,Zirconia,3,6.180000000000001,10.815
+id-north-west-cable-system,2100.0,5,1,Cast magnesium alloys,4,42.00000000000001,63.0
+id-northern-lights,67.0,1,1,Silica glass,2,0.26800000000000007,0.5360000000000001
+id-northstar,3229.0,9,3,"GFRP, epoxy matrix (isotropic)",7,348.73199999999997,261.54900000000004
+id-nuvem,7194.0,9,4,"GFRP, epoxy matrix (isotropic)",7,1035.9360000000004,776.9520000000002
+id-nzadi-cable-system,950.0,6,9,Nickel‑based superalloys,8,205.20000000000002,102.59999999999997
+id-ogasawara-cable-network,1038.0,7,1,Commercially pure titanium,5,29.064000000000004,36.33
+id-okinawa-cellular-cable,760.0,1,8,Commercially pure titanium,5,24.320000000000007,30.400000000000006
+id-okinawa-miyakojima-ishigaki,467.0,8,8,Titanium alloys,9,119.55200000000004,29.887999999999995
+id-okinawa-remote-islands,915.0,5,10,Nickel‑based superalloys,8,183.0,91.49999999999999
+id-olisipo,110.0,10,5,Nickel‑based superalloys,8,22.0,10.999999999999998
+id-oman-australia-cable-oac,11000.0,6,1,Cast magnesium alloys,4,264.00000000000006,395.99999999999994
+id-omranepeg,600.0,5,6,Stainless steel (duplex grades),6,72.0,72.0
+id-oran-valencia-orval,770.0,6,9,Nickel‑based superalloys,8,166.32000000000002,83.15999999999998
+id-orca,12482.0,9,9,"CFRP, epoxy matrix (isotropic)",10,4044.168000000001,1011.0419999999998
+id-oskarshamn-visby,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-oteglobe-kokkini-bari,700.0,5,3,Commercially pure titanium,5,42.0,52.5
+id-pacific-caribbean-cable-system-pccs,6000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,2160.0000000000005,539.9999999999999
+id-pacific-crossing-1-pc-1,21000.0,10,7,Titanium alloys,9,5879.999999999999,1469.9999999999995
+id-pacific-light-cable-network-plcn,11806.0,10,10,"CFRP, epoxy matrix (isotropic)",10,4722.400000000001,1180.5999999999997
+id-padang-tua-pejat,160.0,1,7,Commercially pure titanium,5,4.4799999999999995,5.6
+id-palapa-ring-east,6300.0,5,8,"GFRP, epoxy matrix (isotropic)",7,1008.0000000000002,756.0000000000001
+id-palapa-ring-middle,2100.0,6,9,Nickel‑based superalloys,8,453.6000000000001,226.79999999999993
+id-palapa-ring-west,1980.0,7,6,"GFRP, epoxy matrix (isotropic)",7,332.64,249.48
+id-palawan-iloilo-cable-system,300.0,4,6,Stainless steel (duplex grades),6,28.8,28.8
+id-pan-american-crossing-pac,10000.0,9,8,Titanium alloys,9,2880.000000000001,720.0
+id-pan-european-crossing-uk-belgium,117.0,4,6,Stainless steel (duplex grades),6,11.232000000000001,11.232000000000001
+id-pan-european-crossing-uk-ireland,495.0,10,5,Nickel‑based superalloys,8,99.0,49.499999999999986
+id-paniolo-cable-network,576.0,6,6,"GFRP, epoxy matrix (isotropic)",7,82.94399999999999,62.208000000000006
+id-pasuli,40.0,7,3,Stainless steel (duplex grades),6,3.3599999999999994,3.3599999999999994
+id-patara-2,1200.0,5,4,Commercially pure titanium,5,96.00000000000001,120.0
+id-peace-cable,25000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,9000.000000000002,2249.9999999999995
+id-penbal-4,317.0,5,8,"GFRP, epoxy matrix (isotropic)",7,50.72000000000001,38.040000000000006
+id-penbal-5,315.0,2,7,Commercially pure titanium,5,17.639999999999997,22.049999999999997
+id-pencan-8,1400.0,4,4,Commercially pure titanium,5,89.60000000000002,112.00000000000003
+id-pencan-9,1398.0,4,1,Zirconia,3,22.368000000000006,39.144
+id-persona,800.0,1,1,Silica glass,2,3.2000000000000006,6.400000000000001
+id-petropavlovsk-kamchatsky---anadyr,2173.0,3,1,Zirconia,3,26.076000000000004,45.632999999999996
+id-pgascom,264.0,9,8,Titanium alloys,9,76.03200000000002,19.008
+id-philippine-domestic-submarine-cable-network-pdscn,2500.0,5,10,Nickel‑based superalloys,8,500.0,249.99999999999994
+id-piano-isole-minori,830.0,5,9,Nickel‑based superalloys,8,149.4,74.69999999999999
+id-picot-1,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-pipe-pacific-cable-1-ppc-1,6900.0,10,5,Nickel‑based superalloys,8,1380.0,689.9999999999999
+id-pishgaman-oman-iran-poi-network,400.0,5,5,Stainless steel (duplex grades),6,40.0,40.0
+id-pldt-domestic-fiber-optic-network-dfon,11100.0,7,10,Titanium alloys,9,3107.9999999999995,776.9999999999998
+id-png-lng,200.0,7,3,Stainless steel (duplex grades),6,16.799999999999997,16.799999999999997
+id-polar-circle-cable,1004.0,6,1,Cast magnesium alloys,4,24.096000000000004,36.144
+id-polar-express,12650.0,3,5,Commercially pure titanium,5,759.0,948.75
+id-poseidon,800.0,8,5,"GFRP, epoxy matrix (isotropic)",7,128.00000000000003,96.00000000000001
+id-prat,3500.0,7,10,Titanium alloys,9,979.9999999999999,244.99999999999991
+id-proa,734.5,10,4,Nickel‑based superalloys,8,117.52000000000002,58.75999999999999
+id-projeto-amaznia-conectada-pac-01,800.0,4,5,Commercially pure titanium,5,64.00000000000001,80.0
+id-projeto-amaznia-conectada-pac-02,1000.0,3,1,Zirconia,3,12.000000000000002,20.999999999999996
+id-qatar-u-a-e-submarine-cable-system,100.0,5,5,Stainless steel (duplex grades),6,10.0,10.0
+id-quintillion-subsea-cable-network,1900.0,5,1,Cast magnesium alloys,4,38.00000000000001,57.0
+id-r100-north,224.0,3,1,Zirconia,3,2.6880000000000006,4.704
+id-raman,7376.0,8,8,Titanium alloys,9,1888.2560000000005,472.0639999999999
+id-red2med,420.0,8,1,Commercially pure titanium,5,13.440000000000003,16.800000000000004
+id-rnne-rdvig,153.0,3,3,Cast magnesium alloys,4,5.508,8.262
+id-rockabill,221.0,5,6,Stainless steel (duplex grades),6,26.52,26.52
+id-rompin-tioman-island,75.0,1,5,Cast magnesium alloys,4,1.5000000000000002,2.25
+id-romsar-2,734.5,5,4,Commercially pure titanium,5,58.76000000000001,73.45
+id-romulo,237.0,1,8,Commercially pure titanium,5,7.584000000000001,9.480000000000002
+id-roquetas-melilla-cam,181.0,2,3,Zirconia,3,4.344,7.602
+id-ruppione-isolella,62.0,1,1,Silica glass,2,0.24800000000000005,0.4960000000000001
+id-russia-japan-cable-network-rjcn,1800.0,3,8,Stainless steel (duplex grades),6,172.80000000000004,172.80000000000004
+id-s-u-b-cable-system,2009.0,6,7,"GFRP, epoxy matrix (isotropic)",7,337.51199999999994,253.13400000000001
+id-saba-statia-cable-system-sscs,198.0,5,1,Cast magnesium alloys,4,3.960000000000001,5.9399999999999995
+id-safe,13500.0,7,8,Nickel‑based superalloys,8,3024.0000000000005,1511.9999999999995
+id-sagres,302.0,7,5,"GFRP, epoxy matrix (isotropic)",7,42.279999999999994,31.710000000000004
+id-sakhalin-kuril-islands-cable,940.0,1,3,Zirconia,3,11.28,19.740000000000002
+id-samoa-american-samoa-sas,250.0,8,4,"GFRP, epoxy matrix (isotropic)",7,32.00000000000001,24.000000000000007
+id-san-andres-isla-tolu-submarine-cable-sait,826.0,4,6,Stainless steel (duplex grades),6,79.296,79.296
+id-sape-labuan-bajo-ende-kupang,474.0,7,8,Nickel‑based superalloys,8,106.17600000000002,53.08799999999999
+id-sarco,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-sat-3wasc,14350.0,7,10,Titanium alloys,9,4017.9999999999995,1004.4999999999997
+id-saudi-arabia-sudan-1-sas-1,333.0,7,5,"GFRP, epoxy matrix (isotropic)",7,46.62,34.965
+id-saudi-arabia-sudan-2-sas-2,330.0,7,5,"GFRP, epoxy matrix (isotropic)",7,46.199999999999996,34.650000000000006
+id-saudi-vision,1071.0,6,5,Stainless steel (duplex grades),6,128.51999999999998,128.51999999999998
+id-scandinavian-ring-north,5.0,1,1,Silica glass,2,0.020000000000000004,0.04000000000000001
+id-scandinavian-ring-south,21.0,1,1,Silica glass,2,0.08400000000000002,0.16800000000000004
+id-scotland-northern-ireland-3,42.0,1,1,Silica glass,2,0.16800000000000004,0.3360000000000001
+id-scotland-northern-ireland-4,85.0,1,1,Silica glass,2,0.3400000000000001,0.6800000000000002
+id-scylla,204.0,5,4,Commercially pure titanium,5,16.320000000000004,20.400000000000002
+id-sea-h2x,5000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,1800.0000000000002,449.9999999999999
+id-sea-us,14500.0,9,10,"CFRP, epoxy matrix (isotropic)",10,5220.000000000001,1304.9999999999998
+id-sea2shore,32.0,1,1,Silica glass,2,0.12800000000000003,0.25600000000000006
+id-seabras-1,10800.0,10,9,"CFRP, epoxy matrix (isotropic)",10,3888.0000000000005,971.9999999999998
+id-seacomtata-tgn-eurasia,15000.0,8,9,Titanium alloys,9,4320.000000000001,1080.0
+id-sealink,345.0,9,1,Stainless steel (duplex grades),6,12.420000000000003,12.420000000000003
+id-sealink-south,159.0,10,1,Stainless steel (duplex grades),6,6.360000000000001,6.360000000000001
+id-seamewe-4,20000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,7200.000000000001,1799.9999999999995
+id-seamewe-5,20000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,6400.000000000001,1599.9999999999998
+id-seamewe-6,21700.0,8,10,"CFRP, epoxy matrix (isotropic)",10,6944.000000000001,1735.9999999999998
+id-seax-1,250.0,9,8,Titanium alloys,9,72.00000000000003,18.0
+id-segunda-fos-canal-de-chacao,40.0,1,1,Silica glass,2,0.16000000000000003,0.32000000000000006
+id-senegal-horn-of-africa-regional-express-share-cable,720.0,10,7,Titanium alloys,9,201.59999999999997,50.399999999999984
+id-seychelles-to-east-africa-system-seas,1930.0,7,6,"GFRP, epoxy matrix (isotropic)",7,324.23999999999995,243.18
+id-shefa-2,1000.0,1,3,Zirconia,3,12.0,21.0
+id-silphium,425.0,6,1,Cast magnesium alloys,4,10.200000000000001,15.299999999999999
+id-sint-maarten-puerto-rico-network-one-smpr-1,375.0,4,9,"GFRP, epoxy matrix (isotropic)",7,54.00000000000001,40.500000000000014
+id-sir-abu-nuayr-cable,84.0,1,5,Cast magnesium alloys,4,1.6800000000000004,2.52
+id-sirius-north,147.0,1,1,Silica glass,2,0.5880000000000002,1.1760000000000004
+id-sirius-south,219.0,7,7,Nickel‑based superalloys,8,42.92399999999999,21.461999999999993
+id-sistem-kabel-rakyat-1malaysia-skr1m,3800.0,5,8,"GFRP, epoxy matrix (isotropic)",7,608.0000000000001,456.0000000000001
+id-sjjk,543.0,4,8,"GFRP, epoxy matrix (isotropic)",7,69.50400000000002,52.128000000000014
+id-skagenfiber-west,170.0,4,1,Zirconia,3,2.7200000000000006,4.76
+id-skagerrak-4,137.0,10,5,Nickel‑based superalloys,8,27.400000000000002,13.699999999999998
+id-smpcs-packet-1,3156.0,7,9,Titanium alloys,9,795.312,198.82799999999995
+id-smpcs-packet-2,3498.0,7,5,"GFRP, epoxy matrix (isotropic)",7,489.71999999999997,367.29
+id-solas,232.0,4,4,Commercially pure titanium,5,14.848000000000004,18.560000000000002
+id-sorsogon-samar-submarine-fiber-optical-interconnection-project-sssfoip,21.0,4,9,"GFRP, epoxy matrix (isotropic)",7,3.0240000000000005,2.2680000000000007
+id-south-america-1-sam-1,25000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,8000.000000000002,1999.9999999999998
+id-south-american-crossing-sac,20000.0,9,10,"CFRP, epoxy matrix (isotropic)",10,7200.000000000001,1799.9999999999995
+id-south-atlantic-cable-system-sacs,6165.0,9,6,Nickel‑based superalloys,8,1331.6399999999999,665.8199999999998
+id-south-atlantic-inter-link-sail,5800.0,9,1,Stainless steel (duplex grades),6,208.80000000000007,208.80000000000007
+id-south-pacific-cable-system-spcsmistral,7300.0,8,8,Titanium alloys,9,1868.8000000000004,467.19999999999993
+id-southeast-asia-japan-cable-2-sjc2,10500.0,10,10,"CFRP, epoxy matrix (isotropic)",10,4200.0,1049.9999999999998
+id-southeast-asia-japan-cable-sjc,8900.0,8,10,"CFRP, epoxy matrix (isotropic)",10,2848.0000000000005,711.9999999999999
+id-southern-caribbean-fiber,3000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,960.0000000000002,239.99999999999997
+id-southern-cross-cable-network-sccn,30500.0,8,9,Titanium alloys,9,8784.000000000002,2196.0
+id-southern-cross-next,13700.0,7,9,Titanium alloys,9,3452.4,863.0999999999998
+id-sovetskaya-gavan-ilyinskoye,214.0,2,4,Cast magnesium alloys,4,6.848000000000002,10.272
+id-sovetskaya-gavan-uglegorsk,127.0,2,5,Cast magnesium alloys,4,5.080000000000001,7.62
+id-st-pierre-and-miquelon-cable,200.0,1,1,Silica glass,2,0.8000000000000002,1.6000000000000003
+id-st-thomas-st-croix-system,183.0,1,1,Silica glass,2,0.7320000000000002,1.4640000000000004
+id-sto-hel-one,560.0,1,1,Silica glass,2,2.2400000000000007,4.480000000000001
+id-strategic-evolution-underwater-link-seul,24.0,1,8,Commercially pure titanium,5,0.7680000000000002,0.9600000000000002
+id-subcan-link-1,143.0,1,1,Silica glass,2,0.5720000000000002,1.1440000000000003
+id-subcan-link-2,136.0,1,1,Silica glass,2,0.5440000000000002,1.0880000000000003
+id-submarine-cable-in-the-philippines-scip,1638.0,7,10,Titanium alloys,9,458.63999999999993,114.65999999999997
+id-sumatera-bangka-cable-system-sbcs,57.0,4,3,Cast magnesium alloys,4,2.736,4.104
+id-sunoque-i,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-sunoque-ii,734.5,1,1,Silica glass,2,2.9380000000000006,5.876000000000001
+id-sunoque-iii,130.0,1,1,Silica glass,2,0.5200000000000001,1.0400000000000003
+id-suriname-guyana-submarine-cable-system-sg-scs,1249.0,6,6,"GFRP, epoxy matrix (isotropic)",7,179.856,134.89200000000002
+id-svalbard-undersea-cable-system,2714.0,4,1,Zirconia,3,43.424000000000014,75.99199999999999
+id-sweden-estonia-ee-s-1,240.0,3,1,Zirconia,3,2.8800000000000003,5.039999999999999
+id-sweden-latvia,391.0,4,1,Zirconia,3,6.256000000000001,10.947999999999999
+id-sydney-melbourne-adelaide-perth-smap,5000.0,7,6,"GFRP, epoxy matrix (isotropic)",7,839.9999999999999,630.0
+id-t3,3200.0,7,7,Nickel‑based superalloys,8,627.1999999999999,313.59999999999985
+id-taba-aqaba,13.0,8,1,Commercially pure titanium,5,0.4160000000000001,0.5200000000000001
+id-tabua,734.5,9,10,"CFRP, epoxy matrix (isotropic)",10,264.42,66.10499999999999
+id-taihei,7000.0,8,4,"GFRP, epoxy matrix (isotropic)",7,896.0000000000002,672.0000000000002
+id-taino-carib,130.0,6,10,Titanium alloys,9,31.2,7.799999999999998
+id-taiwan-penghu-kinmen-matsu-no-2-tpkm2,467.0,7,9,Titanium alloys,9,117.684,29.420999999999992
+id-taiwan-penghu-kinmen-matsu-no-3-tpkm3,510.0,5,9,Nickel‑based superalloys,8,91.80000000000001,45.89999999999999
+id-taiwan-strait-express-1-tse-1,260.0,8,8,Titanium alloys,9,66.56000000000002,16.639999999999997
+id-tam-1,7000.0,8,10,"CFRP, epoxy matrix (isotropic)",10,2240.0000000000005,559.9999999999999
+id-tampnet-north,1751.0,4,3,Cast magnesium alloys,4,84.048,126.07199999999999
+id-tampnet-south,1751.0,7,1,Commercially pure titanium,5,49.028000000000006,61.285
+id-tamtam,411.0,4,8,"GFRP, epoxy matrix (isotropic)",7,52.60800000000001,39.45600000000001
+id-tangerine,112.0,1,5,Cast magnesium alloys,4,2.24,3.36
+id-tanjung-pandan-sungai-kakap,348.0,4,1,Zirconia,3,5.568000000000001,9.744
+id-tannat,2000.0,4,7,Stainless steel (duplex grades),6,223.99999999999997,223.99999999999997
+id-tarakan-selor-cable-system-tscs,83.0,4,1,Zirconia,3,1.3280000000000003,2.324
+id-tasman-express-tx,734.5,4,7,Stainless steel (duplex grades),6,82.264,82.264
+id-tasman-global-access-tga-cable,2288.0,5,5,Stainless steel (duplex grades),6,228.8,228.8
+id-tasman-ring-network,6000.0,7,7,Nickel‑based superalloys,8,1175.9999999999998,587.9999999999998
+id-tata-tgn-atlantic-south,6830.0,10,8,"CFRP, epoxy matrix (isotropic)",10,2185.6000000000004,546.3999999999999
+id-tata-tgn-gulf,4031.0,7,7,Nickel‑based superalloys,8,790.0759999999999,395.03799999999984
+id-tata-tgn-intra-asia-tgn-ia,6700.0,8,9,Titanium alloys,9,1929.6000000000001,482.4
+id-tata-tgn-pacific,22300.0,9,9,"CFRP, epoxy matrix (isotropic)",10,7225.200000000002,1806.2999999999997
+id-tata-tgn-tata-indicom,3175.0,9,7,Titanium alloys,9,800.1,200.02499999999995
+id-tata-tgn-western-europe,3578.0,10,5,Nickel‑based superalloys,8,715.6,357.7999999999999
+id-tautira-teahupoo,38.0,1,1,Silica glass,2,0.15200000000000002,0.30400000000000005
+id-te-northtgn-eurasiaseacomalexandrosmedex,3634.0,7,6,"GFRP, epoxy matrix (isotropic)",7,610.512,457.884
+id-tegopa,222.0,6,1,Cast magnesium alloys,4,5.328000000000001,7.991999999999999
+id-telstra-endeavour,9125.0,4,5,Commercially pure titanium,5,730.0000000000001,912.5
+id-tenerife-gran-canaria,110.0,1,1,Silica glass,2,0.4400000000000001,0.8800000000000002
+id-tenerife-la-palma,734.5,4,1,Zirconia,3,11.752000000000002,20.566
+id-terra-sw,734.5,5,1,Cast magnesium alloys,4,14.690000000000003,22.035
+id-thailand-domestic-submarine-cable-network-tdscn,884.0,7,9,Titanium alloys,9,222.768,55.691999999999986
+id-thailand-indonesia-singapore-tis,968.0,10,9,"CFRP, epoxy matrix (isotropic)",10,348.48,87.11999999999999
+id-the-east-african-marine-system-teams,5054.0,9,6,Nickel‑based superalloys,8,1091.664,545.8319999999999
+id-thetis,660.0,3,8,Stainless steel (duplex grades),6,63.360000000000014,63.360000000000014
+id-tikal-amx3,1935.0,8,8,Titanium alloys,9,495.3600000000001,123.83999999999997
+id-timor-leste-south-submarine-cable-tlssc,607.0,4,4,Commercially pure titanium,5,38.848000000000006,48.56000000000001
+id-tko-connect,6.0,8,9,Titanium alloys,9,1.7280000000000002,0.43199999999999994
+id-tobrok-emasaed-cable-system,178.0,4,1,Zirconia,3,2.8480000000000008,4.983999999999999
+id-tokelau-submarine-cable,250.0,4,1,Zirconia,3,4.000000000000001,6.999999999999999
+id-tonga-cable,827.0,9,6,Nickel‑based superalloys,8,178.632,89.31599999999997
+id-tonga-domestic-cable-extension-tdce,410.0,5,1,Cast magnesium alloys,4,8.200000000000001,12.299999999999999
+id-topaz,734.5,10,6,Titanium alloys,9,176.28,44.069999999999986
+id-tpu,13470.0,7,8,Nickel‑based superalloys,8,3017.2800000000007,1508.6399999999996
+id-trans-adriatic-express-tae,106.0,4,7,Stainless steel (duplex grades),6,11.871999999999998,11.871999999999998
+id-trans-caspian-fiber-optic-cable-project,341.0,1,5,Cast magnesium alloys,4,6.820000000000001,10.23
+id-trans-pacific-express-tpe-cable-system,17968.0,9,9,"CFRP, epoxy matrix (isotropic)",10,5821.632000000001,1455.408
+id-transcan-2,238.0,4,1,Zirconia,3,3.8080000000000007,6.664
+id-transcan-3,210.0,8,1,Commercially pure titanium,5,6.7200000000000015,8.400000000000002
+id-transworld-tw1,1300.0,10,8,"CFRP, epoxy matrix (isotropic)",10,416.00000000000006,103.99999999999999
+id-trapani-kelibia-2-keltra-2,209.0,10,3,"GFRP, epoxy matrix (isotropic)",7,25.08,18.810000000000002
+id-tt-1,48.0,1,6,Cast magnesium alloys,4,1.1520000000000001,1.7279999999999998
+id-tui-samoa,1693.0,8,7,Nickel‑based superalloys,8,379.23199999999997,189.61599999999996
+id-turcyos-1,110.0,1,4,Zirconia,3,1.7600000000000005,3.0799999999999996
+id-turcyos-2,213.0,1,7,Commercially pure titanium,5,5.9639999999999995,7.454999999999999
+id-tverrlinken,734.5,5,1,Cast magnesium alloys,4,14.690000000000003,22.035
+id-uae-iran,170.0,9,4,"GFRP, epoxy matrix (isotropic)",7,24.480000000000008,18.360000000000003
+id-ugarit,239.0,6,4,Stainless steel (duplex grades),6,22.944000000000003,22.944000000000003
+id-uk-channel-islands-7,124.0,2,3,Zirconia,3,2.976,5.208
+id-uk-channel-islands-8,237.0,1,4,Zirconia,3,3.7920000000000007,6.635999999999999
+id-ulleung-mainland-2,164.0,1,3,Zirconia,3,1.968,3.4440000000000004
+id-ultramar-ge,263.0,4,4,Commercially pure titanium,5,16.832000000000004,21.040000000000003
+id-ulysses-2,734.5,5,4,Commercially pure titanium,5,58.76000000000001,73.45
+id-umo,2227.0,10,8,"CFRP, epoxy matrix (isotropic)",10,712.6400000000001,178.15999999999997
+id-umoja,734.5,8,5,"GFRP, epoxy matrix (isotropic)",7,117.52000000000002,88.14000000000001
+id-unisur,265.0,4,1,Zirconia,3,4.240000000000001,7.419999999999999
+id-unitel-north-submarine-cable-unsc,1145.0,4,5,Commercially pure titanium,5,91.60000000000002,114.5
+id-unitirreno,1200.0,9,6,Nickel‑based superalloys,8,259.2,129.59999999999997
+id-unityeac-pacific,9620.0,6,9,Nickel‑based superalloys,8,2077.92,1038.9599999999998
+id-vaka,668.0,1,1,Silica glass,2,2.6720000000000006,5.344000000000001
+id-vancouver-bowen-island-vancouver-island,75.0,1,5,Cast magnesium alloys,4,1.5000000000000002,2.25
+id-venezuelan-festoon,1200.0,6,8,Nickel‑based superalloys,8,230.40000000000003,115.19999999999999
+id-vietnam-singapore-cable-system-vts,734.5,8,9,Titanium alloys,9,211.53600000000003,52.88399999999999
+id-vodafone-greece-domestic,92.0,1,5,Cast magnesium alloys,4,1.8400000000000003,2.76
+id-vstervik-visby,734.5,3,1,Zirconia,3,8.814000000000002,15.424499999999998
+id-west-africa-cable-system-wacs,14530.0,7,9,Titanium alloys,9,3661.56,915.3899999999998
+id-whidbey-island-camano-island,4.0,1,5,Cast magnesium alloys,4,0.08000000000000002,0.12
+id-whidbey-island-everett,9.0,2,6,Commercially pure titanium,5,0.432,0.54
+id-whidbey-island-hat-island,4.0,2,6,Commercially pure titanium,5,0.192,0.24
+id-whidbey-island-seattle,44.0,3,8,Stainless steel (duplex grades),6,4.224000000000001,4.224000000000001
+id-x-link-submarine-cable,775.0,5,4,Commercially pure titanium,5,62.000000000000014,77.5
+id-yellow,7001.0,10,6,Titanium alloys,9,1680.24,420.0599999999999
+id-yui,720.0,8,8,Titanium alloys,9,184.32000000000005,46.07999999999999
+id-yuza-tobishima,31.0,1,7,Commercially pure titanium,5,0.8679999999999999,1.085
+id-zayo-festoon,734.5,7,9,Titanium alloys,9,185.094,46.27349999999999
+id-zeus,734.5,6,4,Stainless steel (duplex grades),6,70.51200000000001,70.51200000000001

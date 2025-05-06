@@ -1,0 +1,11 @@
+Metric,Value
+Total Cable Length (km),"1,906,823.00"
+Total Material Cost (million $),"58,893,916.00"
+Baseline Expected Outage Cost,"482,774.0080"
+Optimized Expected Outage Cost,"157,946.6940"
+Absolute Cost Reduction,"324,827.3140"
+Percentage Cost Reduction,67.28%
+Number of Cables,656
+Average Length per Cable (km),"2,906.74"
+Average Material Cost per Cable (thousand $),"89,777.31"
+Average Cost Reduction per Cable (%),-0.50%

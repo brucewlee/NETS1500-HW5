@@ -1,313 +1,317 @@
-"""
-optimize_materials.py – Testing the hypothesis about optimal material selection
-
-This script analyzes how different material selection strategies affect the expected
-outage costs for submarine cables. We use both importance tiers (from betweenness centrality)
-and risk tiers (from disaster analysis) to guide material allocation.
-
-The main goals are to:
-- Test our hypothesis that strategic material allocation can reduce expected outage cost by 30%
-- Compare different strategies for material assignment
-- Visualize the cost benefits of optimization
-
-Requirements: pandas, numpy, matplotlib, seaborn
-"""
-
+import pathlib
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-from pathlib import Path
+from collections import Counter
 
-# Load the cable importance and risk data
-importance_df = pd.read_csv("output_analysis/cable_importance_tiers.csv", index_col=0)
-risk_df = pd.read_csv("output_analysis/cable_risk_tiers.csv")
+# ---------------------------------------------------------------------------
+# 1. Project‑relative paths
+# ---------------------------------------------------------------------------
 
-# Rename columns in importance_df to avoid confusion
-importance_df = importance_df.rename(columns={'score': 'importance_score', 'tier': 'importance_tier'})
+ROOT               = pathlib.Path(__file__).resolve().parent
+MAP_DIR            = ROOT / "output_cable_map"
+ANALYSIS_DIR       = ROOT / "output_analysis"
+FIGURES_DIR        = ANALYSIS_DIR / "figures"
+FIGURES_DIR.mkdir(exist_ok=True)
 
-# Merge the two datasets
-cables_df = risk_df.merge(importance_df, left_on='cable_key', right_index=True, how='inner')
-print(f"Combined dataset: {len(cables_df)} cables")
+CABLE_FILE         = MAP_DIR      / "cables_with_landing_points.csv"
+IMPORTANCE_FILE    = ANALYSIS_DIR / "cable_importance_tiers.csv"
+RISK_FILE          = ANALYSIS_DIR / "cable_risk_tiers.csv"
+OUT_FILE           = ANALYSIS_DIR / "optimized_material_assignment.csv"
+STATS_FILE         = ANALYSIS_DIR / "material_optimization_stats.csv"
 
-# Define the materials and their properties
-materials = {
-    'CFRP': {'reliability_tier': 10, 'cost_multiplier': 5.0},
-    'Titanium_alloys': {'reliability_tier': 9, 'cost_multiplier': 4.0},
-    'Nickel_superalloys': {'reliability_tier': 8, 'cost_multiplier': 3.0},
-    'GFRP': {'reliability_tier': 7, 'cost_multiplier': 2.0},
-    'Stainless_steel': {'reliability_tier': 6, 'cost_multiplier': 1.0},
-    'Titanium_pure': {'reliability_tier': 5, 'cost_multiplier': 0.9},
-    'Magnesium': {'reliability_tier': 4, 'cost_multiplier': 0.7},
-    'Zirconia': {'reliability_tier': 3, 'cost_multiplier': 0.6},
-    'Silica_glass': {'reliability_tier': 2, 'cost_multiplier': 0.5},
-    'Bronze_Brass': {'reliability_tier': 1, 'cost_multiplier': 0.4},
-}
+# ---------------------------------------------------------------------------
+# 2. Material metadata
+#    —– Prices are $/km estimated from various sources
+# ---------------------------------------------------------------------------
 
-# Simplify our model: assume a base cost proportional to landing points (as a proxy for cable length)
-cables_df['base_cost'] = cables_df['landing_points'] * 1_000_000  # $1M per landing point as base cost
+MATERIALS = [
+    ("CFRP, epoxy matrix (isotropic)", 10, 45000),
+    ("Titanium alloys",                9, 27000),
+    ("Nickel‑based superalloys",       8, 22000),
+    ("GFRP, epoxy matrix (isotropic)", 7, 14000),
+    ("Stainless steel (duplex grades)",6,  8000),
+    ("Commercially pure titanium",     5, 19000),
+    ("Cast magnesium alloys",          4,  6000),
+    ("Zirconia",                       3, 25000),
+    ("Silica glass",                   2,  4000),
+    ("Bronze / Brass",                 1,  5500),
+]
+mat_df = pd.DataFrame(MATERIALS, columns=["material",
+                                          "reliability_tier",
+                                          "price_per_km"]).set_index("material")
 
-# STRATEGY 1: Baseline - All cables use stainless steel (reliability tier 6)
-cables_df['baseline_material'] = 'Stainless_steel'
-cables_df['baseline_reliability_tier'] = 6
-cables_df['baseline_failure_factor'] = (11 - cables_df['baseline_reliability_tier']) / 10  # Higher tier = lower failure
-cables_df['baseline_expected_cost'] = (
-    cables_df['base_cost'] * 
-    cables_df['baseline_failure_factor'] * 
-    cables_df['risk_tier'] / 10  # Scale risk tier to 0-1 range
-)
+# Convenience lookup dictionaries
+MAT_BY_TIER = {row.reliability_tier: m for m, row in mat_df.iterrows()}
+TIER_BY_MAT = mat_df["reliability_tier"].to_dict()
 
-# Calculate baseline total cost (needed for all percentage reductions)
-total_baseline_cost = cables_df['baseline_expected_cost'].sum()
+# ---------------------------------------------------------------------------
+# 3. Load and merge cable‑level data
+# ---------------------------------------------------------------------------
 
-# STRATEGY 2: Importance-Only - Assign materials based solely on importance tier
-def assign_material_by_importance(importance_tier):
-    if importance_tier >= 9:
-        return 'CFRP'
-    elif importance_tier >= 7:
-        return 'Titanium_alloys'
-    elif importance_tier >= 5:
-        return 'Nickel_superalloys'
-    elif importance_tier >= 3:
-        return 'GFRP'
-    else:
-        return 'Stainless_steel'
+cables     = pd.read_csv(CABLE_FILE,     low_memory=False)
+importance = (pd.read_csv(IMPORTANCE_FILE, low_memory=False)
+              .rename(columns={'Unnamed: 0': 'cable_key',
+                               'tier':        'importance_tier'}))
+risk       = pd.read_csv(RISK_FILE,      low_memory=False)
 
-cables_df['importance_material'] = cables_df['importance_tier'].apply(assign_material_by_importance)
-cables_df['importance_reliability_tier'] = cables_df['importance_material'].map(lambda m: materials[m]['reliability_tier'])
-cables_df['importance_failure_factor'] = (11 - cables_df['importance_reliability_tier']) / 10
-cables_df['importance_expected_cost'] = (
-    cables_df['base_cost'] * 
-    cables_df['importance_failure_factor'] * 
-    cables_df['risk_tier'] / 10
-)
+KEY = 'cable_key'
 
-# Calculate importance-only total cost
-total_importance_cost = cables_df['importance_expected_cost'].sum()
-importance_reduction = ((total_baseline_cost - total_importance_cost) / total_baseline_cost) * 100
+df = (cables[[KEY] + [c for c in cables.columns if "length" in c.lower()] ]
+      .drop_duplicates(KEY)
+      .merge(importance[[KEY, "importance_tier"]], on=KEY)
+      .merge(risk[[KEY, "risk_tier"]],        on=KEY))
 
-# Define function for material assignment based on weighted importance and risk
-def assign_material_combined(row, imp_weight, risk_weight):
-    combined_score = (imp_weight * row['importance_tier'] + 
-                      risk_weight * row['risk_tier'])
-    
-    if combined_score >= 9:
-        return 'CFRP'
-    elif combined_score >= 7:
-        return 'Titanium_alloys'
-    elif combined_score >= 5:
-        return 'Nickel_superalloys'
-    elif combined_score >= 3:
-        return 'GFRP'
-    else:
-        return 'Stainless_steel'
+# If length column missing, assume each cable roughly 1 km so results are still relative
+if not any(col for col in df.columns if "length" in col.lower()):
+    df["length_km"] = 1.0
+else:
+    # rename the first length‑like column to length_km for consistency
+    length_col = next(col for col in df.columns if "length" in col.lower())
+    df = df.rename(columns={length_col: "length_km"})
+    clean_len = (df["length_km"].astype(str)                 # guarantees string
+                         .str.replace(r"[^0-9.]", "", regex=True))  # strip ", km" etc.
 
-# SENSITIVITY ANALYSIS - How do different weightings affect the results?
-print("\nSensitivity Analysis:\n-------------------")
-weight_results = []
+    df["length_km"] = pd.to_numeric(clean_len, errors="coerce")  # '' → NaN, safe cast
+    df["length_km"].fillna(df["length_km"].median(), inplace=True)
 
-# Use finer increments for a more detailed sensitivity analysis
-for importance_weight in np.linspace(0, 1, 21):  # 0 to 1 in steps of 0.05
-    risk_weight = 1 - importance_weight
-    
-    cables_df['sensitivity_material'] = cables_df.apply(
-        lambda row: assign_material_combined(row, importance_weight, risk_weight), 
-        axis=1
-    )
-    cables_df['sensitivity_reliability_tier'] = cables_df['sensitivity_material'].map(
-        lambda m: materials[m]['reliability_tier']
-    )
-    cables_df['sensitivity_failure_factor'] = (11 - cables_df['sensitivity_reliability_tier']) / 10
-    cables_df['sensitivity_expected_cost'] = (
-        cables_df['base_cost'] * 
-        cables_df['sensitivity_failure_factor'] * 
-        cables_df['risk_tier'] / 10
-    )
-    
-    total_sensitivity_cost = cables_df['sensitivity_expected_cost'].sum()
-    sensitivity_reduction = ((total_baseline_cost - total_sensitivity_cost) / total_baseline_cost) * 100
-    
-    weight_results.append({
-        'importance_weight': importance_weight,
-        'risk_weight': risk_weight,
-        'cost_reduction': sensitivity_reduction,
-        'total_cost': total_sensitivity_cost
-    })
-    
-    # Only print a subset of results to keep output clean
-    if importance_weight % 0.1 < 0.01 or importance_weight == 0.05:
-        print(f"Importance {importance_weight:.2f} / Risk {risk_weight:.2f}: {sensitivity_reduction:.1f}% reduction")
+# ---------------------------------------------------------------------------
+# 4. Assign materials by priority rule
+# ---------------------------------------------------------------------------
 
-# Find optimal weights
-optimal_weights = max(weight_results, key=lambda x: x['cost_reduction'])
-print(f"\nOptimal weights: Importance {optimal_weights['importance_weight']:.2f} / Risk {optimal_weights['risk_weight']:.2f}")
-print(f"Maximum reduction: {optimal_weights['cost_reduction']:.1f}%")
+def pick_material(importance_tier: int, risk_tier: int) -> str:
+    priority = importance_tier + risk_tier
+    if   priority >= 18: return MAT_BY_TIER[10]
+    elif priority >= 16: return MAT_BY_TIER[9]
+    elif priority >= 14: return MAT_BY_TIER[8]
+    elif priority >= 12: return MAT_BY_TIER[7]
+    elif priority >= 10: return MAT_BY_TIER[6]
+    elif priority >=  8: return MAT_BY_TIER[5]
+    elif priority >=  6: return MAT_BY_TIER[4]
+    elif priority >=  4: return MAT_BY_TIER[3]
+    elif priority >=  2: return MAT_BY_TIER[2]
+    else:               return MAT_BY_TIER[1]
 
-# STRATEGY 3: Combined (Optimal) - Use the weights identified from sensitivity analysis
-optimal_importance_weight = optimal_weights['importance_weight']
-optimal_risk_weight = optimal_weights['risk_weight']
+df["material"] = df.apply(lambda r: pick_material(r.importance_tier, r.risk_tier), axis=1)
+df["reliability_tier"] = df["material"].map(TIER_BY_MAT)
 
-# Apply the optimal weights to create the combined strategy
-cables_df['combined_material'] = cables_df.apply(
-    lambda row: assign_material_combined(row, optimal_importance_weight, optimal_risk_weight),
-    axis=1
-)
-cables_df['combined_reliability_tier'] = cables_df['combined_material'].map(lambda m: materials[m]['reliability_tier'])
-cables_df['combined_failure_factor'] = (11 - cables_df['combined_reliability_tier']) / 10
-cables_df['combined_expected_cost'] = (
-    cables_df['base_cost'] * 
-    cables_df['combined_failure_factor'] * 
-    cables_df['risk_tier'] / 10
-)
+# Calculate material costs
+df["material_cost_per_km"] = df["material"].map(mat_df["price_per_km"].to_dict())
+df["total_material_cost"] = df["length_km"] * df["material_cost_per_km"] / 1000  # Cost in thousands $
 
-# Calculate combined strategy total cost
-total_combined_cost = cables_df['combined_expected_cost'].sum()
-combined_reduction = ((total_baseline_cost - total_combined_cost) / total_baseline_cost) * 100
+# ---------------------------------------------------------------------------
+# 5. Expected outage‑cost model
+#    – All factors scaled 0‑1 so results are unitless; only the %‑change matters.
+# ---------------------------------------------------------------------------
 
-print("\nResults:\n--------")
-print(f"Baseline Strategy (All Stainless Steel): ${total_baseline_cost:,.2f}")
-print(f"Importance-Only Strategy: ${total_importance_cost:,.2f} ({importance_reduction:.1f}% reduction)")
-print(f"Combined Strategy (Optimal {optimal_importance_weight:.2f}/{optimal_risk_weight:.2f}): ${total_combined_cost:,.2f} ({combined_reduction:.1f}% reduction)")
+def expected_cost(risk_tier, importance_tier, reliability_tier, length_km):
+    risk_factor        = risk_tier        / 10      # 0.1 – 1
+    importance_factor  = importance_tier  / 10
+    reliability_factor = min (0.9, reliability_tier / 10)
+    return (1 - reliability_factor) * risk_factor * importance_factor * length_km
 
-# Check if our hypothesis is supported
-hypothesis_confirmed = combined_reduction >= 30
-print(f"\nHypothesis {'CONFIRMED' if hypothesis_confirmed else 'NOT CONFIRMED'}: ")
-print(f"Combined strategy achieved {combined_reduction:.1f}% reduction vs. 30% hypothesized")
+# Baseline: stainless steel everywhere (tier 6)
+df["baseline_cost"]   = df.apply(
+    lambda r: expected_cost(r.risk_tier, r.importance_tier, 6, r.length_km), axis=1)
 
-# Track material usage in each strategy
-material_counts = {
-    'baseline': cables_df['baseline_material'].value_counts(),
-    'importance': cables_df['importance_material'].value_counts(),
-    'combined': cables_df['combined_material'].value_counts()
-}
+# Optimizd: material we just assigned
+df["optimized_cost"]  = df.apply(
+    lambda r: expected_cost(r.risk_tier, r.importance_tier, r.reliability_tier, r.length_km), axis=1)
 
-print("\nMaterial Distribution:\n--------------------")
-print("Baseline Strategy:")
-print(material_counts['baseline'])
-print("\nImportance-Only Strategy:")
-print(material_counts['importance'])
-print("\nCombined Strategy (Optimal):")
-print(material_counts['combined'])
+# Calculate cost reduction per cable
+df["cost_reduction"] = df["baseline_cost"] - df["optimized_cost"]
+df["cost_reduction_pct"] = 100 * df["cost_reduction"] / df["baseline_cost"]
 
-# Visualize the results
+# ---------------------------------------------------------------------------
+# 6. Generate detailed statistics
+# ---------------------------------------------------------------------------
+
+# Overall stats
+baseline_total   = df["baseline_cost"].sum()
+optimized_total  = df["optimized_cost"].sum()
+pct_reduction    = 100 * (baseline_total - optimized_total) / baseline_total
+total_cable_length = df["length_km"].sum()
+total_material_cost = df["total_material_cost"].sum()
+
+# Material usage stats
+material_counts = Counter(df["material"])
+material_length = df.groupby("material")["length_km"].sum()
+material_cost = df.groupby("material")["total_material_cost"].sum()
+
+# Cable category analysis
+df["priority"] = df["importance_tier"] + df["risk_tier"]
+df["category"] = pd.cut(df["priority"], 
+                        bins=[0, 5, 10, 15, 20], 
+                        labels=["Low", "Medium", "High", "Critical"])
+
+category_stats = df.groupby("category").agg({
+    "cable_key": "count",
+    "length_km": "sum",
+    "total_material_cost": "sum",
+    "baseline_cost": "sum",
+    "optimized_cost": "sum",
+    "cost_reduction": "sum",
+})
+category_stats["cost_reduction_pct"] = 100 * category_stats["cost_reduction"] / category_stats["baseline_cost"]
+
+# Tier analysis - breakdown by reliability tier
+tier_stats = df.groupby("reliability_tier").agg({
+    "cable_key": "count",
+    "length_km": "sum",
+    "total_material_cost": "sum",
+    "baseline_cost": "sum",
+    "optimized_cost": "sum",
+    "cost_reduction": "sum",
+})
+tier_stats["cost_reduction_pct"] = 100 * tier_stats["cost_reduction"] / tier_stats["baseline_cost"]
+
+# Top 10 cables by cost reduction
+top_cables = df.sort_values("cost_reduction", ascending=False).head(10)
+
+# Create a detailed stats dataframe
+detailed_stats = pd.DataFrame([
+    {"Metric": "Total Cable Length (km)", "Value": f"{total_cable_length:,.2f}"},
+    {"Metric": "Total Material Cost (million $)", "Value": f"{total_material_cost:,.2f}"},
+    {"Metric": "Baseline Expected Outage Cost", "Value": f"{baseline_total:,.4f}"},
+    {"Metric": "Optimized Expected Outage Cost", "Value": f"{optimized_total:,.4f}"},
+    {"Metric": "Absolute Cost Reduction", "Value": f"{baseline_total - optimized_total:,.4f}"},
+    {"Metric": "Percentage Cost Reduction", "Value": f"{pct_reduction:,.2f}%"},
+    {"Metric": "Number of Cables", "Value": f"{len(df)}"},
+    {"Metric": "Average Length per Cable (km)", "Value": f"{df['length_km'].mean():,.2f}"},
+    {"Metric": "Average Material Cost per Cable (thousand $)", "Value": f"{df['total_material_cost'].mean():,.2f}"},
+    {"Metric": "Average Cost Reduction per Cable (%)", "Value": f"{df['cost_reduction_pct'].mean():,.2f}%"},
+])
+
+# ---------------------------------------------------------------------------
+# 7. Generate visualizations
+# ---------------------------------------------------------------------------
+
+# Set style for plots
+plt.style.use('seaborn-v0_8')
+
+# Figure 1: Material Distribution
 plt.figure(figsize=(12, 8))
 
-# Cost comparison
-plt.subplot(2, 2, 1)
-costs = [total_baseline_cost/1e9, total_importance_cost/1e9, total_combined_cost/1e9]
-labels = ['Baseline', 'Importance-Only', f'Combined\n({optimal_importance_weight:.2f}/{optimal_risk_weight:.2f})']
-colors = ['gray', 'skyblue', 'darkgreen']
-plt.bar(labels, costs, color=colors)
-plt.ylabel('Expected Outage Cost (Billions $)')
-plt.title('Cost Comparison by Strategy')
-# Set y limit with 20% headroom
-max_cost = max(costs)
-plt.ylim(0, max_cost * 1.2)
-for i, cost in enumerate(costs):
-    plt.text(i, cost + (max_cost * 0.03), f'${cost:.2f}B', ha='center')
+# Sort materials by reliability tier for better visualization
+sorted_materials = [m[0] for m in sorted(MATERIALS, key=lambda x: x[1], reverse=True)]
+material_counts_sorted = [material_counts[mat] for mat in sorted_materials]
+material_lengths_sorted = [material_length.get(mat, 0) for mat in sorted_materials]
 
-# Reduction percentages
-plt.subplot(2, 2, 2)
-reductions = [0, importance_reduction, combined_reduction]
-plt.bar(labels, reductions, color=colors)
-plt.ylabel('Cost Reduction (%)')
-plt.title('Cost Reduction vs. Baseline')
-# Set y limit with adequate headroom
-max_reduction = max(reductions)
-plt.ylim(0, max(50, max_reduction * 1.3))
-plt.axhline(y=30, color='red', linestyle='--', label='Hypothesis Threshold (30%)')
-plt.legend(prop={'size': 8})
-for i, red in enumerate(reductions):
-    if i > 0:
-        plt.text(i, red + 2, f'{red:.1f}%', ha='center')
+# Create bar plot of material distribution (by count)
+ax1 = plt.subplot(121)
+bars = ax1.bar(range(len(sorted_materials)), material_counts_sorted, color='steelblue')
+ax1.set_xticks(range(len(sorted_materials)))
+ax1.set_xticklabels([m.split(',')[0] for m in sorted_materials], rotation=45, ha='right')
+ax1.set_ylabel('Number of Cables')
+ax1.set_title('Material Distribution by Cable Count')
+ax1.grid(False)
 
-# Sensitivity analysis - improved with full data range
-plt.subplot(2, 2, 3)
-weights = [w['importance_weight'] for w in weight_results]
-reductions = [w['cost_reduction'] for w in weight_results]
-plt.plot(weights, reductions, 'o-', color='purple', markersize=3)
-plt.xlabel('Importance Weight')
-plt.ylabel('Cost Reduction (%)')
-plt.title('Sensitivity to Importance/Risk Weights')
-plt.xticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
-plt.ylim(0, max(reductions) * 1.1)
-plt.axhline(y=30, color='red', linestyle='--', label='30% Threshold')
-plt.grid(True, linestyle='--', alpha=0.7)
-plt.legend(prop={'size': 8})
+# Add value labels on top of bars
+for bar in bars:
+    height = bar.get_height()
+    ax1.text(bar.get_x() + bar.get_width()/2., height + 0.5,
+            f'{height:.0f}', ha='center', va='bottom')
 
-# Add marker for optimal point
-optimal_idx = weights.index(optimal_weights['importance_weight'])
-plt.scatter([weights[optimal_idx]], [reductions[optimal_idx]], 
-            color='red', s=80, zorder=5, label='Optimal', marker='*')
+# Create bar plot of material distribution (by length)
+ax2 = plt.subplot(122)
+bars = ax2.bar(range(len(sorted_materials)), 
+              [length/1000 for length in material_lengths_sorted], 
+              color='darkgreen')
+ax2.set_xticks(range(len(sorted_materials)))
+ax2.set_xticklabels([m.split(',')[0] for m in sorted_materials], rotation=45, ha='right')
+ax2.set_ylabel('Total Length (1000 km)')
+ax2.set_title('Material Distribution by Cable Length')
+ax2.grid(False)
 
-# Material distribution
-plt.subplot(2, 2, 4)
-materials_list = ['CFRP', 'Titanium_alloys', 'Nickel_superalloys', 'GFRP', 'Stainless_steel']
-counts_baseline = [material_counts['baseline'].get(m, 0) for m in materials_list]
-counts_importance = [material_counts['importance'].get(m, 0) for m in materials_list]
-counts_combined = [material_counts['combined'].get(m, 0) for m in materials_list]
-
-x = np.arange(len(materials_list))
-width = 0.25
-
-plt.bar(x - width, counts_baseline, width, label='Baseline', color='gray')
-plt.bar(x, counts_importance, width, label='Importance-Only', color='skyblue')
-plt.bar(x + width, counts_combined, width, label=f'Combined ({optimal_importance_weight:.2f}/{optimal_risk_weight:.2f})', color='darkgreen')
-plt.xlabel('Material')
-plt.ylabel('Number of Cables')
-plt.title('Material Distribution by Strategy')
-plt.xticks(x, materials_list, rotation=45)
-# Set y limit with headroom
-max_count = max(max(counts_baseline), max(counts_importance), max(counts_combined))
-plt.ylim(0, max_count * 1.2)
-plt.legend(prop={'size': 8})
+# Add value labels on top of bars
+for bar in bars:
+    height = bar.get_height()
+    ax2.text(bar.get_x() + bar.get_width()/2., height + 5,
+            f'{height:.0f}', ha='center', va='bottom')
 
 plt.tight_layout()
-Path("output_analysis").mkdir(exist_ok=True)
-plt.savefig("output_analysis/optimization_results.png", dpi=300)
+plt.savefig(FIGURES_DIR / 'material_distribution.png', dpi=300)
+plt.close()
 
-# Create a more detailed plot of just the sensitivity analysis
-plt.figure(figsize=(10, 6))
-plt.plot(weights, reductions, 'o-', color='purple', linewidth=2)
-plt.xlabel('Importance Weight (Risk Weight = 1 - Importance)')
-plt.ylabel('Cost Reduction (%)')
-plt.title('Detailed Sensitivity Analysis')
-plt.grid(True, linestyle='--', alpha=0.7)
-plt.axhline(y=30, color='red', linestyle='--', label='30% Hypothesis Threshold')
+# Figure 2: Optimization Results
+plt.figure(figsize=(12, 6))
+plt.style.use('seaborn-v0_8')
 
-# Highlight the optimal point
-plt.scatter([weights[optimal_idx]], [reductions[optimal_idx]], 
-            color='red', s=100, zorder=5, label=f'Optimal: {optimal_weights["importance_weight"]:.2f}/{optimal_weights["risk_weight"]:.2f}')
+# Plot 1: Category-wise cost comparison
+ax1 = plt.subplot(121)
+category_stats[['baseline_cost', 'optimized_cost']].plot(kind='bar', ax=ax1, 
+                                                       color=['steelblue', 'darkgreen'])
+ax1.set_title('Outage Cost by Priority Category', fontsize=14)
+ax1.set_ylabel('Expected Outage Cost (relative units)', fontsize=12)
+ax1.set_xticklabels(ax1.get_xticklabels(), rotation=0)
+ax1.grid(False)
 
-# Add annotations for key points
-plt.annotate(f'Maximum: {optimal_weights["cost_reduction"]:.1f}%', 
-             xy=(weights[optimal_idx], reductions[optimal_idx]),
-             xytext=(weights[optimal_idx] + 0.1, reductions[optimal_idx]),
-             arrowprops=dict(facecolor='black', shrink=0.05, width=1.5, headwidth=8),
-             fontsize=10)
+# Plot 2: Before/After comparison (overall)
+ax2 = plt.subplot(122)
+labels = ['Baseline', 'Optimized']
+heights = [baseline_total, optimized_total]
+bars = ax2.bar(labels, heights, color=['steelblue', 'darkgreen'])
+ax2.set_title('Overall Expected Outage Cost', fontsize=14)
+ax2.set_ylabel('Expected Outage Cost (relative units)', fontsize=12)
+ax2.grid(False)
 
-plt.legend()
+# Add values on top of bars
+for bar in bars:
+    height = bar.get_height()
+    ax2.text(bar.get_x() + bar.get_width()/2., height + 5000,
+            f'{height:,.0f}', ha='center', va='bottom')
+
 plt.tight_layout()
-plt.savefig("output_analysis/sensitivity_detailed.png", dpi=300)
+plt.savefig(FIGURES_DIR / 'optimization_results.png', dpi=300)
+plt.close()
 
-# Save the optimized cable data
-cables_df.to_csv("output_analysis/optimization_results.csv", index=False)
-# Also save the sensitivity analysis results
-pd.DataFrame(weight_results).to_csv("output_analysis/sensitivity_analysis.csv", index=False)
+# ---------------------------------------------------------------------------
+# 8. Save results and print headline figure
+# ---------------------------------------------------------------------------
 
-print("\nResults saved to:")
-print("  - output_analysis/optimization_results.png")
-print("  - output_analysis/sensitivity_detailed.png")
-print("  - output_analysis/optimization_results.csv")
-print("  - output_analysis/sensitivity_analysis.csv")
+# Save the main results
+df_out_cols = [KEY, "length_km", "importance_tier", "risk_tier",
+               "material", "reliability_tier",
+               "baseline_cost", "optimized_cost"]
+df[df_out_cols].to_csv(OUT_FILE, index=False)
 
-print("\nCONCLUSION:")
-if hypothesis_confirmed:
-    print("Our hypothesis is CONFIRMED. Strategic material allocation based on both")
-    print("importance (betweenness centrality) and risk factors significantly reduces")
-    print(f"expected outage costs by {combined_reduction:.1f}%, exceeding our 30% target.")
+# Save detailed statistics to a separate file
+detailed_stats.to_csv(STATS_FILE, index=False)
+
+# Print summary
+print(f"Baseline expected outage cost : {baseline_total:,.4f}  (relative units)")
+print(f"Optimized expected outage cost: {optimized_total:,.4f}")
+print(f"Reduction                    : {pct_reduction:5.2f} %")
+
+print("\n--- Material Usage Statistics ---")
+for material, count in material_counts.most_common():
+    pct_cables = 100 * count / len(df)
+    print(f"{material:<30}: {count:>4} cables ({pct_cables:5.1f}%), {material_length[material]:>10,.2f} km")
+
+print("\n--- Top 10 Cables by Cost Reduction ---")
+for _, row in top_cables.iterrows():
+    print(f"{row['cable_key']:<30}: {row['cost_reduction']:>8,.2f} units ({row['cost_reduction_pct']:>6.2f}%)")
+
+print("\n--- Cost Reduction by Priority Category ---")
+print(category_stats[["cable_key", "cost_reduction", "cost_reduction_pct"]].to_string())
+
+print("\n--- Cost Reduction by Reliability Tier ---")
+print(tier_stats[["cable_key", "cost_reduction", "cost_reduction_pct"]].to_string())
+
+if pct_reduction >= 30:
+    print("\n Hypothesis PASSED – outage cost cut by ≥ 30 %.")
 else:
-    print("Our hypothesis is NOT CONFIRMED. While strategic material allocation does")
-    print(f"reduce costs by {combined_reduction:.1f}%, it falls short of our 30% target.")
-print(f"\nThe optimal strategy gives weight of {optimal_weights['importance_weight']:.2f} to importance")
-print(f"and {optimal_weights['risk_weight']:.2f} to risk, achieving a maximum reduction of {optimal_weights['cost_reduction']:.1f}%.")
+    print("\n Hypothesis NOT met; consider tightening the rule or adding budget constraints.")
+
+print(f"\nVisualization files generated:")
+print(f"1. {FIGURES_DIR / 'material_distribution.png'}")
+print(f"2. {FIGURES_DIR / 'optimization_results.png'}")
+
+# ---------------------------------------------------------------------------
+# End of script
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    if not OUT_FILE.exists():
+        sys.exit("Something went wrong; output file missing.")
