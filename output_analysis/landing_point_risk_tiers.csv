@@ -1,0 +1,1865 @@
+lp_id,lp_name,country,risk_score,risk_tier,nearby_disasters
+danang-vietnam,"Danang, Vietnam",Vietnam,69.08999734350613,10,17
+ponce-pr-united-states,"Ponce, PR, United States",United States,67.79335438014346,10,11
+buffalo-ny-united-states,"Buffalo, NY, United States",United States,63.88215151278178,10,20
+haina-dominican-republic,"Haina, Dominican Republic",Dominican Republic,50.819279841492474,10,35
+cacique-dominican-republic,"Cacique, Dominican Republic",Dominican Republic,50.79392366990503,10,35
+pringgabaya-indonesia,"Pringgabaya, Indonesia",Indonesia,47.19558542545573,10,6
+punta-salinas-pr-united-states,"Punta Salinas, PR, United States",United States,45.64487804157068,10,11
+santo-domingo-dominican-republic,"Santo Domingo, Dominican Republic",Dominican Republic,43.8498203039316,10,31
+island-park-ny-united-states,"Island Park, NY, United States",United States,43.23824878715324,10,13
+batangas-philippines,"Batangas, Philippines",Philippines,39.562097160664806,10,13
+senggigi-indonesia,"Senggigi, Indonesia",Indonesia,39.46541896949385,10,8
+los-angeles-ca-united-states,"Los Angeles, CA, United States",United States,38.45988189579043,10,18
+san-juan-pr-united-states,"San Juan, PR, United States",United States,38.41312501796746,10,10
+lombok-indonesia,"Lombok, Indonesia",Indonesia,37.57971261963899,10,7
+mataram-indonesia,"Mataram, Indonesia",Indonesia,36.78185574181616,10,7
+miramar-pr-united-states,"Miramar, PR, United States",United States,36.775456249459104,10,10
+jakarta-indonesia,"Jakarta, Indonesia",Indonesia,36.650338930247266,10,15
+condado-beach-pr-united-states,"Condado Beach, PR, United States",United States,36.16689078656794,10,10
+durres-albania,"Durres, Albania",Albania,35.7393586858152,10,15
+ilijan-philippines,"Ilijan, Philippines",Philippines,35.09152140312628,10,11
+ancol-indonesia,"Ancol, Indonesia",Indonesia,34.320466429792916,10,15
+quy-nhon-vietnam,"Quy Nhon, Vietnam",Vietnam,32.917035661994284,10,14
+legazpi-city-philippines,"Legazpi City, Philippines",Philippines,31.943038600339154,10,15
+isla-verde-pr-united-states,"Isla Verde, PR, United States",United States,31.399341493863698,10,10
+luanda-angola,"Luanda, Angola",Angola,31.186430511861882,10,13
+davao-philippines,"Davao, Philippines",Philippines,31.011495704979687,10,20
+colombo-sri-lanka,"Colombo, Sri Lanka",Sri Lanka,30.90981727420907,10,18
+el-segundo-ca-united-states,"El Segundo, CA, United States",United States,30.704107322800237,10,18
+cacuaco-angola,"Cacuaco, Angola",Angola,30.285425846814075,10,14
+rio-de-janeiro-brazil,"Rio de Janeiro, Brazil",Brazil,30.203182496939053,10,18
+pik2-indonesia,"PIK2, Indonesia",Indonesia,29.93780591710608,10,14
+yomitan-japan,"Yomitan, Japan",Japan,29.755988690496093,10,8
+le-lamentin-martinique,"Le Lamentin, Martinique",Martinique,29.486313324286357,10,14
+ratmalana-sri-lanka,"Ratmalana, Sri Lanka",Sri Lanka,29.440980430110063,10,21
+hermosa-beach-ca-united-states,"Hermosa Beach, CA, United States",United States,29.119658763369795,10,18
+schoelcher-martinique,"Schoelcher, Martinique",Martinique,29.102930063476837,10,14
+mt-lavinia-sri-lanka,"Mt. Lavinia, Sri Lanka",Sri Lanka,29.040481123993775,10,21
+cavite-philippines,"Cavite, Philippines",Philippines,29.006502362280827,10,14
+redondo-beach-ca-united-states,"Redondo Beach, CA, United States",United States,28.671512158560994,10,18
+christchurch-new-zealand,"Christchurch, New Zealand",New Zealand,28.036168390722118,10,4
+karachi-pakistan,"Karachi, Pakistan",Pakistan,27.635614233635437,10,9
+naha-japan,"Naha, Japan",Japan,26.82647654749933,10,8
+lantau-island-china,"Lantau Island, China",China,26.754397617401867,10,13
+hong-kong-china,"Hong Kong, China",China,26.736444712312867,10,12
+port-au-prince-haiti,"Port-au-Prince, Haiti",Haiti,26.452141629571557,10,13
+surigao-city-philippines,"Surigao City, Philippines",Philippines,26.065019515172512,10,6
+tong-fuk-china,"Tong Fuk, China",China,25.716195992510837,10,13
+northport-ny-united-states,"Northport, NY, United States",United States,25.554295295367744,10,13
+seraya-indonesia,"Seraya, Indonesia",Indonesia,25.364236748613337,10,8
+deep-water-bay-china,"Deep Water Bay, China",China,25.241193169969705,10,12
+yaese-japan,"Yaese, Japan",Japan,25.104713462858033,10,8
+nasugbu-philippines,"Nasugbu, Philippines",Philippines,24.76090740139623,10,11
+algiers-algeria,"Algiers, Algeria",Algeria,24.71324238479803,10,12
+ormoc-philippines,"Ormoc, Philippines",Philippines,24.499759978117616,10,5
+tseung-kwan-o-china,"Tseung Kwan O, China",China,24.484307513520445,10,12
+chai-wan-china,"Chai Wan, China",China,24.26258404231065,10,12
+chung-hom-kok-china,"Chung Hom Kok, China",China,24.00234379117986,10,12
+itoman-japan,"Itoman, Japan",Japan,23.94476925577718,10,8
+wall-township-nj-united-states,"Wall Township, NJ, United States",United States,23.55506967695464,10,13
+tanjung-pakis-indonesia,"Tanjung Pakis, Indonesia",Indonesia,23.326122514654646,10,20
+san-juan-philippines,"San Juan, Philippines",Philippines,23.297509802279787,10,13
+komesu-japan,"Komesu, Japan",Japan,23.186308918065112,10,8
+tagbilaran-philippines,"Tagbilaran, Philippines",Philippines,23.128546868882513,10,5
+rodney-bay-saint-lucia,"Rodney Bay, Saint Lucia",Saint Lucia,22.404406049917924,10,10
+cape-daguilar-china,"Cape D’Aguilar, China",China,22.20367434190501,10,12
+castries-saint-lucia,"Castries, Saint Lucia",Saint Lucia,22.146732415229444,10,10
+nago-japan,"Nago, Japan",Japan,21.86012767029622,10,8
+toucheng-taiwan,"Toucheng, Taiwan",Taiwan,21.41895774323217,10,11
+manasquan-nj-united-states,"Manasquan, NJ, United States",United States,21.418461259621242,10,13
+palompon-philippines,"Palompon, Philippines",Philippines,21.233938341547987,10,4
+bulan-philippines,"Bulan, Philippines",Philippines,21.16233006183738,10,17
+baclayon-philippines,"Baclayon, Philippines",Philippines,21.138528825864093,10,5
+el-djamila-algeria,"El Djamila, Algeria",Algeria,21.03511040084254,10,10
+kaliko-haiti,"Kaliko, Haiti",Haiti,20.726851401530453,10,15
+pasacao-philippines,"Pasacao, Philippines",Philippines,20.683427498329703,10,14
+taoyuan-taiwan,"Taoyuan, Taiwan",Taiwan,20.49327794191251,10,8
+naga-philippines,"Naga, Philippines",Philippines,20.238530039172787,10,7
+zhuhai-china,"Zhuhai, China",China,19.810277605121303,10,17
+tainan-taiwan,"Tainan, Taiwan",Taiwan,19.64336378340836,10,5
+pa-li-taiwan,"Pa Li, Taiwan",Taiwan,19.303461801721085,10,8
+tanshui-taiwan,"Tanshui, Taiwan",Taiwan,19.118751206724557,10,7
+songkhla-thailand,"Songkhla, Thailand",Thailand,18.97598279034445,10,13
+santa-magdalena-philippines,"Santa Magdalena, Philippines",Philippines,18.62771693276784,10,15
+wellington-new-zealand,"Wellington, New Zealand",New Zealand,18.250649387341355,10,3
+roseau-dominica,"Roseau, Dominica",Dominica,17.821766361253907,10,12
+matnog-philippines,"Matnog, Philippines",Philippines,17.805757299110834,10,15
+cagdianao-philippines,"Cagdianao, Philippines",Philippines,17.79030137651509,10,5
+port-vila-vanuatu,"Port Vila, Vanuatu",Vanuatu,17.757070355929642,10,2
+tokashiki-japan,"Tokashiki, Japan",Japan,17.61917497685323,10,8
+yuanli-taiwan,"Yuanli, Taiwan",Taiwan,17.565466190541674,10,9
+talisay-philippines,"Talisay, Philippines",Philippines,17.511376174417254,10,9
+oteranga-bay-new-zealand,"Oteranga Bay, New Zealand",New Zealand,17.390517943254537,10,3
+fukuoka-japan,"Fukuoka, Japan",Japan,17.1037903580802,10,8
+joetsu-japan,"Joetsu, Japan",Japan,16.76334724049295,10,5
+dawu-taiwan,"Dawu, Taiwan",Taiwan,16.69692736636876,10,6
+sendai-japan,"Sendai, Japan",Japan,16.588524830106955,10,7
+bima-indonesia,"Bima, Indonesia",Indonesia,16.581629416309333,10,5
+la-serena-chile,"La Serena, Chile",Chile,16.341676398804992,10,4
+macei-brazil,"Maceió, Brazil",Brazil,16.32962227401917,10,5
+cagayan-de-oro-philippines,"Cagayan de Oro, Philippines",Philippines,16.208905059440845,10,8
+canefield-dominica,"Canefield, Dominica",Dominica,16.128575931457203,10,12
+brisbane-qld-australia,"Brisbane, QLD, Australia",Australia,15.967991652298654,10,3
+bali-indonesia,"Bali, Indonesia",Indonesia,15.917378411232425,10,5
+benghazi-libya,"Benghazi, Libya",Libya,15.832645530075643,10,1
+ama-japan,"Ama, Japan",Japan,15.727835789564478,10,8
+uvira-congo-dem-rep-,"Uvira, Congo, Dem. Rep.","Congo, Dem. Rep.",15.461817872281426,10,20
+lucena-philippines,"Lucena, Philippines",Philippines,15.39015239782002,10,13
+fangshan-taiwan,"Fangshan, Taiwan",Taiwan,15.3866867379789,10,6
+puerto-san-jose-guatemala,"Puerto San Jose, Guatemala",Guatemala,15.334136860834025,10,19
+toledo-philippines,"Toledo, Philippines",Philippines,15.223706813886732,10,7
+valparaso-chile,"Valparaíso, Chile",Chile,15.154718076652392,10,4
+heraklion-greece,"Heraklion, Greece",Greece,14.901461216074694,10,1
+valencia-spain,"Valencia, Spain",Spain,14.458019334601701,10,5
+cebu-philippines,"Cebu, Philippines",Philippines,14.406267204668012,10,9
+titahi-bay-new-zealand,"Titahi Bay, New Zealand",New Zealand,14.400595031616024,10,3
+bushehr-iran,"Bushehr, Iran",Iran,14.198764944313178,10,6
+towale-indonesia,"Towale, Indonesia",Indonesia,14.126548279186574,10,4
+bawean-indonesia,"Bawean, Indonesia",Indonesia,14.06835096732345,10,1
+nabire-indonesia,"Nabire, Indonesia",Indonesia,14.00484147759538,10,2
+allen-philippines,"Allen, Philippines",Philippines,13.999011548251735,10,7
+boac-philippines,"Boac, Philippines",Philippines,13.935076311227327,10,11
+busan-south-korea,"Busan, South Korea",South Korea,13.93311890071276,10,4
+samandag-turkey,"Samandag, Turkey",Turkey,13.884580548161164,10,5
+palanas-philippines,"Palanas, Philippines",Philippines,13.834457480951292,10,6
+veracruz-mexico,"Veracruz, Mexico",Mexico,13.751910165244372,10,5
+itoshima-japan,"Itoshima, Japan",Japan,13.616338462563805,10,6
+pinamalayan-philippines,"Pinamalayan, Philippines",Philippines,13.601642215572632,10,8
+dubrovnik-croatia,"Dubrovnik, Croatia",Croatia,13.443463571043992,10,6
+maputo-mozambique,"Maputo, Mozambique",Mozambique,13.383330846427096,10,9
+seman-albania,"Seman, Albania",Albania,13.241728333493413,10,9
+freetown-sierra-leone,"Freetown, Sierra Leone",Sierra Leone,13.239046567622946,10,7
+akita-japan,"Akita, Japan",Japan,13.2321778758906,10,3
+fighting-bay-new-zealand,"Fighting Bay, New Zealand",New Zealand,13.081591416321181,10,3
+kinoguitan-philippines,"Kinoguitan, Philippines",Philippines,12.837845202274424,10,6
+natadola-fiji,"Natadola, Fiji",Fiji,12.657814515403064,10,7
+gianyar-indonesia,"Gianyar, Indonesia",Indonesia,12.516224704496103,10,4
+sagunto-spain,"Sagunto, Spain",Spain,12.413733807657248,10,4
+santos-brazil,"Santos, Brazil",Brazil,12.228992981805018,10,4
+siargao-island-philippines,"Siargao Island, Philippines",Philippines,12.211993483671774,10,5
+seattle-wa-united-states,"Seattle, WA, United States",United States,12.122865758904574,10,6
+abidjan-cte-divoire,"Abidjan, Côte d'Ivoire",Côte d'Ivoire,12.081840988883966,10,7
+pohang-south-korea,"Pohang, South Korea",South Korea,12.045446797831776,10,4
+chumphon-thailand,"Chumphon, Thailand",Thailand,12.012073921996855,10,3
+aguni-japan,"Aguni, Japan",Japan,11.99030812545107,10,8
+placer-philippines,"Placer, Philippines",Philippines,11.986558527265185,10,4
+dumaguete-philippines,"Dumaguete, Philippines",Philippines,11.98111904683888,10,3
+budai-taiwan,"Budai, Taiwan",Taiwan,11.818845324371033,10,6
+vung-tau-vietnam,"Vung Tau, Vietnam",Vietnam,11.81249985562032,10,7
+sape-indonesia,"Sape, Indonesia",Indonesia,11.78329895585242,10,5
+buenavista-philippines,"Buenavista, Philippines",Philippines,11.766722971905489,10,10
+bandar-abbas-iran,"Bandar Abbas, Iran",Iran,11.696061380889859,10,6
+bauang-philippines,"Bauang, Philippines",Philippines,11.570919965862254,10,5
+korakia-greece,"Korakia, Greece",Greece,11.5695517228451,10,1
+daanbantayan-philippines,"Daanbantayan, Philippines",Philippines,11.51958837217912,10,5
+tuas-singapore,"Tuas, Singapore",Singapore,11.364969505366393,10,9
+san-carlos-philippines,"San Carlos, Philippines",Philippines,11.285070840696926,10,5
+mumbai-india,"Mumbai, India",India,11.202855108498106,10,5
+praia-grande-brazil,"Praia Grande, Brazil",Brazil,11.11484516427225,10,4
+dakar-senegal,"Dakar, Senegal",Senegal,10.991946819391702,10,6
+ambon-indonesia,"Ambon, Indonesia",Indonesia,10.907917934452183,10,3
+cirebon-indonesia,"Cirebon, Indonesia",Indonesia,10.873242366318015,10,10
+istanbul-turkey,"Istanbul, Turkey",Turkey,10.843857097577603,10,6
+la-union-philippines,"La Union, Philippines",Philippines,10.82489676168802,10,5
+santiago-de-cuba-cuba,"Santiago de Cuba, Cuba",Cuba,10.658096111907865,10,8
+calbayog-philippines,"Calbayog, Philippines",Philippines,10.643885034819364,10,6
+padang-indonesia,"Padang, Indonesia",Indonesia,10.606996424514707,10,3
+rishon-lezion-israel,"Rishon Le’Zion, Israel",Israel,10.606735214585669,10,6
+maasin-philippines,"Maasin, Philippines",Philippines,10.586469120006036,10,7
+cannes-france,"Cannes, France",France,10.573703613284456,10,4
+tel-aviv-israel,"Tel Aviv, Israel",Israel,10.548595553374444,10,6
+butuan-city-philippines,"Butuan City, Philippines",Philippines,10.420454821004121,10,11
+miura-japan,"Miura, Japan",Japan,10.398948688513986,10,6
+sakra-island-singapore,"Sakra Island, Singapore",Singapore,10.349077877710561,10,8
+singapore-singapore,"Singapore, Singapore",Singapore,10.340116949382043,10,8
+bacong-philippines,"Bacong, Philippines",Philippines,10.283630990567435,10,3
+puerto-barrios-guatemala,"Puerto Barrios, Guatemala",Guatemala,10.124270174038879,10,9
+ninomiya-japan,"Ninomiya, Japan",Japan,10.11746860066459,10,6
+padang-galak-indonesia,"Padang Galak, Indonesia",Indonesia,10.045490125687314,10,4
+matara-sri-lanka,"Matara, Sri Lanka",Sri Lanka,10.001292084145577,10,9
+belize-city-belize,"Belize City, Belize",Belize,9.952015490002628,10,6
+katong-singapore,"Katong, Singapore",Singapore,9.945887801809764,10,8
+constitucin-chile,"Constitución, Chile",Chile,9.875778095383076,10,4
+chicago-il-united-states,"Chicago, IL, United States",United States,9.762160226398734,10,4
+siboney-cuba,"Siboney, Cuba",Cuba,9.737892250475024,10,6
+bogo-philippines,"Bogo, Philippines",Philippines,9.737699024951961,10,4
+paraparaumu-new-zealand,"Paraparaumu, New Zealand",New Zealand,9.638695480720994,10,2
+saraemee-indonesia,"Saraemee, Indonesia",Indonesia,9.59489960555534,9,5
+tanah-merah-singapore,"Tanah Merah, Singapore",Singapore,9.593249307641026,9,7
+denpasar-indonesia,"Denpasar, Indonesia",Indonesia,9.52833653722361,9,4
+sanur-indonesia,"Sanur, Indonesia",Indonesia,9.46121850822561,9,4
+changi-north-singapore,"Changi North, Singapore",Singapore,9.456882121591429,9,7
+changi-south-singapore,"Changi South, Singapore",Singapore,9.456882121591429,9,7
+masbate-city-philippines,"Masbate City, Philippines",Philippines,9.426428751830684,9,13
+satun-thailand,"Satun, Thailand",Thailand,9.283335958304473,9,10
+ashkelon-israel,"Ashkelon, Israel",Israel,9.274811547507042,9,6
+miyazaki-japan,"Miyazaki, Japan",Japan,9.244290758224768,9,7
+kota-kinabalu-malaysia,"Kota Kinabalu, Malaysia",Malaysia,9.229608788681245,9,7
+changi-singapore,"Changi, Singapore",Singapore,9.158920243317862,9,7
+roxas-philippines,"Roxas, Philippines",Philippines,9.11498805688356,9,6
+murakami-japan,"Murakami, Japan",Japan,9.100564996617107,9,5
+herzeliyya-israel,"Herzeliyya, Israel",Israel,9.025197714468282,9,5
+timpaki-greece,"Timpaki, Greece",Greece,8.98249560788931,9,1
+tympaki-greece,"Tympaki, Greece",Greece,8.978922431298228,9,1
+liloan-philippines,"Liloan, Philippines",Philippines,8.931692611399395,9,6
+waikanae-new-zealand,"Waikanae, New Zealand",New Zealand,8.734154329103582,9,2
+banyu-urip-indonesia,"Banyu Urip, Indonesia",Indonesia,8.626910700734438,9,10
+pascagoula-ms-united-states,"Pascagoula, MS, United States",United States,8.487157711730834,9,5
+kokar-indonesia,"Kokar, Indonesia",Indonesia,8.406110464788737,9,2
+unqui-costa-rica,"Unqui, Costa Rica",Costa Rica,8.311124076843198,9,10
+balboa-panama,"Balboa, Panama",Panama,8.27173476693112,9,7
+san-pedro-belize,"San Pedro, Belize",Belize,8.219681764880344,9,6
+panama-city-panama,"Panama City, Panama",Panama,8.166353214179747,9,7
+ibaraki-japan,"Ibaraki, Japan",Japan,8.141750547945017,9,8
+oara-new-zealand,"Oara, New Zealand",New Zealand,8.136782248744593,9,1
+camiguin-island-philippines,"Camiguin Island, Philippines",Philippines,8.134428138136501,9,5
+fort-amador-panama,"Fort Amador, Panama",Panama,8.115548416171203,9,7
+toyohashi-japan,"Toyohashi, Japan",Japan,8.091024860970164,9,5
+rengit-malaysia,"Rengit, Malaysia",Malaysia,8.065128136770136,9,9
+whenuapai-new-zealand,"Whenuapai, New Zealand",New Zealand,8.038643543501069,9,2
+surabaya-indonesia,"Surabaya, Indonesia",Indonesia,8.006811822364366,9,10
+kochi-india,"Kochi, India",India,7.9893689139705595,9,5
+guantanamo-bay-cuba,"Guantanamo Bay, Cuba",Cuba,7.888905268334307,9,7
+alor-indonesia,"Alor, Indonesia",Indonesia,7.850306947681753,9,2
+bejaia-algeria,"Bejaia, Algeria",Algeria,7.824892189465949,9,6
+bulobulo-indonesia,"Bulobulo, Indonesia",Indonesia,7.796310630257841,9,2
+sangano-angola,"Sangano, Angola",Angola,7.771658494295895,9,12
+le-lavandou-france,"Le Lavandou, France",France,7.698897415733475,9,3
+dar-es-salaam-tanzania,"Dar Es Salaam, Tanzania",Tanzania,7.646171522106798,9,5
+kitakyushu-japan,"Kitakyushu, Japan",Japan,7.630692871314233,9,6
+san-remigio-philippines,"San Remigio, Philippines",Philippines,7.610297017127335,9,4
+awashimaura-japan,"Awashimaura, Japan",Japan,7.563974044535905,9,4
+blackpool-united-kingdom,"Blackpool, United Kingdom",United Kingdom,7.514076204633851,9,5
+athens-greece,"Athens, Greece",Greece,7.502075689391677,9,4
+cagliari-italy,"Cagliari, Italy",Italy,7.501379443582794,9,2
+landeyjar-iceland,"Landeyjar, Iceland",Iceland,7.483098072065432,9,3
+cristbal-panama,"Cristóbal, Panama",Panama,7.403415117533386,9,6
+coln-panama,"Colón, Panama",Panama,7.391029727964092,9,6
+lynnwood-wa-united-states,"Lynnwood, WA, United States",United States,7.3863755218950775,9,6
+takapuna-new-zealand,"Takapuna, New Zealand",New Zealand,7.368750223282731,9,2
+san-jose-de-buenavista-philippines,"San Jose de Buenavista, Philippines",Philippines,7.346413545337829,9,2
+genoa-italy,"Genoa, Italy",Italy,7.271609358421046,9,2
+puerto-cortes-honduras,"Puerto Cortes, Honduras",Honduras,7.2557740960823445,9,5
+tutuyan-indonesia,"Tutuyan, Indonesia",Indonesia,7.253238605864836,9,3
+auckland-new-zealand,"Auckland, New Zealand",New Zealand,7.237464459866656,9,2
+owia-saint-vincent-and-the-grenadines,"Owia, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,7.213752244979532,9,4
+ballesteros-philippines,"Ballesteros, Philippines",Philippines,7.190073462187547,9,8
+mangalia-romania,"Mangalia, Romania",Romania,7.12501089473829,9,8
+thorlakshofn-iceland,"Thorlakshofn, Iceland",Iceland,7.113500858428769,9,3
+kawinda-nae-indonesia,"Kawinda Nae, Indonesia",Indonesia,7.07575725141204,9,6
+bomba-belize,"Bomba, Belize",Belize,7.071302952079815,9,6
+pevensey-bay-united-kingdom,"Pevensey Bay, United Kingdom",United Kingdom,7.047899331245228,9,3
+monaco-monaco,"Monaco, Monaco",Monaco,7.03911314864154,9,4
+yuza-japan,"Yuza, Japan",Japan,7.03466360490918,9,5
+puerto-plata-dominican-republic,"Puerto Plata, Dominican Republic",Dominican Republic,7.029492812059203,9,7
+mombasa-kenya,"Mombasa, Kenya",Kenya,7.017005023434473,9,6
+mallorca-spain,"Mallorca, Spain",Spain,7.015991313991112,9,1
+varna-bulgaria,"Varna, Bulgaria",Bulgaria,6.988462931365404,9,4
+calatrava-philippines,"Calatrava, Philippines",Philippines,6.967449283989247,9,7
+ganaveh-iran,"Ganaveh, Iran",Iran,6.933911355235035,9,5
+monte-carlo-monaco,"Monte Carlo, Monaco",Monaco,6.925259486298488,9,4
+port-of-spain-trinidad-and-tobago,"Port of Spain, Trinidad and Tobago",Trinidad and Tobago,6.891805101076271,9,4
+nyali-kenya,"Nyali, Kenya",Kenya,6.881871528978529,9,6
+cartagena-chile,"Cartagena, Chile",Chile,6.869099334818852,9,4
+hollywood-fl-united-states,"Hollywood, FL, United States",United States,6.7723524189859265,9,1
+jimbaran-indonesia,"Jimbaran, Indonesia",Indonesia,6.76959826866306,9,4
+mutsamudu-comoros,"Mutsamudu, Comoros",Comoros,6.765789787080198,9,2
+puerto-la-cruz-venezuela,"Puerto La Cruz, Venezuela",Venezuela,6.759521047502115,9,7
+cherating-malaysia,"Cherating, Malaysia",Malaysia,6.759415926129347,9,8
+gresik-indonesia,"Gresik, Indonesia",Indonesia,6.753984496996787,9,10
+puerto-lempira-honduras,"Puerto Lempira, Honduras",Honduras,6.752973222967736,9,6
+emi-japan,"Emi, Japan",Japan,6.747254392254815,9,6
+nongsa-indonesia,"Nongsa, Indonesia",Indonesia,6.6945078382411625,9,7
+mtwapa-kenya,"Mtwapa, Kenya",Kenya,6.689594586774553,9,6
+bacolod-philippines,"Bacolod, Philippines",Philippines,6.665759834375542,9,3
+suva-fiji,"Suva, Fiji",Fiji,6.5918410262823555,9,4
+pachi-greece,"Pachi, Greece",Greece,6.589506323644867,9,4
+dania-beach-fl-united-states,"Dania Beach, FL, United States",United States,6.534650444460608,9,1
+north-miami-beach-fl-united-states,"North Miami Beach, FL, United States",United States,6.520462354990439,9,1
+southport-united-kingdom,"Southport, United Kingdom",United Kingdom,6.493203201961635,9,5
+luna-philippines,"Luna, Philippines",Philippines,6.4208699589851665,9,4
+aden-yemen,"Aden, Yemen",Yemen,6.38147833021506,9,3
+lingang-china,"Lingang, China",China,6.379895799596785,9,2
+conakry-guinea,"Conakry, Guinea",Guinea,6.30299526142818,9,4
+wada-japan,"Wada, Japan",Japan,6.299021758756749,9,5
+douala-cameroon,"Douala, Cameroon",Cameroon,6.287856814884235,9,6
+netanya-israel,"Netanya, Israel",Israel,6.287229253646476,9,3
+hliopolis-france,"Héliopolis, France",France,6.274337145918997,9,3
+silecroft-beach-united-kingdom,"Silecroft Beach, United Kingdom",United Kingdom,6.2657762257815195,9,4
+maria-chiquita-panama,"Maria Chiquita, Panama",Panama,6.250563288823006,9,6
+crotone-italy,"Crotone, Italy",Italy,6.192376994719278,9,1
+spencer-beach-hi-united-states,"Spencer Beach, HI, United States",United States,6.188587326447707,9,1
+tanjung-pinggir-indonesia,"Tanjung Pinggir, Indonesia",Indonesia,6.165136415167394,9,7
+batam-indonesia,"Batam, Indonesia",Indonesia,6.165086953355407,9,7
+zamboanguita-philippines,"Zamboanguita, Philippines",Philippines,6.1604181607112425,9,3
+tanjung-bemban-indonesia,"Tanjung Bemban, Indonesia",Indonesia,6.149425957019316,9,7
+thanlyin-myanmar,"Thanlyin, Myanmar",Myanmar,6.117045218669943,9,2
+kawaihae-hi-united-states,"Kawaihae, HI, United States",United States,6.1062908659802595,9,1
+santa-barbara-ca-united-states,"Santa Barbara, CA, United States",United States,6.088887572820669,9,3
+toronto-on-canada,"Toronto, ON, Canada",Canada,6.073070525791289,9,2
+milagros-philippines,"Milagros, Philippines",Philippines,6.064498598370645,9,7
+port-cros-france,"Port-Cros, France",France,6.048321943500472,9,3
+kaikoura-new-zealand,"Kaikoura, New Zealand",New Zealand,6.003449790234091,9,2
+toco-trinidad-and-tobago,"Toco, Trinidad and Tobago",Trinidad and Tobago,5.949502432945037,9,4
+baie-du-tombeau-mauritius,"Baie du Tombeau, Mauritius",Mauritius,5.9431246169326215,9,2
+dzhubga-russia,"Dzhubga, Russia",Russia,5.941218615584184,9,3
+harbour-pointe-wa-united-states,"Harbour Pointe, WA, United States",United States,5.92682229573143,9,6
+limbe-cameroon,"Limbe, Cameroon",Cameroon,5.91696056766639,9,6
+eureka-ca-united-states,"Eureka, CA, United States",United States,5.856789770536447,9,2
+mestre-italy,"Mestre, Italy",Italy,5.843468811219025,9,3
+tocopilla-chile,"Tocopilla, Chile",Chile,5.8243212521360395,9,2
+juelsminde-denmark,"Juelsminde, Denmark",Denmark,5.803355027760827,9,4
+cienfuegos-cuba,"Cienfuegos, Cuba",Cuba,5.797784345235872,9,2
+bellport-ny-united-states,"Bellport, NY, United States",United States,5.779152275594593,9,10
+khark-island-iran,"Khark Island, Iran",Iran,5.777786279593262,9,4
+maruyama-japan,"Maruyama, Japan",Japan,5.748286758488508,9,5
+nanhui-china,"Nanhui, China",China,5.741768173091314,9,2
+dumpton-gap-united-kingdom,"Dumpton Gap, United Kingdom",United Kingdom,5.670471785836626,9,3
+broadstairs-united-kingdom,"Broadstairs, United Kingdom",United Kingdom,5.667274507077889,9,3
+barcelona-spain,"Barcelona, Spain",Spain,5.643437059417714,9,2
+terre-rouge-mauritius,"Terre Rouge, Mauritius",Mauritius,5.605358312056529,9,2
+kardamena-greece,"Kardamena, Greece",Greece,5.599615515114936,9,2
+la-tour-fondue-france,"La Tour Fondue, France",France,5.598651104970562,9,3
+doha-qatar,"Doha, Qatar",Qatar,5.544909655469345,9,1
+al-kheesa-qatar,"Al-Kheesa, Qatar",Qatar,5.544909655469345,9,1
+umbogintwini-south-africa,"Umbogintwini, South Africa",South Africa,5.497405386458544,9,3
+manado-indonesia,"Manado, Indonesia",Indonesia,5.49553290551294,9,3
+manzanillo-mexico,"Manzanillo, Mexico",Mexico,5.491644819340034,9,2
+djibouti-city-djibouti,"Djibouti City, Djibouti",Djibouti,5.455969254145802,9,4
+porquerolles-france,"Porquerolles, France",France,5.447633358146431,9,3
+ocho-rios-jamaica,"Ocho Rios, Jamaica",Jamaica,5.398266843892777,9,2
+tjele-denmark,"Tjele, Denmark",Denmark,5.396129134198837,9,4
+salakan-indonesia,"Salakan, Indonesia",Indonesia,5.367253256308095,9,1
+melonguane-indonesia,"Melonguane, Indonesia",Indonesia,5.339545314390722,9,1
+ses-covetes-spain,"Ses Covetes, Spain",Spain,5.3334444423156615,9,1
+chaguaramas-trinidad-and-tobago,"Chaguaramas, Trinidad and Tobago",Trinidad and Tobago,5.314805529785717,9,4
+baie-jacotet-mauritius,"Baie Jacotet, Mauritius",Mauritius,5.2873610100688975,9,2
+haramous-djibouti,"Haramous, Djibouti",Djibouti,5.286298750571609,9,4
+zamboanga-philippines,"Zamboanga, Philippines",Philippines,5.265254151956692,9,3
+semarang-indonesia,"Semarang, Indonesia",Indonesia,5.245654030581125,9,7
+toulon-france,"Toulon, France",France,5.242920351762463,9,3
+cuman-venezuela,"Cumaná, Venezuela",Venezuela,5.231065889176691,9,3
+nevelsk-russia,"Nevelsk, Russia",Russia,5.196008321923695,9,2
+balchik-bulgaria,"Balchik, Bulgaria",Bulgaria,5.173367239316666,9,8
+palma-spain,"Palma, Spain",Spain,5.173167754979793,9,1
+chateaubelair-saint-vincent-and-the-grenadines,"Chateaubelair, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,5.150172581309835,9,4
+chikura-japan,"Chikura, Japan",Japan,5.106496537183492,9,5
+angoon-ak-united-states,"Angoon, AK, United States",United States,5.0906636053094685,9,1
+amanzimtoti-south-africa,"Amanzimtoti, South Africa",South Africa,5.0723791716716615,9,3
+dubai-united-arab-emirates,"Dubai, United Arab Emirates",United Arab Emirates,5.068089037811126,9,2
+kendal-indonesia,"Kendal, Indonesia",Indonesia,5.067541238182637,9,8
+kuala-sedili-malaysia,"Kuala Sedili, Malaysia",Malaysia,5.0351641805507255,9,9
+minamiboso-japan,"Minamiboso, Japan",Japan,5.015229705272315,9,5
+terre-de-haut-guadeloupe,"Terre-de-Haut, Guadeloupe",Guadeloupe,4.9838208682290315,9,3
+patti-italy,"Patti, Italy",Italy,4.977416414558099,9,4
+geoje-south-korea,"Geoje, South Korea",South Korea,4.874754209067798,9,3
+levin-new-zealand,"Levin, New Zealand",New Zealand,4.860286302086246,9,3
+jdaide-lebanon,"Jdaide, Lebanon",Lebanon,4.831128126088353,9,6
+seixal-portugal,"Seixal, Portugal",Portugal,4.809262009603997,9,3
+ttouan-morocco,"Tétouan, Morocco",Morocco,4.806054888352461,9,3
+noro-solomon-islands,"Noro, Solomon Islands",Solomon Islands,4.770834085227773,9,2
+catania-italy,"Catania, Italy",Italy,4.76951753850925,9,4
+maxwelton-wa-united-states,"Maxwelton, WA, United States",United States,4.745862539745839,9,5
+gav-spain,"Gavá, Spain",Spain,4.706891593843117,9,2
+beirut-lebanon,"Beirut, Lebanon",Lebanon,4.694617606755734,9,6
+la-seyne-france,"La Seyne, France",France,4.693103234804202,9,3
+the-hague-netherlands,"The Hague, Netherlands",Netherlands,4.680955785379812,9,2
+toweli-indonesia,"Toweli, Indonesia",Indonesia,4.6777252788812085,9,3
+kochilari-greece,"Kochilari, Greece",Greece,4.6412734049721855,9,2
+talisay-city-philippines,"Talisay City, Philippines",Philippines,4.628257691551296,9,3
+phetchaburi-thailand,"Phetchaburi, Thailand",Thailand,4.602522900104033,9,2
+porto-rafti-greece,"Porto Rafti, Greece",Greece,4.596323307783798,9,4
+funchal-portugal,"Funchal, Portugal",Portugal,4.594933898686102,9,1
+chongming-china,"Chongming, China",China,4.508694021066855,8,2
+al-hudaydah-yemen,"Al Hudaydah, Yemen",Yemen,4.505618432468439,8,2
+kauditan-indonesia,"Kauditan, Indonesia",Indonesia,4.456572306588195,8,3
+brookhaven-ny-united-states,"Brookhaven, NY, United States",United States,4.455917101252159,8,10
+sharjah-united-arab-emirates,"Sharjah, United Arab Emirates",United Arab Emirates,4.445834179024958,8,3
+savona-italy,"Savona, Italy",Italy,4.4103686600722565,8,3
+masohi-indonesia,"Masohi, Indonesia",Indonesia,4.390663470624934,8,4
+rome-italy,"Rome, Italy",Italy,4.388056006971633,8,3
+sumbawa-besar-indonesia,"Sumbawa Besar, Indonesia",Indonesia,4.3663278916129205,8,7
+kokopo-papua-new-guinea,"Kokopo, Papua New Guinea",Papua New Guinea,4.358043321672424,8,4
+toliara-madagascar,"Toliara, Madagascar",Madagascar,4.3469459892891535,8,2
+sumgait-azerbaijan,"Sumgait, Azerbaijan",Azerbaijan,4.341174299038356,8,1
+boca-raton-fl-united-states,"Boca Raton, FL, United States",United States,4.275648216177705,8,1
+machico-portugal,"Machico, Portugal",Portugal,4.272480471858266,8,1
+iloilo-city-philippines,"Iloilo City, Philippines",Philippines,4.2599295089506715,8,4
+santa-ponsa-spain,"Santa Ponsa, Spain",Spain,4.219627997324292,8,1
+weno-chuuk-micronesia,"Weno, Chuuk, Micronesia",Micronesia,4.211101193640619,8,1
+morro-bay-ca-united-states,"Morro Bay, CA, United States",United States,4.200784374133254,8,1
+carcavelos-portugal,"Carcavelos, Portugal",Portugal,4.175053799496437,8,3
+palermo-italy,"Palermo, Italy",Italy,4.141821088861851,8,1
+ajigaura-japan,"Ajigaura, Japan",Japan,4.132217360022859,8,6
+accra-ghana,"Accra, Ghana",Ghana,4.120640074668756,8,4
+everett-wa-united-states,"Everett, WA, United States",United States,4.112081835490484,8,5
+clinton-wa-united-states,"Clinton, WA, United States",United States,4.110935376016987,8,5
+nouakchott-mauritania,"Nouakchott, Mauritania",Mauritania,4.10873023850147,8,2
+bogense-denmark,"Bogense, Denmark",Denmark,4.106657728355077,8,4
+kagoshima-japan,"Kagoshima, Japan",Japan,4.085801056809761,8,2
+ilo-peru,"Ilo, Peru",Peru,4.058133855448697,8,4
+alvares-brazil,"Alvarães, Brazil",Brazil,4.056837719311007,8,1
+playa-del-carmen-mexico,"Playa del Carmen, Mexico",Mexico,4.056145468586705,8,1
+cartagena-colombia,"Cartagena, Colombia",Colombia,4.0378632403566685,8,1
+sitia-greece,"Sitia, Greece",Greece,4.030109416543058,8,1
+whanganui-new-zealand,"Whanganui, New Zealand",New Zealand,4.020468398996532,8,1
+al-daayen-qatar,"Al Daayen, Qatar",Qatar,3.992353409767468,8,1
+tobishima-japan,"Tobishima, Japan",Japan,3.9909957411721937,8,4
+tarifa-spain,"Tarifa, Spain",Spain,3.917899178756203,8,3
+vitria-brazil,"Vitória, Brazil",Brazil,3.9078125578813587,8,2
+isola-delle-femmine-italy,"Isola delle Femmine, Italy",Italy,3.9045010880466,8,1
+leganes-philippines,"Leganes, Philippines",Philippines,3.897344921636135,8,4
+jeddah-saudi-arabia,"Jeddah, Saudi Arabia",Saudi Arabia,3.893569388486645,8,3
+playa-de-benitez-spain,"Playa de Benitez, Spain",Spain,3.8839483387124245,8,3
+playa-de-la-ribera-spain,"Playa de la Ribera, Spain",Spain,3.8349710784858777,8,3
+san-andres-colombia,"San Andres, Colombia",Colombia,3.8274535504893166,8,2
+saint-louis-guadeloupe,"Saint-Louis, Guadeloupe",Guadeloupe,3.761739457476022,8,3
+dublin-ireland,"Dublin, Ireland",Ireland,3.757297250269726,8,4
+chabahar-iran,"Chabahar, Iran",Iran,3.749456433236988,8,2
+harbour-view-jamaica,"Harbour View, Jamaica",Jamaica,3.7245465470840444,8,2
+sandymount-ireland,"Sandymount, Ireland",Ireland,3.7222684843725586,8,4
+penang-malaysia,"Penang, Malaysia",Malaysia,3.7175219577558067,8,5
+sesimbra-portugal,"Sesimbra, Portugal",Portugal,3.7025760157704672,8,3
+kuala-rompin-malaysia,"Kuala Rompin, Malaysia",Malaysia,3.6694800691309215,8,4
+puerto-limon-costa-rica,"Puerto Limon, Costa Rica",Costa Rica,3.668479285780473,8,5
+medan-indonesia,"Medan, Indonesia",Indonesia,3.651580437724057,8,3
+schooner-bight-colombia,"Schooner Bight, Colombia",Colombia,3.639407372767615,8,2
+bangga-indonesia,"Bangga, Indonesia",Indonesia,3.625761098837497,8,1
+sitka-ak-united-states,"Sitka, AK, United States",United States,3.611053624641434,8,1
+uglegorsk-russia,"Uglegorsk, Russia",Russia,3.608343016648838,8,1
+ende-indonesia,"Ende, Indonesia",Indonesia,3.605307785745993,8,2
+tuticorine-india,"Tuticorine, India",India,3.603147724203148,8,1
+brighton-united-kingdom,"Brighton, United Kingdom",United Kingdom,3.586149453717881,8,3
+noumea-new-caledonia,"Noumea, New Caledonia",New Caledonia,3.5683579235100753,8,1
+torre-mileto-italy,"Torre Mileto, Italy",Italy,3.560195401312236,8,1
+ternate-indonesia,"Ternate, Indonesia",Indonesia,3.5435743458297178,8,3
+san-jose-philippines,"San Jose, Philippines",Philippines,3.514542018961076,8,1
+hat-island-wa-united-states,"Hat Island, WA, United States",United States,3.5107425040311084,8,4
+black-river-jamaica,"Black River, Jamaica",Jamaica,3.48897846228449,8,2
+copa-club-jamaica,"Copa Club, Jamaica",Jamaica,3.4437665097699814,8,2
+estepona-spain,"Estepona, Spain",Spain,3.437030595397727,8,4
+clonshaugh-ireland,"Clonshaugh, Ireland",Ireland,3.416904219294089,8,4
+mersing-malaysia,"Mersing, Malaysia",Malaysia,3.4109900319307394,8,8
+asilah-morocco,"Asilah, Morocco",Morocco,3.4102875672999513,8,3
+aeng-batu-batu-indonesia,"Aeng Batu Batu, Indonesia",Indonesia,3.4037653940627637,8,2
+lumut-malaysia,"Lumut, Malaysia",Malaysia,3.396874572638297,8,2
+lae-papua-new-guinea,"Lae, Papua New Guinea",Papua New Guinea,3.3722613717993997,8,3
+cotonou-benin,"Cotonou, Benin",Benin,3.347493831503593,8,6
+pantai-teluk-baharu-malaysia,"Pantai Teluk Baharu, Malaysia",Malaysia,3.3370367382040946,8,2
+saida-lebanon,"Saida, Lebanon",Lebanon,3.308901220429534,8,6
+tef-brazil,"Tefé, Brazil",Brazil,3.292961787211826,8,1
+mont-dore-new-caledonia,"Mont-Dore, New Caledonia",New Caledonia,3.2900850337091554,8,1
+portoscuso-italy,"Portoscuso, Italy",Italy,3.2845011480896193,8,2
+san-domino-italy,"San Domino, Italy",Italy,3.2501906828921574,8,1
+capraia-isola-italy,"Capraia Isola, Italy",Italy,3.24971774064309,8,2
+preveza-greece,"Preveza, Greece",Greece,3.241821554124761,8,3
+sydney-nsw-australia,"Sydney, NSW, Australia",Australia,3.2332375408233602,8,3
+bull-bay-jamaica,"Bull Bay, Jamaica",Jamaica,3.2263322761012843,8,2
+honiara-solomon-islands,"Honiara, Solomon Islands",Solomon Islands,3.2149280486509495,8,1
+oxford-falls-nsw-australia,"Oxford Falls, NSW, Australia",Australia,3.1941912932341805,8,4
+torreguadiaro-spain,"Torreguadiaro, Spain",Spain,3.1904317010927414,8,4
+banjul-gambia,"Banjul, Gambia",Gambia,3.187971836114568,8,3
+baler-philippines,"Baler, Philippines",Philippines,3.166663234722465,8,4
+yuzhno-sakhalinsk-russia,"Yuzhno-Sakhalinsk, Russia",Russia,3.1615061828416504,8,2
+sofifi-indonesia,"Sofifi, Indonesia",Indonesia,3.1608873438414116,8,3
+kuching-malaysia,"Kuching, Malaysia",Malaysia,3.158491597995744,8,4
+paddington-nsw-australia,"Paddington, NSW, Australia",Australia,3.150830243881511,8,3
+alexandria-nsw-australia,"Alexandria, NSW, Australia",Australia,3.1404662098004854,8,3
+it-japan,"Itō, Japan",Japan,3.1366273084904615,8,5
+coxs-bazar-bangladesh,"Cox’s Bazar, Bangladesh",Bangladesh,3.1351570473509813,8,6
+makassar-indonesia,"Makassar, Indonesia",Indonesia,3.100366520219041,8,2
+san-nicola-di-tremiti-italy,"San Nicola di Tremiti, Italy",Italy,3.0911927605200646,8,1
+la-lnea-spain,"La Línea, Spain",Spain,3.0780517246060555,8,4
+melbourne-vic-australia,"Melbourne, VIC, Australia",Australia,3.070113753263156,8,2
+brookvale-nsw-australia,"Brookvale, NSW, Australia",Australia,3.0605358076042393,8,4
+puerto-chacabuco-chile,"Puerto Chacabuco, Chile",Chile,3.033350142251065,8,1
+zahara-de-los-atunes-spain,"Zahara de los Atunes, Spain",Spain,3.0307332029776415,8,3
+ustica-italy,"Ustica, Italy",Italy,3.018257234799923,8,1
+san-pedro-de-la-paz-chile,"San Pedro de la Paz, Chile",Chile,3.012711927693993,8,2
+gibraltar-gibraltar,"Gibraltar, Gibraltar",Gibraltar,3.0125944522200476,8,4
+clovelly-nsw-australia,"Clovelly, NSW, Australia",Australia,3.011095907627821,8,3
+puerto-cabezas-nicaragua,"Puerto Cabezas, Nicaragua",Nicaragua,2.9853652000640527,8,5
+shima-japan,"Shima, Japan",Japan,2.9760507387329587,8,2
+atafona-brazil,"Atafona, Brazil",Brazil,2.9593904626480874,8,1
+nacala-mozambique,"Nacala, Mozambique",Mozambique,2.9502597675708984,8,1
+tidore-indonesia,"Tidore, Indonesia",Indonesia,2.9473805604768204,8,3
+maroubra-nsw-australia,"Maroubra, NSW, Australia",Australia,2.946739434335325,8,3
+goseong-ri-south-korea,"Goseong-ri, South Korea",South Korea,2.94365069621261,8,2
+isla-de-cozumel-mexico,"Isla de Cozumel, Mexico",Mexico,2.939666696063015,8,1
+ujung-pankah-indonesia,"Ujung Pankah, Indonesia",Indonesia,2.929698881412186,8,7
+portrane-ireland,"Portrane, Ireland",Ireland,2.9207022709672374,8,4
+san-luis-obispo-ca-united-states,"San Luis Obispo, CA, United States",United States,2.9175594504439286,8,1
+capesterre-belle-eau-guadeloupe,"Capesterre-Belle-Eau, Guadeloupe",Guadeloupe,2.8618296200625357,8,3
+lusk-ireland,"Lusk, Ireland",Ireland,2.8595887742857804,8,4
+alicudi-porto-italy,"Alicudi Porto, Italy",Italy,2.8519585737298336,8,1
+zandvoort-netherlands,"Zandvoort, Netherlands",Netherlands,2.8237858038954027,8,2
+vulcano-bleu-italy,"Vulcano Bleu, Italy",Italy,2.8030176981849353,8,4
+sao-tome-sao-tome-and-principe,"Sao Tome, Sao Tome and Principe",Sao Tome and Principe,2.79942751348581,8,2
+labuha-indonesia,"Labuha, Indonesia",Indonesia,2.7713159667633844,8,1
+udo-south-korea,"Udo, South Korea",South Korea,2.7531104948690555,8,2
+monrovia-liberia,"Monrovia, Liberia",Liberia,2.7406025002319465,8,5
+lavrio-greece,"Lavrio, Greece",Greece,2.7245904346895484,8,3
+namlea-indonesia,"Namlea, Indonesia",Indonesia,2.676124036549206,8,2
+kingstown-saint-vincent-and-the-grenadines,"Kingstown, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,2.6496070988479947,8,3
+lagos-nigeria,"Lagos, Nigeria",Nigeria,2.634136346941463,8,4
+loughshinny-ireland,"LoughShinny, Ireland",Ireland,2.629426112520945,8,4
+arawa-papua-new-guinea,"Arawa, Papua New Guinea",Papua New Guinea,2.62878017635261,8,2
+lome-togo,"Lome, Togo",Togo,2.618718789322167,8,5
+rodbyhavn-denmark,"Rodbyhavn, Denmark",Denmark,2.615648490261035,8,2
+baillif-guadeloupe,"Baillif, Guadeloupe",Guadeloupe,2.615410016347952,8,3
+dili-timor-leste,"Dili, Timor-Leste",Timor-Leste,2.60143241839458,8,2
+annaba-algeria,"Annaba, Algeria",Algeria,2.547748025571986,8,2
+sassari-italy,"Sassari, Italy",Italy,2.5257843538771247,8,2
+morotai-indonesia,"Morotai, Indonesia",Indonesia,2.514290106300754,8,2
+carloforte-italy,"Carloforte, Italy",Italy,2.506324521824971,8,2
+paramaribo-suriname,"Paramaribo, Suriname",Suriname,2.491824215972387,8,2
+deeside-clwyd-united-kingdom,"Deeside Clwyd, United Kingdom",United Kingdom,2.4871464640710266,8,4
+kuakata-bangladesh,"Kuakata, Bangladesh",Bangladesh,2.470869823518214,8,4
+yeroskipos-cyprus,"Yeroskipos, Cyprus",Cyprus,2.469702180100581,8,2
+rayong-thailand,"Rayong, Thailand",Thailand,2.4348025345146547,8,2
+claveria-philippines,"Claveria, Philippines",Philippines,2.4139818784649183,8,4
+tripoli-libya,"Tripoli, Libya",Libya,2.4035958503967567,8,1
+apia-samoa,"Apia, Samoa",Samoa,2.366229629167839,8,1
+pentaskhinos-cyprus,"Pentaskhinos, Cyprus",Cyprus,2.3633823892588803,8,2
+collo-algeria,"Collo, Algeria",Algeria,2.35859998442033,8,2
+uarini-brazil,"Uarini, Brazil",Brazil,2.355981989207568,8,1
+puttgarden-germany,"Puttgarden, Germany",Germany,2.3471391215551223,8,2
+shirley-ny-united-states,"Shirley, NY, United States",United States,2.3438497347046052,8,10
+salvador-brazil,"Salvador, Brazil",Brazil,2.3284082031761666,8,1
+lipari-italy,"Lipari, Italy",Italy,2.3212619989351384,8,4
+bizerte-tunisia,"Bizerte, Tunisia",Tunisia,2.291792985589371,8,2
+bintan-indonesia,"Bintan, Indonesia",Indonesia,2.290991359551361,8,7
+hachinohe-japan,"Hachinohe, Japan",Japan,2.2897535973759946,8,1
+mogadishu-somalia,"Mogadishu, Somalia",Somalia,2.2785608636753185,8,4
+kampung-raja-malaysia,"Kampung Raja, Malaysia",Malaysia,2.2702904727729747,8,5
+tolu-colombia,"Tolu, Colombia",Colombia,2.2597206867034036,8,1
+cabinda-angola,"Cabinda, Angola",Angola,2.2581019203065833,8,2
+praia-cape-verde,"Praia, Cape Verde",Cape Verde,2.2515275699801323,8,2
+mangawhai-new-zealand,"Mangawhai, New Zealand",New Zealand,2.233771647554721,8,2
+kiamsam-malaysia,"Kiamsam, Malaysia",Malaysia,2.1822784982576806,8,4
+canneto-italy,"Canneto, Italy",Italy,2.1783092789520446,8,4
+shoreham-ny-united-states,"Shoreham, NY, United States",United States,2.1774240388665165,8,10
+georgetown-guyana,"Georgetown, Guyana",Guyana,2.1593215288308727,8,3
+sorong-indonesia,"Sorong, Indonesia",Indonesia,2.1451067944403963,8,1
+puger-indonesia,"Puger, Indonesia",Indonesia,2.1407686791216065,8,4
+ijmuiden-netherlands,"Ijmuiden, Netherlands",Netherlands,2.127818673322033,8,2
+tripoli-lebanon,"Tripoli, Lebanon",Lebanon,2.1142157548933356,8,5
+suro-guinea-bissau,"Suro, Guinea-Bissau",Guinea-Bissau,2.090238408458025,8,2
+cacongo-angola,"Cacongo, Angola",Angola,2.045843882495899,8,2
+toshima-japan,"Toshima, Japan",Japan,2.044941094308593,8,3
+marmaris-turkey,"Marmaris, Turkey",Turkey,2.036807980867875,8,2
+shikinejima-japan,"Shikinejima, Japan",Japan,2.0331857841409406,8,3
+candikusuma-indonesia,"Candikusuma, Indonesia",Indonesia,2.029730059345904,8,4
+chennai-india,"Chennai, India",India,2.01165529604906,8,2
+kozushima-japan,"Kozushima, Japan",Japan,2.011154098918702,8,3
+fomboni-moheli-comoros,"Fomboni Moheli, Comoros",Comoros,1.9979477585378629,8,3
+topolobampo-mexico,"Topolobampo, Mexico",Mexico,1.9954650193759018,8,3
+newcastle-united-kingdom,"Newcastle, United Kingdom",United Kingdom,1.9741694542449437,8,4
+la-guaira-venezuela,"La Guaira, Venezuela",Venezuela,1.9701357950815175,8,3
+tahuna-indonesia,"Tahuna, Indonesia",Indonesia,1.9654897451838873,8,2
+yapen-indonesia,"Yapen, Indonesia",Indonesia,1.9580535258946978,7,1
+pigeon-point-trinidad-and-tobago,"Pigeon Point, Trinidad and Tobago",Trinidad and Tobago,1.9496161203794753,7,4
+greenbank-wa-united-states,"Greenbank, WA, United States",United States,1.9489981778434022,7,3
+camuri-venezuela,"Camuri, Venezuela",Venezuela,1.9436193907446926,7,3
+kilmore-quay-ireland,"Kilmore Quay, Ireland",Ireland,1.9363041433743626,7,1
+wewak-papua-new-guinea,"Wewak, Papua New Guinea",Papua New Guinea,1.920235686289671,7,4
+gambier-harbour-bc-canada,"Gambier Harbour, BC, Canada",Canada,1.917526282113177,7,1
+khasab-oman,"Khasab, Oman",Oman,1.9126784435180806,7,2
+beverwijk-netherlands,"Beverwijk, Netherlands",Netherlands,1.8990989685433322,7,2
+ballygrangans-ireland,"Ballygrangans, Ireland",Ireland,1.8923435648898392,7,1
+portoferraio-italy,"Portoferraio, Italy",Italy,1.8798837373699082,7,2
+maiquetia-venezuela,"Maiquetia, Venezuela",Venezuela,1.8774064999057944,7,3
+melkbosstrand-south-africa,"Melkbosstrand, South Africa",South Africa,1.8738813445097924,7,2
+horseshoe-bay-bc-canada,"Horseshoe Bay, BC, Canada",Canada,1.869029059034047,7,1
+duynefontein-south-africa,"Duynefontein, South Africa",South Africa,1.8653318980464073,7,2
+marseille-france,"Marseille, France",France,1.862171535490948,7,3
+ozamiz-city-philippines,"Ozamiz City, Philippines",Philippines,1.850858319822013,7,2
+snug-cove-bc-canada,"Snug Cove, BC, Canada",Canada,1.8458130085559787,7,1
+malabo-equatorial-guinea,"Malabo, Equatorial Guinea",Equatorial Guinea,1.8314982089432554,7,2
+alexandria-egypt,"Alexandria, Egypt",Egypt,1.823523539898788,7,1
+goheung-south-korea,"Goheung, South Korea",South Korea,1.8177498958663956,7,1
+niijima-japan,"Niijima, Japan",Japan,1.8170585546796734,7,3
+takahagi-japan,"Takahagi, Japan",Japan,1.8104061058305514,7,1
+eastbourne-bc-canada,"Eastbourne, BC, Canada",Canada,1.801999858084324,7,1
+porto-santo-portugal,"Porto Santo, Portugal",Portugal,1.796524885237505,7,1
+cabo-espiritu-santo-argentina,"Cabo Espiritu Santo, Argentina",Argentina,1.7865200597369744,7,1
+bandar-lampung-indonesia,"Bandar Lampung, Indonesia",Indonesia,1.784344878628227,7,2
+yate-new-caledonia,"Yate, New Caledonia",New Caledonia,1.7753243321268761,7,1
+cama-beach-wa-united-states,"Cama Beach, WA, United States",United States,1.7728308888069126,7,3
+recife-brazil,"Recife, Brazil",Brazil,1.7547991284742916,7,1
+karimun-indonesia,"Karimun, Indonesia",Indonesia,1.7500288216753117,7,7
+cork-ireland,"Cork, Ireland",Ireland,1.745433689649869,7,2
+trujillo-honduras,"Trujillo, Honduras",Honduras,1.7436049469118704,7,3
+gibsons-bc-canada,"Gibsons, BC, Canada",Canada,1.718663326382085,7,1
+makurazaki-japan,"Makurazaki, Japan",Japan,1.716457287988808,7,2
+kitaibaraki-japan,"Kitaibaraki, Japan",Japan,1.7091374584589085,7,1
+ballinesker-ireland,"Ballinesker, Ireland",Ireland,1.700480398607736,7,3
+hoonah-ak-united-states,"Hoonah, AK, United States",United States,1.6872092047513414,7,1
+pointe-noire-congo-rep-,"Pointe-Noire, Congo, Rep.","Congo, Rep.",1.6798197557089147,7,2
+hawk-inlet-ak-united-states,"Hawk Inlet, AK, United States",United States,1.6734548235934088,7,1
+savusavu-fiji,"Savusavu, Fiji",Fiji,1.6647988723910552,7,1
+grover-beach-ca-united-states,"Grover Beach, CA, United States",United States,1.6592162894614324,7,1
+cape-roger-curtis-bc-canada,"Cape Roger Curtis, BC, Canada",Canada,1.6547839988361817,7,1
+dadeng-island-china,"Dadeng Island, China",China,1.6479284694425633,7,1
+tirat-carmel-israel,"Tirat Carmel, Israel",Israel,1.6333752758548772,7,2
+montego-bay-jamaica,"Montego Bay, Jamaica",Jamaica,1.6268711780316183,7,1
+tulum-mexico,"Tulum, Mexico",Mexico,1.6027572658812723,7,1
+ondong-siau-indonesia,"Ondong Siau, Indonesia",Indonesia,1.5891029527114486,7,3
+cancn-mexico,"Cancún, Mexico",Mexico,1.5781474580023285,7,1
+parintins-brazil,"Parintins, Brazil",Brazil,1.5755290909955662,7,1
+conil-de-la-frontera-spain,"Conil de la Frontera, Spain",Spain,1.5553111633764942,7,1
+kalba-united-arab-emirates,"Kalba, United Arab Emirates",United Arab Emirates,1.5535131743647796,7,2
+raha-indonesia,"Raha, Indonesia",Indonesia,1.551150258432836,7,1
+torquay-vic-australia,"Torquay, VIC, Australia",Australia,1.543751517476374,7,3
+maca-brazil,"Macaé, Brazil",Brazil,1.5337715200079214,7,1
+vancouver-bc-canada,"Vancouver, BC, Canada",Canada,1.5217220191897283,7,1
+puerto-viejo-venezuela,"Puerto Viejo, Venezuela",Venezuela,1.5214308924769298,7,3
+gedser-denmark,"Gedser, Denmark",Denmark,1.5184671471122921,7,1
+filicudi-porto-italy,"Filicudi Porto, Italy",Italy,1.506002313653609,7,2
+fujairah-united-arab-emirates,"Fujairah, United Arab Emirates",United Arab Emirates,1.4908718116044857,7,2
+beigan-taiwan,"Beigan, Taiwan",Taiwan,1.4908569679603356,7,3
+girne-cyprus,"Girne, Cyprus",Cyprus,1.474152152765138,7,2
+porto-seguro-brazil,"Porto Seguro, Brazil",Brazil,1.4667239350595993,7,1
+jinhu-township-taiwan,"Jinhu Township, Taiwan",Taiwan,1.4551668096064165,7,1
+waisai-indonesia,"Waisai, Indonesia",Indonesia,1.4509704993118295,7,1
+jarry-guadeloupe,"Jarry, Guadeloupe",Guadeloupe,1.4478476171307069,7,2
+baie-mahault-guadeloupe,"Baie-Mahault, Guadeloupe",Guadeloupe,1.4294072894983132,7,2
+cadiz-city-philippines,"Cadiz City, Philippines",Philippines,1.423158411862898,7,2
+guningtou-taiwan,"Guningtou, Taiwan",Taiwan,1.4153295574829539,7,1
+abu-talat-egypt,"Abu Talat, Egypt",Egypt,1.4091904224486171,7,1
+pointe-a-pitre-guadeloupe,"Pointe-a-Pitre, Guadeloupe",Guadeloupe,1.4021557911100861,7,2
+vila-do-maio-cape-verde,"Vila do Maio, Cape Verde",Cape Verde,1.3991266758926613,7,2
+kalemie-congo-dem-rep-,"Kalemie, Congo, Dem. Rep.","Congo, Dem. Rep.",1.381535511092923,7,2
+west-palm-beach-fl-united-states,"West Palm Beach, FL, United States",United States,1.3722709505243091,7,1
+sidi-kerir-egypt,"Sidi Kerir, Egypt",Egypt,1.3360631754121184,7,1
+morib-malaysia,"Morib, Malaysia",Malaysia,1.330713259827214,7,2
+lake-ci-taiwan,"Lake Ci, Taiwan",Taiwan,1.322630060810986,7,1
+haifa-israel,"Haifa, Israel",Israel,1.311575697292033,7,2
+oshima-japan,"Oshima, Japan",Japan,1.3088804942468015,7,2
+buranga-indonesia,"Buranga, Indonesia",Indonesia,1.308675640957125,7,1
+korsor-denmark,"Korsor, Denmark",Denmark,1.2961049584487079,7,1
+tarrafal-de-santiago-cape-verde,"Tarrafal de Santiago, Cape Verde",Cape Verde,1.2950069811520306,7,2
+tuasivi-samoa,"Tuasivi, Samoa",Samoa,1.2933295694068654,7,1
+higuerote-venezuela,"Higuerote, Venezuela",Venezuela,1.285645669653228,7,2
+muncar-indonesia,"Muncar, Indonesia",Indonesia,1.2843906140124783,7,4
+ditella-italy,"Ditella, Italy",Italy,1.2766643079890305,7,2
+toamasina-madagascar,"Toamasina, Madagascar",Madagascar,1.2732481258998116,7,1
+rockly-bay-trinidad-and-tobago,"Rockly Bay, Trinidad and Tobago",Trinidad and Tobago,1.2674661061696504,7,3
+pulau-perhentian-kecil-malaysia,"Pulau Perhentian Kecil, Malaysia",Malaysia,1.2639732063725142,7,4
+maroochydore-qld-australia,"Maroochydore, QLD, Australia",Australia,1.2536842939716966,7,2
+guanyin-mountain-china,"Guanyin Mountain, China",China,1.2434491644242416,7,1
+domburg-netherlands,"Domburg, Netherlands",Netherlands,1.2373315313602442,7,4
+jincheng-township-taiwan,"Jincheng Township, Taiwan",Taiwan,1.2295116701968754,7,1
+casablanca-morocco,"Casablanca, Morocco",Morocco,1.2255579923969118,7,1
+mpeefu-uganda,"Mpeefu, Uganda",Uganda,1.2171493216236775,7,4
+miyake-japan,"Miyake, Japan",Japan,1.1960886841740637,7,2
+igneada-turkey,"Igneada, Turkey",Turkey,1.1941577957400724,7,2
+wilhelmshaven-germany,"Wilhelmshaven, Germany",Germany,1.193182643132228,7,1
+pulau-perhentian-besar-malaysia,"Pulau Perhentian Besar, Malaysia",Malaysia,1.1929627257426603,7,4
+muanda-congo-dem-rep-,"Muanda, Congo, Dem. Rep.","Congo, Dem. Rep.",1.180010147469873,7,1
+nybor-denmark,"Nybor, Denmark",Denmark,1.1794813691036752,7,5
+yonaguni-japan,"Yonaguni, Japan",Japan,1.1472929469348936,7,1
+antofagasta-chile,"Antofagasta, Chile",Chile,1.1460191874402257,7,1
+la-paz-mexico,"La Paz, Mexico",Mexico,1.1413549607663565,7,1
+nkusi-uganda,"Nkusi, Uganda",Uganda,1.1347053591269116,7,4
+olbia-italy,"Olbia, Italy",Italy,1.1249513490638234,7,1
+plataria-greece,"Plataria, Greece",Greece,1.1140809685572448,7,3
+riohacha-colombia,"Riohacha, Colombia",Colombia,1.0786795193607799,7,2
+ilyinskoye-russia,"Ilyinskoye, Russia",Russia,1.0707908610370829,7,2
+sriracha-thailand,"Sriracha, Thailand",Thailand,1.06134046686533,7,1
+kasenyi-congo-dem-rep-,"Kasenyi, Congo, Dem. Rep.","Congo, Dem. Rep.",1.0496572100852763,7,5
+balikpapan-indonesia,"Balikpapan, Indonesia",Indonesia,1.0494653297346461,7,1
+saint-paul-runion,"Saint Paul, Réunion",Réunion,1.03827670928116,7,1
+sochi-russia,"Sochi, Russia",Russia,1.0195579844626816,7,2
+tobelo-indonesia,"Tobelo, Indonesia",Indonesia,1.0121219951392972,7,2
+moroni-comoros,"Moroni, Comoros",Comoros,1.0019389271841042,7,1
+vladivostok-russia,"Vladivostok, Russia",Russia,0.9973187611106953,7,1
+porlamar-venezuela,"Porlamar, Venezuela",Venezuela,0.9860295060705506,7,1
+kremasti-greece,"Kremasti, Greece",Greece,0.9773992074586848,7,2
+tchoima-congo-dem-rep-,"Tchoima, Congo, Dem. Rep.","Congo, Dem. Rep.",0.9630463302707108,7,7
+le-port-runion,"Le Port, Réunion",Réunion,0.9616745647514069,7,1
+gaeta-italy,"Gaeta, Italy",Italy,0.945396359365956,7,1
+ciudad-lzaro-crdenas-mexico,"Ciudad Lázaro Cárdenas, Mexico",Mexico,0.9420836713779318,7,1
+sainte-marie-runion,"Sainte Marie, Réunion",Réunion,0.9313778545007604,7,1
+zawia-libya,"Zawia, Libya",Libya,0.9266647267135919,7,1
+anyer-indonesia,"Anyer, Indonesia",Indonesia,0.9233938777754804,7,2
+yzerfontein-south-africa,"Yzerfontein, South Africa",South Africa,0.9224667152245032,7,2
+luwuk-indonesia,"Luwuk, Indonesia",Indonesia,0.9175992834421315,7,1
+rangat-india,"Rangat, India",India,0.9083687823863739,7,1
+mancora-peru,"Mancora, Peru",Peru,0.8847516405152038,7,6
+fiumicino-italy,"Fiumicino, Italy",Italy,0.8797824240268266,7,1
+ngwe-saung-myanmar,"Ngwe Saung, Myanmar",Myanmar,0.8735980401968901,7,1
+port-antonio-jamaica,"Port Antonio, Jamaica",Jamaica,0.8670074648489419,7,2
+dipolog-city-philippines,"Dipolog City, Philippines",Philippines,0.8635040489472949,7,1
+saint-franois-guadeloupe,"Saint-François, Guadeloupe",Guadeloupe,0.8622832330950837,7,2
+nangan-taiwan,"Nangan, Taiwan",Taiwan,0.832345784754894,7,3
+iquique-chile,"Iquique, Chile",Chile,0.8319920518654026,7,1
+nahariyya-israel,"Nahariyya, Israel",Israel,0.8189935100042138,7,1
+kavos-greece,"Kavos, Greece",Greece,0.8157523248116273,7,3
+stromboli-italy,"Stromboli, Italy",Italy,0.8105076405065719,7,2
+gqeberha-south-africa,"Gqeberha, South Africa",South Africa,0.8104465069912495,7,1
+mikurashima-japan,"Mikurashima, Japan",Japan,0.8009913267214716,7,1
+chindini-comoros,"Chindini, Comoros",Comoros,0.8001856215894394,7,2
+adelaide-sa-australia,"Adelaide, SA, Australia",Australia,0.7886443862029054,7,1
+saltery-bay-bc-canada,"Saltery Bay, BC, Canada",Canada,0.757608173446073,7,1
+bata-equatorial-guinea,"Bata, Equatorial Guinea",Equatorial Guinea,0.7534493158603883,7,1
+ixtapa-zihuatanejo-mexico,"Ixtapa-Zihuatanejo, Mexico",Mexico,0.7528559042987417,7,1
+dongyin-taiwan,"Dongyin, Taiwan",Taiwan,0.748286983448775,7,2
+kalianda-indonesia,"Kalianda, Indonesia",Indonesia,0.7457044410110386,7,2
+lynn-ma-united-states,"Lynn, MA, United States",United States,0.7436935728146241,7,1
+kendari-indonesia,"Kendari, Indonesia",Indonesia,0.7377711024465547,7,2
+highbridge-united-kingdom,"Highbridge, United Kingdom",United Kingdom,0.731617784300148,7,2
+punta-dungeness-argentina,"Punta Dungeness, Argentina",Argentina,0.7287600634634922,7,1
+daet-philippines,"Daet, Philippines",Philippines,0.7276425203368617,7,4
+oak-harbor-wa-united-states,"Oak Harbor, WA, United States",United States,0.7273803592273459,7,2
+pelican-ak-united-states,"Pelican, AK, United States",United States,0.7149193253603445,7,1
+soyo-angola,"Soyo, Angola",Angola,0.6994003073490727,7,1
+malfa-italy,"Malfa, Italy",Italy,0.6973134919352669,7,3
+hilo-hi-united-states,"Hilo, HI, United States",United States,0.697219615600486,7,1
+ustupo-panama,"Ustupo, Panama",Panama,0.6943079664273755,7,3
+bude-united-kingdom,"Bude, United Kingdom",United Kingdom,0.685063012910801,7,1
+gabriola-bc-canada,"Gabriola, BC, Canada",Canada,0.6818200342214631,7,1
+majuro-marshall-islands,"Majuro, Marshall Islands",Marshall Islands,0.6677745526348232,7,1
+fuzhou-china,"Fuzhou, China",China,0.6671914845114677,7,2
+quellon-chile,"Quellon, Chile",Chile,0.6532509761302864,7,2
+sines-portugal,"Sines, Portugal",Portugal,0.6505616706475459,7,2
+long-island-india,"Long Island, India",India,0.6417633864563077,7,1
+carpano-venezuela,"Carúpano, Venezuela",Venezuela,0.6350624074800969,7,1
+terra-santa-brazil,"Terra Santa, Brazil",Brazil,0.628128946167646,7,1
+goonhilly-downs-united-kingdom,"Goonhilly Downs, United Kingdom",United Kingdom,0.6188904408402583,7,1
+parque-isla-de-salamanca-colombia,"Parque Isla de Salamanca, Colombia",Colombia,0.6187375561778409,7,1
+point-roberts-wa-united-states,"Point Roberts, WA, United States",United States,0.614505762817306,7,1
+brean-united-kingdom,"Brean, United Kingdom",United Kingdom,0.610045910044908,7,2
+cayeux-sur-mer-france,"Cayeux-sur-Mer, France",France,0.5964307911112688,7,2
+tartous-syria,"Tartous, Syria",Syria,0.5916336363915251,7,2
+barranquilla-colombia,"Barranquilla, Colombia",Colombia,0.5914443924423642,7,1
+st-joseph-mi-united-states,"St. Joseph, MI, United States",United States,0.5865609272065595,7,2
+diba-oman,"Diba, Oman",Oman,0.5860365211780869,7,1
+puerto-cabello-venezuela,"Puerto Cabello, Venezuela",Venezuela,0.5704349899183694,7,1
+magachgil-yap-micronesia,"Magachgil, Yap, Micronesia",Micronesia,0.5687850242864317,7,1
+anchorage-ak-united-states,"Anchorage, AK, United States",United States,0.5511149466280147,7,2
+rdvig-denmark,"Rødvig, Denmark",Denmark,0.5458082116046319,7,1
+sungailiat-indonesia,"Sungailiat, Indonesia",Indonesia,0.5427640328034412,7,1
+greymouth-new-zealand,"Greymouth, New Zealand",New Zealand,0.5409739064587389,7,1
+ngeremlengui-palau,"Ngeremlengui, Palau",Palau,0.5379315538790971,7,1
+port-moresby-papua-new-guinea,"Port Moresby, Papua New Guinea",Papua New Guinea,0.5369801618837505,7,1
+lakudo-indonesia,"Lakudo, Indonesia",Indonesia,0.5363072297074565,6,1
+kelibia-tunisia,"Kelibia, Tunisia",Tunisia,0.5195649178681947,6,1
+valdez-ak-united-states,"Valdez, AK, United States",United States,0.5102165652276431,6,1
+kuala-tungkal-indonesia,"Kuala Tungkal, Indonesia",Indonesia,0.507521463725716,6,2
+tuckerton-nj-united-states,"Tuckerton, NJ, United States",United States,0.49447057551036194,6,1
+cordova-ak-united-states,"Cordova, AK, United States",United States,0.46698691668757375,6,1
+buenaventura-colombia,"Buenaventura, Colombia",Colombia,0.4460245165915116,6,1
+konstanz-germany,"Konstanz, Germany",Germany,0.4457936937973098,6,2
+benton-harbor-mi-united-states,"Benton Harbor, MI, United States",United States,0.4451634483798105,6,1
+ilyich-russia,"Ilyich, Russia",Russia,0.43529946000308495,6,1
+pesaren-indonesia,"Pesaren, Indonesia",Indonesia,0.4224887416387478,6,1
+rarotonga-cook-islands,"Rarotonga, Cook Islands",Cook Islands,0.4220424518356164,6,1
+snaw-naw-as-bc-canada,"Snaw-naw-as, BC, Canada",Canada,0.4114427459539834,6,1
+libreville-gabon,"Libreville, Gabon",Gabon,0.401246707540592,6,1
+nador-morocco,"Nador, Morocco",Morocco,0.38344627239539203,6,1
+golfo-aranci-italy,"Golfo Aranci, Italy",Italy,0.3802611922024031,6,1
+koh-samui-thailand,"Koh Samui, Thailand",Thailand,0.36772055792696445,6,1
+boracay-philippines,"Boracay, Philippines",Philippines,0.34923901296254845,6,1
+johnstone-point-ak-united-states,"Johnstone Point, AK, United States",United States,0.3428069502134875,6,1
+bandon-or-united-states,"Bandon, OR, United States",United States,0.33801980955658484,6,1
+banff-united-kingdom,"Banff, United Kingdom",United Kingdom,0.3280333986285001,6,1
+caticlan-philippines,"Caticlan, Philippines",Philippines,0.32476260852054345,6,1
+markgrafenheide-germany,"Markgrafenheide, Germany",Germany,0.3200528719833629,6,1
+manta-ecuador,"Manta, Ecuador",Ecuador,0.31746897804130336,6,1
+porthcurno-united-kingdom,"Porthcurno, United Kingdom",United Kingdom,0.30842409144646843,6,1
+skewjack-united-kingdom,"Skewjack, United Kingdom",United Kingdom,0.3080688050328388,6,1
+morowali-indonesia,"Morowali, Indonesia",Indonesia,0.30703265276603153,6,1
+aethos-greece,"Aethos, Greece",Greece,0.30492496310729267,6,3
+whitesands-bay-united-kingdom,"Whitesands Bay, United Kingdom",United Kingdom,0.30015991645720247,6,1
+iranduba-brazil,"Iranduba, Brazil",Brazil,0.29985714852956197,6,1
+caldera-chile,"Caldera, Chile",Chile,0.2885022268391126,6,1
+baubau-indonesia,"Baubau, Indonesia",Indonesia,0.28277895470449826,6,1
+melilla-spain,"Melilla, Spain",Spain,0.28141141638200656,6,1
+osoviny-ukraine,"Osoviny, Ukraine",Ukraine,0.2764294053941659,6,1
+nabas-philippines,"Nabas, Philippines",Philippines,0.2746776928348114,6,1
+puerto-colombia-colombia,"Puerto Colombia, Colombia",Colombia,0.27092121443560835,6,1
+umag-croatia,"Umag, Croatia",Croatia,0.2706030900086124,6,1
+kokkini-greece,"Kokkini, Greece",Greece,0.2702676661036516,6,3
+kerch-ukraine,"Kerch, Ukraine",Ukraine,0.2579769274046825,6,1
+bequia-saint-vincent-and-the-grenadines,"Bequia, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,0.2554947912906348,6,1
+manacapuru-brazil,"Manacapuru, Brazil",Brazil,0.2507756308709501,6,1
+san-diego-ca-united-states,"San Diego, CA, United States",United States,0.24661501089694907,6,1
+dartmouth-united-kingdom,"Dartmouth, United Kingdom",United Kingdom,0.24408513066696505,6,2
+blackpool-sands-united-kingdom,"Blackpool Sands, United Kingdom",United Kingdom,0.2434322308533576,6,1
+wenchang-china,"Wenchang, China",China,0.241722165115438,6,1
+tijuana-mexico,"Tijuana, Mexico",Mexico,0.2343166738316085,6,1
+juruti-brazil,"Juruti, Brazil",Brazil,0.22858732888389538,6,1
+lingao-china,"Lingao, China",China,0.21704419949333503,6,1
+manaus-brazil,"Manaus, Brazil",Brazil,0.21195669594874722,6,1
+kerema-papua-new-guinea,"Kerema, Papua New Guinea",Papua New Guinea,0.1813102199308088,6,1
+wawonii-indonesia,"Wawonii, Indonesia",Indonesia,0.17512501413143394,6,1
+santa-marta-colombia,"Santa Marta, Colombia",Colombia,0.16946713501651733,6,1
+manchester-ca-united-states,"Manchester, CA, United States",United States,0.167056134979979,6,1
+chichiriviche-venezuela,"Chichiriviche, Venezuela",Venezuela,0.16646679002434733,6,1
+rosarito-mexico,"Rosarito, Mexico",Mexico,0.16268055932414005,6,1
+madura-indonesia,"Madura, Indonesia",Indonesia,0.1621781714694609,6,2
+alotau-papua-new-guinea,"Alotau, Papua New Guinea",Papua New Guinea,0.1578985689344872,6,1
+kimbe-papua-new-guinea,"Kimbe, Papua New Guinea",Papua New Guinea,0.1553143352143491,6,1
+lingshui-china,"Lingshui, China",China,0.15103678111371427,6,1
+corisco-equatorial-guinea,"Corisco, Equatorial Guinea",Equatorial Guinea,0.15036013105642013,6,1
+sangatta-indonesia,"Sangatta, Indonesia",Indonesia,0.14916466396368686,6,1
+corfu-greece,"Corfu, Greece",Greece,0.1453396006789828,6,3
+cabo-san-juan-equatorial-guinea,"Cabo San Juan, Equatorial Guinea",Equatorial Guinea,0.14004188737806086,6,2
+xiju-taiwan,"Xiju, Taiwan",Taiwan,0.13804635479424046,6,1
+stintino-italy,"Stintino, Italy",Italy,0.1355146513216538,6,1
+labuan-bajo-indonesia,"Labuan Bajo, Indonesia",Indonesia,0.132638447926361,6,1
+okhotskoe-russia,"Okhotskoe, Russia",Russia,0.13161389211608684,6,1
+veules-les-roses-france,"Veules-les-Roses, France",France,0.13101555773451817,6,1
+liloy-philippines,"Liloy, Philippines",Philippines,0.13071850935479615,6,1
+sangata-indonesia,"Sangata, Indonesia",Indonesia,0.12852684841790915,6,1
+french-creek-bc-canada,"French Creek, BC, Canada",Canada,0.12736873650300118,6,1
+beausejour-guadeloupe,"Beausejour, Guadeloupe",Guadeloupe,0.12497136684614174,6,2
+bredene-belgium,"Bredene, Belgium",Belgium,0.11463179947741554,6,1
+beculuk-indonesia,"Beculuk, Indonesia",Indonesia,0.11319128567030043,6,2
+benculuk-indonesia,"Benculuk, Indonesia",Indonesia,0.11319128567030043,6,2
+manokwari-indonesia,"Manokwari, Indonesia",Indonesia,0.11078339655939483,6,1
+timika-indonesia,"Timika, Indonesia",Indonesia,0.10972731991373061,6,1
+panipahan-indonesia,"Panipahan, Indonesia",Indonesia,0.10935881999565875,6,1
+gillies-bay-bc-canada,"Gillies Bay, BC, Canada",Canada,0.10902440432142035,6,1
+hosan-ri-south-korea,"Hosan-ri, South Korea",South Korea,0.10393501050477132,6,1
+ostend-belgium,"Ostend, Belgium",Belgium,0.10383459692052639,6,1
+kontokali-greece,"Kontokali, Greece",Greece,0.09559515402493687,6,2
+otranto-italy,"Otranto, Italy",Italy,0.09178913127513987,6,1
+sihanoukville-cambodia,"Sihanoukville, Cambodia",Cambodia,0.0851451846141783,6,1
+ancon-ecuador,"Ancon, Ecuador",Ecuador,0.08273921028258101,6,1
+kaweni-mayotte,"Kaweni, Mayotte",Mayotte,0.0824799894751159,6,1
+halul-island-qatar,"Halul Island, Qatar",Qatar,0.07673117679561069,6,1
+le-porge-france,"Le Porge, France",France,0.07592747597821942,6,1
+san-foca-italy,"San Foca, Italy",Italy,0.07463918937081436,6,1
+al-ghariya-qatar,"Al Ghariya, Qatar",Qatar,0.05398344289433977,6,1
+aberdeen-united-kingdom,"Aberdeen, United Kingdom",United Kingdom,0.051404217708285314,6,1
+maracaibo-venezuela,"Maracaibo, Venezuela",Venezuela,0.045602230745228185,6,1
+muntok-indonesia,"Muntok, Indonesia",Indonesia,0.0456001872606259,6,1
+takeshima-japan,"Takeshima, Japan",Japan,0.041561048830935685,6,1
+rostock-germany,"Rostock, Germany",Germany,0.033530163835990986,6,1
+friedrichshafen-germany,"Friedrichshafen, Germany",Germany,0.03323076823582305,6,1
+banjarmasin-indonesia,"Banjarmasin, Indonesia",Indonesia,0.0327568722627651,6,1
+poti-georgia,"Poti, Georgia",Georgia,0.025938314459087505,6,1
+al-faw-iraq,"Al Faw, Iraq",Iraq,0.02205738175496462,6,1
+powell-river-bc-canada,"Powell River, BC, Canada",Canada,0.005521435255573179,6,1
+jacksonville-fl-united-states,"Jacksonville, FL, United States",United States,0.0017572728010678532,6,1
+nelson-new-zealand,"Nelson, New Zealand",New Zealand,0.0009124282097036434,6,1
+petit-perello-france,"Petit Perello, France",France,0.0,1,0
+ygarden-norway,"Øygarden, Norway",Norway,0.0,1,0
+zelenogorsk-russia,"Zelenogorsk, Russia",Russia,0.0,1,0
+puerto-ayora-ecuador,"Puerto Ayora, Ecuador",Ecuador,0.0,1,0
+puerto-baquerizo-moreno-ecuador,"Puerto Baquerizo Moreno, Ecuador",Ecuador,0.0,1,0
+zafarana-egypt,"Zafarana, Egypt",Egypt,0.0,1,0
+petropavlovsk-kamchatsky-russia,"Petropavlovsk-Kamchatsky, Russia",Russia,0.0,1,0
+pevek-russia,"Pevek, Russia",Russia,0.0,1,0
+puerto-montt-chile,"Puerto Montt, Chile",Chile,0.0,1,0
+zeballos-bc-canada,"Zeballos, BC, Canada",Canada,0.0,1,0
+perivolos-greece,"Perivolos, Greece",Greece,0.0,1,0
+ventspils-latvia,"Ventspils, Latvia",Latvia,0.0,1,0
+vero-beach-fl-united-states,"Vero Beach, FL, United States",United States,0.0,1,0
+penmarch-france,"Penmarch, France",France,0.0,1,0
+vikevg-norway,"Vikevåg, Norway",Norway,0.0,1,0
+penarik-indonesia,"Penarik, Indonesia",Indonesia,0.0,1,0
+victoria-seychelles,"Victoria, Seychelles",Seychelles,0.0,1,0
+pembroke-guernsey,"Pembroke, Guernsey",Guernsey,0.0,1,0
+perryville-ak-united-states,"Perryville, AK, United States",United States,0.0,1,0
+pegwell-barbados,"Pegwell, Barbados",Barbados,0.0,1,0
+perth-wa-australia,"Perth, WA, Australia",Australia,0.0,1,0
+puerto-del-rosario-canary-islands-spain,"Puerto del Rosario, Canary Islands, Spain",Spain,0.0,1,0
+puerto-general-villamil-ecuador,"Puerto General Villamil, Ecuador",Ecuador,0.0,1,0
+peel-isle-of-man,"Peel, Isle of Man",Isle of Man,0.0,1,0
+pedro-bay-ak-united-states,"Pedro Bay, AK, United States",United States,0.0,1,0
+pedersker-denmark,"Pedersker, Denmark",Denmark,0.0,1,0
+ystad-sweden,"Ystad, Sweden",Sweden,0.0,1,0
+yuquot-bc-canada,"Yuquot, BC, Canada",Canada,0.0,1,0
+yuzhno-kurilsk-russia,"Yuzhno Kurilsk, Russia",Russia,0.0,1,0
+petersburg-ak-united-states,"Petersburg, AK, United States",United States,0.0,1,0
+vestero-denmark,"Vestero, Denmark",Denmark,0.0,1,0
+whaletown-bc-canada,"Whaletown, BC, Canada",Canada,0.0,1,0
+prudhoe-bay-ak-united-states,"Prudhoe Bay, AK, United States",United States,0.0,1,0
+willemstad-curaao,"Willemstad, Curaçao",Curaçao,0.0,1,0
+ponza-italy,"Ponza, Italy",Italy,0.0,1,0
+port-nl-france,"Port Nâl, France",France,0.0,1,0
+pontianak-indonesia,"Pontianak, Indonesia",Indonesia,0.0,1,0
+ponta-delgada-portugal,"Ponta Delgada, Portugal",Portugal,0.0,1,0
+williams-beach-bc-canada,"Williams Beach, BC, Canada",Canada,0.0,1,0
+williamsport-ak-united-states,"Williamsport, AK, United States",United States,0.0,1,0
+ponta-de-pedras-brazil,"Ponta de Pedras, Brazil",Brazil,0.0,1,0
+winema-or-united-states,"Winema, OR, United States",United States,0.0,1,0
+west-island-cocos-keeling-islands,"West Island, Cocos (Keeling) Islands",Cocos (Keeling) Islands,0.0,1,0
+pointe-au-pre-qc-canada,"Pointe-au-Père, QC, Canada",Canada,0.0,1,0
+point-salines-grenada,"Point Salines, Grenada",Grenada,0.0,1,0
+port-ramsay-united-kingdom,"Port Ramsay, United Kingdom",United Kingdom,0.0,1,0
+weddel-united-kingdom,"Weddel, United Kingdom",United Kingdom,0.0,1,0
+point-hope-ak-united-states,"Point Hope, AK, United States",United States,0.0,1,0
+poindimie-new-caledonia,"Poindimie, New Caledonia",New Caledonia,0.0,1,0
+we-new-caledonia,"We, New Caledonia",New Caledonia,0.0,1,0
+port-said-egypt,"Port Said, Egypt",Egypt,0.0,1,0
+popondetta-papua-new-guinea,"Popondetta, Papua New Guinea",Papua New Guinea,0.0,1,0
+porsgrunn-norway,"Porsgrunn, Norway",Norway,0.0,1,0
+yaren-nauru,"Yaren, Nauru",Nauru,0.0,1,0
+port-neville-bc-canada,"Port Neville, BC, Canada",Canada,0.0,1,0
+port-erin-isle-of-man,"Port Erin, Isle of Man",Isle of Man,0.0,1,0
+port-blair-india,"Port Blair, India",India,0.0,1,0
+whitehead-united-kingdom,"Whitehead, United Kingdom",United Kingdom,0.0,1,0
+port-askaig-united-kingdom,"Port Askaig, United Kingdom",United Kingdom,0.0,1,0
+port-eynon-united-kingdom,"Port Eynon, United Kingdom",United Kingdom,0.0,1,0
+port-appin-united-kingdom,"Port Appin, United Kingdom",United Kingdom,0.0,1,0
+port-gentil-gabon,"Port Gentil, Gabon",Gabon,0.0,1,0
+port-grenaugh-isle-of-man,"Port Grenaugh, Isle of Man",Isle of Man,0.0,1,0
+port-hardy-bc-canada,"Port Hardy, BC, Canada",Canada,0.0,1,0
+port-hedland-wa-australia,"Port Hedland, WA, Australia",Australia,0.0,1,0
+westness-united-kingdom,"Westness, United Kingdom",United Kingdom,0.0,1,0
+port-lions-ak-united-states,"Port Lions, AK, United States",United States,0.0,1,0
+whittier-ak-united-states,"Whittier, AK, United States",United States,0.0,1,0
+port-alsworth-ak-united-states,"Port Alsworth, AK, United States",United States,0.0,1,0
+port-alice-bc-canada,"Port Alice, BC, Canada",Canada,0.0,1,0
+port-alberni-bc-canada,"Port Alberni, BC, Canada",Canada,0.0,1,0
+port-nelson-bahamas,"Port Nelson, Bahamas",Bahamas,0.0,1,0
+port-sudan-sudan,"Port Sudan, Sudan",Sudan,0.0,1,0
+pohnpei-micronesia,"Pohnpei, Micronesia",Micronesia,0.0,1,0
+warrenton-or-united-states,"Warrenton, OR, United States",United States,0.0,1,0
+winter-harbour-bc-canada,"Winter Harbour, BC, Canada",Canada,0.0,1,0
+vstervik-sweden,"Västervik, Sweden",Sweden,0.0,1,0
+pozzallo-italy,"Pozzallo, Italy",Italy,0.0,1,0
+yakutat-ak-united-states,"Yakutat, AK, United States",United States,0.0,1,0
+pirgaki-greece,"Pirgaki, Greece",Greece,0.0,1,0
+pine-island-bc-canada,"Pine Island, BC, Canada",Canada,0.0,1,0
+yanbu-saudi-arabia,"Yanbu, Saudi Arabia",Saudi Arabia,0.0,1,0
+pile-bay-ak-united-states,"Pile Bay, AK, United States",United States,0.0,1,0
+yantai-china,"Yantai, China",China,0.0,1,0
+piedra-santa-spain,"Piedra Santa, Spain",Spain,0.0,1,0
+prince-rupert-bc-canada,"Prince Rupert, BC, Canada",Canada,0.0,1,0
+visby-sweden,"Visby, Sweden",Sweden,0.0,1,0
+propriano-france,"Propriano, France",France,0.0,1,0
+philipsburg-sint-maarten,"Philipsburg, Sint Maarten",Sint Maarten,0.0,1,0
+virginia-beach-va-united-states,"Virginia Beach, VA, United States",United States,0.0,1,0
+providenciales-turks-and-caicos-islands,"Providenciales, Turks and Caicos Islands",Turks and Caicos Islands,0.0,1,0
+vila-olga-virgin-islands-u-s-,"Vila Olga, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+vila-do-porto-portugal,"Vila do Porto, Portugal",Portugal,0.0,1,0
+xiyu-township-taiwan,"Xiyu Township, Taiwan",Taiwan,0.0,1,0
+piti-guam,"Piti, Guam",Guam,0.0,1,0
+portpatrick-united-kingdom,"Portpatrick, United Kingdom",United Kingdom,0.0,1,0
+plerin-france,"Plerin, France",France,0.0,1,0
+portachur-point-united-kingdom,"Portachur Point, United Kingdom",United Kingdom,0.0,1,0
+portage-ak-united-states,"Portage, AK, United States",United States,0.0,1,0
+porthcressa-beach-united-kingdom,"Porthcressa Beach, United Kingdom",United Kingdom,0.0,1,0
+winterton-on-sea-united-kingdom,"Winterton-on-Sea, United Kingdom",United Kingdom,0.0,1,0
+wrangell-ak-united-states,"Wrangell, AK, United States",United States,0.0,1,0
+wakkanai-japan,"Wakkanai, Japan",Japan,0.0,1,0
+plimmiri-greece,"Plimmiri, Greece",Greece,0.0,1,0
+wuikinuxv-bc-canada,"Wuikinuxv, BC, Canada",Canada,0.0,1,0
+platinum-ak-united-states,"Platinum, AK, United States",United States,0.0,1,0
+porto-novo-cape-verde,"Porto Novo, Cape Verde",Cape Verde,0.0,1,0
+wurrumiyanga-nt-australia,"Wurrumiyanga, NT, Australia",Australia,0.0,1,0
+wainwright-ak-united-states,"Wainwright, AK, United States",United States,0.0,1,0
+waingapu-indonesia,"Waingapu, Indonesia",Indonesia,0.0,1,0
+xepenehe-new-caledonia,"Xepenehe, New Caledonia",New Caledonia,0.0,1,0
+playa-blanca-canary-islands-spain,"Playa Blanca, Canary Islands, Spain",Spain,0.0,1,0
+xiepu-china,"Xiepu, China",China,0.0,1,0
+tarahales-spain,"Tarahales, Spain",Spain,0.0,1,0
+saint-john-nb-canada,"Saint John, NB, Canada",Canada,0.0,1,0
+ventotene-italy,"Ventotene, Italy",Italy,0.0,1,0
+sir-abu-nuayr-island-united-arab-emirates,"Sir Abu Nu'Ayr Island, United Arab Emirates",United Arab Emirates,0.0,1,0
+tinocas-canary-islands-spain,"Tinocas, Canary Islands, Spain",Spain,0.0,1,0
+sisimiut-greenland,"Sisimiut, Greenland",Greenland,0.0,1,0
+tinian-northern-mariana-islands,"Tinian, Northern Mariana Islands",Northern Mariana Islands,0.0,1,0
+sitio-brazil,"Sitio, Brazil",Brazil,0.0,1,0
+papenoo-french-polynesia,"Papenoo, French Polynesia",French Polynesia,0.0,1,0
+sizewell-united-kingdom,"Sizewell, United Kingdom",United Kingdom,0.0,1,0
+skagway-ak-united-states,"Skagway, AK, United States",United States,0.0,1,0
+skaill-united-kingdom,"Skaill, United Kingdom",United Kingdom,0.0,1,0
+skalvik-sweden,"Skalvik, Sweden",Sweden,0.0,1,0
+skatrarna-finland,"Skatörarna, Finland",Finland,0.0,1,0
+skelberry-united-kingdom,"Skelberry, United Kingdom",United Kingdom,0.0,1,0
+smith-island-bc-canada,"Smith Island, BC, Canada",Canada,0.0,1,0
+so-gabriel-da-cachoeira-brazil,"São Gabriel da Cachoeira, Brazil",Brazil,0.0,1,0
+so-mateus-brazil,"São Mateus, Brazil",Brazil,0.0,1,0
+so-miguel-portugal,"São Miguel, Portugal",Portugal,0.0,1,0
+so-paulo-de-olivena-brazil,"São Paulo de Olivença, Brazil",Brazil,0.0,1,0
+so-sebastio-da-boa-vista-brazil,"São Sebastião da Boa Vista, Brazil",Brazil,0.0,1,0
+soroosh-platform-iran,"Soroosh Platform, Iran",Iran,0.0,1,0
+south-arne-denmark,"South Arne, Denmark",Denmark,0.0,1,0
+tiksi-russia,"Tiksi, Russia",Russia,0.0,1,0
+sovetskaya-gavan-russia,"Sovetskaya Gavan, Russia",Russia,0.0,1,0
+squirrel-cove-bc-canada,"Squirrel Cove, BC, Canada",Canada,0.0,1,0
+st-croix-virgin-islands-u-s-,"St. Croix, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+st-davids-bermuda,"St. David’s, Bermuda",Bermuda,0.0,1,0
+st-florent-france,"St. Florent, France",France,0.0,1,0
+st-georges-bay-malta,"St. George's Bay, Malta",Malta,0.0,1,0
+st-johns-antigua-and-barbuda,"St. John’s, Antigua and Barbuda",Antigua and Barbuda,0.0,1,0
+sirte-libya,"Sirte, Libya",Libya,0.0,1,0
+singkawang-indonesia,"Singkawang, Indonesia",Indonesia,0.0,1,0
+puerto-saavedra-chile,"Puerto Saavedra, Chile",Chile,0.0,1,0
+tinos-greece,"Tinos, Greece",Greece,0.0,1,0
+toquaht-bay-bc-canada,"Toquaht Bay, BC, Canada",Canada,0.0,1,0
+sayward-bc-canada,"Sayward, BC, Canada",Canada,0.0,1,0
+scarinish-united-kingdom,"Scarinish, United Kingdom",United Kingdom,0.0,1,0
+scarlett-point-bc-canada,"Scarlett Point, BC, Canada",Canada,0.0,1,0
+tonantins-brazil,"Tonantins, Brazil",Brazil,0.0,1,0
+scoor-united-kingdom,"Scoor, United Kingdom",United Kingdom,0.0,1,0
+scuthvie-bay-united-kingdom,"Scuthvie Bay, United Kingdom",United Kingdom,0.0,1,0
+seaford-bc-canada,"Seaford, BC, Canada",Canada,0.0,1,0
+tom-island-bc-canada,"Tom Island, BC, Canada",Canada,0.0,1,0
+seba-indonesia,"Seba, Indonesia",Indonesia,0.0,1,0
+tolmeta-libya,"Tolmeta, Libya",Libya,0.0,1,0
+togiak-ak-united-states,"Togiak, AK, United States",United States,0.0,1,0
+sept-les-qc-canada,"Sept-Îles, QC, Canada",Canada,0.0,1,0
+tofino-bc-canada,"Tofino, BC, Canada",Canada,0.0,1,0
+serwaru-indonesia,"Serwaru, Indonesia",Indonesia,0.0,1,0
+tobruk-libya,"Tobruk, Libya",Libya,0.0,1,0
+tobermory-united-kingdom,"Tobermory, United Kingdom",United Kingdom,0.0,1,0
+seward-ak-united-states,"Seward, AK, United States",United States,0.0,1,0
+seydisfjordur-iceland,"Seydisfjordur, Iceland",Iceland,0.0,1,0
+shantou-china,"Shantou, China",China,0.0,1,0
+shawl-bay-bc-canada,"Shawl Bay, BC, Canada",Canada,0.0,1,0
+shearwater-bc-canada,"Shearwater, BC, Canada",Canada,0.0,1,0
+shindu-ri-south-korea,"Shindu-Ri, South Korea",South Korea,0.0,1,0
+shiraho-japan,"Shiraho, Japan",Japan,0.0,1,0
+toahotu-french-polynesia,"To'ahotu, French Polynesia",French Polynesia,0.0,1,0
+tlell-bc-canada,"Tlell, BC, Canada",Canada,0.0,1,0
+tjeldbergodden-norway,"Tjeldbergodden, Norway",Norway,0.0,1,0
+st-louis-saint-martin,"St. Louis, Saint Martin",Saint Martin,0.0,1,0
+st-ouens-bay-jersey,"St. Ouens Bay, Jersey",Jersey,0.0,1,0
+st-pauls-bay-malta,"St. Paul's Bay, Malta",Malta,0.0,1,0
+stanley-tas-australia,"Stanley, TAS, Australia",Australia,0.0,1,0
+symbister-united-kingdom,"Symbister, United Kingdom",United Kingdom,0.0,1,0
+syros-greece,"Syros, Greece",Greece,0.0,1,0
+taba-egypt,"Taba, Egypt",Egypt,0.0,1,0
+tabatinga-brazil,"Tabatinga, Brazil",Brazil,0.0,1,0
+tabwakea-kiribati,"Tabwakea, Kiribati",Kiribati,0.0,1,0
+tadine-new-caledonia,"Tadine, New Caledonia",New Caledonia,0.0,1,0
+tejn-denmark,"Tejn, Denmark",Denmark,0.0,1,0
+tebingtinggi-island-indonesia,"Tebingtinggi Island, Indonesia",Indonesia,0.0,1,0
+tahiti-iti-french-polynesia,"Tahiti Iti, French Polynesia",French Polynesia,0.0,1,0
+tahiti-nui-french-polynesia,"Tahiti Nui, French Polynesia",French Polynesia,0.0,1,0
+tahsis-bc-canada,"Tahsis, BC, Canada",Canada,0.0,1,0
+teahupoo-french-polynesia,"Teahupo'o, French Polynesia",French Polynesia,0.0,1,0
+taytay-philippines,"Taytay, Philippines",Philippines,0.0,1,0
+tautira-french-polynesia,"Tautira, French Polynesia",French Polynesia,0.0,1,0
+takaroa-french-polynesia,"Takaroa, French Polynesia",French Polynesia,0.0,1,0
+tasiujaq-qc-canada,"Tasiujaq, QC, Canada",Canada,0.0,1,0
+takesung-indonesia,"Takesung, Indonesia",Indonesia,0.0,1,0
+taliabu-indonesia,"Taliabu, Indonesia",Indonesia,0.0,1,0
+tallinn-estonia,"Tallinn, Estonia",Estonia,0.0,1,0
+tarrafal-de-so-nicolau-cape-verde,"Tarrafal de São Nicolau, Cape Verde",Cape Verde,0.0,1,0
+tananger-norway,"Tananger, Norway",Norway,0.0,1,0
+tanguisson-point-guam,"Tanguisson Point, Guam",Guam,0.0,1,0
+tanjung-pandan-indonesia,"Tanjung Pandan, Indonesia",Indonesia,0.0,1,0
+taro-solomon-islands,"Taro, Solomon Islands",Solomon Islands,0.0,1,0
+tanjung-selor-indonesia,"Tanjung Selor, Indonesia",Indonesia,0.0,1,0
+tarawa-kiribati,"Tarawa, Kiribati",Kiribati,0.0,1,0
+tarama-japan,"Tarama, Japan",Japan,0.0,1,0
+sylt-germany,"Sylt, Germany",Germany,0.0,1,0
+telde-spain,"Telde, Spain",Spain,0.0,1,0
+sydney-mines-ns-canada,"Sydney Mines, NS, Canada",Canada,0.0,1,0
+suemlaki-indonesia,"Suemlaki, Indonesia",Indonesia,0.0,1,0
+tiakur-indonesia,"Tiakur, Indonesia",Indonesia,0.0,1,0
+thinadhoo-maldives,"Thinadhoo, Maldives",Maldives,0.0,1,0
+the-valley-anguilla,"The Valley, Anguilla",Anguilla,0.0,1,0
+stavanger-norway,"Stavanger, Norway",Norway,0.0,1,0
+stavsnas-sweden,"Stavsnas, Sweden",Sweden,0.0,1,0
+stockholm-sweden,"Stockholm, Sweden",Sweden,0.0,1,0
+stonington-me-united-states,"Stonington, ME, United States",United States,0.0,1,0
+stories-beach-bc-canada,"Stories Beach, BC, Canada",Canada,0.0,1,0
+stove-united-kingdom,"Stove, United Kingdom",United Kingdom,0.0,1,0
+teriberka-russia,"Teriberka, Russia",Russia,0.0,1,0
+sture-norway,"Sture, Norway",Norway,0.0,1,0
+terempa-indonesia,"Terempa, Indonesia",Indonesia,0.0,1,0
+suez-egypt,"Suez, Egypt",Egypt,0.0,1,0
+swakopmund-namibia,"Swakopmund, Namibia",Namibia,0.0,1,0
+sugar-dock-saipan-northern-mariana-islands,"Sugar Dock, Saipan, Northern Mariana Islands",Northern Mariana Islands,0.0,1,0
+terceira-portugal,"Terceira, Portugal",Portugal,0.0,1,0
+sumburgh-united-kingdom,"Sumburgh, United Kingdom",United Kingdom,0.0,1,0
+sungai-kakap-indonesia,"Sungai Kakap, Indonesia",Indonesia,0.0,1,0
+sungsang-indonesia,"Sungsang, Indonesia",Indonesia,0.0,1,0
+supiori-indonesia,"Supiori, Indonesia",Indonesia,0.0,1,0
+teluk-indonesia,"Teluk, Indonesia",Indonesia,0.0,1,0
+surge-narrows-bc-canada,"Surge Narrows, BC, Canada",Canada,0.0,1,0
+telisai-brunei,"Telisai, Brunei",Brunei,0.0,1,0
+surville-france,"Surville, France",France,0.0,1,0
+telegraph-cove-bc-canada,"Telegraph Cove, BC, Canada",Canada,0.0,1,0
+sventoji-lithuania,"Sventoji, Lithuania",Lithuania,0.0,1,0
+sassnitz-germany,"Sassnitz, Germany",Germany,0.0,1,0
+sasanlagu-northern-mariana-islands,"Sasanlagu, Northern Mariana Islands",Northern Mariana Islands,0.0,1,0
+sarmi-indonesia,"Sarmi, Indonesia",Indonesia,0.0,1,0
+rurutu-french-polynesia,"Rurutu, French Polynesia",French Polynesia,0.0,1,0
+valdemar-denmark,"Valdemar, Denmark",Denmark,0.0,1,0
+vaitape-french-polynesia,"Vaitape, French Polynesia",French Polynesia,0.0,1,0
+vaasa-finland,"Vaasa, Finland",Finland,0.0,1,0
+rebun-japan,"Rebun, Japan",Japan,0.0,1,0
+uturoa-french-polynesia,"Uturoa, French Polynesia",French Polynesia,0.0,1,0
+utskarpen-norway,"Utskarpen, Norway",Norway,0.0,1,0
+refuge-cove-bc-canada,"Refuge Cove, BC, Canada",Canada,0.0,1,0
+utqiavik-ak-united-states,"Utqiaġvik, AK, United States",United States,0.0,1,0
+riding-point-bahamas,"Riding Point, Bahamas",Bahamas,0.0,1,0
+ridley-island-bc-canada,"Ridley Island, BC, Canada",Canada,0.0,1,0
+uto-sweden,"Uto, Sweden",Sweden,0.0,1,0
+rishirifuji-japan,"Rishirifuji, Japan",Japan,0.0,1,0
+rnne-denmark,"Rønne, Denmark",Denmark,0.0,1,0
+rock-sound-bahamas,"Rock Sound, Bahamas",Bahamas,0.0,1,0
+roquetas-de-mar-spain,"Roquetas de Mar, Spain",Spain,0.0,1,0
+rose-blanche-nl-canada,"Rose Blanche, NL, Canada",Canada,0.0,1,0
+ust-bolsheretsk-russia,"Ust-Bolsheretsk, Russia",Russia,0.0,1,0
+urucurituba-brazil,"Urucurituba, Brazil",Brazil,0.0,1,0
+union-island-saint-vincent-and-the-grenadines,"Union Island, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,0.0,1,0
+unalaska-ak-united-states,"Unalaska, AK, United States",United States,0.0,1,0
+umiujaq-qc-canada,"Umiujaq, QC, Canada",Canada,0.0,1,0
+rota-northern-mariana-islands,"Rota, Northern Mariana Islands",Northern Mariana Islands,0.0,1,0
+rota-spain,"Rota, Spain",Spain,0.0,1,0
+roxas-city-philippines,"Roxas City, Philippines",Philippines,0.0,1,0
+rrvik-norway,"Rørvik, Norway",Norway,0.0,1,0
+rst-norway,"Røst, Norway",Norway,0.0,1,0
+ruperts-bay-saint-helena-ascension-and-tristan-da-cunha,"Rupert's Bay, Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",0.0,1,0
+ras-lanuf-libya,"Ras Lanuf, Libya",Libya,0.0,1,0
+ras-ghareb-egypt,"Ras Ghareb, Egypt",Egypt,0.0,1,0
+rapness-united-kingdom,"Rapness, United Kingdom",United Kingdom,0.0,1,0
+puvirnituq-qc-canada,"Puvirnituq, QC, Canada",Canada,0.0,1,0
+puerto-williams-chile,"Puerto Williams, Chile",Chile,0.0,1,0
+pulteney-point-bc-canada,"Pulteney Point, BC, Canada",Canada,0.0,1,0
+punta-arenas-chile,"Punta Arenas, Chile",Chile,0.0,1,0
+punta-cana-dominican-republic,"Punta Cana, Dominican Republic",Dominican Republic,0.0,1,0
+punta-carnero-ecuador,"Punta Carnero, Ecuador",Ecuador,0.0,1,0
+velidhoo-maldives,"Velidhoo, Maldives",Maldives,0.0,1,0
+punta-del-este-uruguay,"Punta del Este, Uruguay",Uruguay,0.0,1,0
+velas-portugal,"Velas, Portugal",Portugal,0.0,1,0
+varberg-sweden,"Varberg, Sweden",Sweden,0.0,1,0
+punto-fijo-venezuela,"Punto Fijo, Venezuela",Venezuela,0.0,1,0
+vao-new-caledonia,"Vao, New Caledonia",New Caledonia,0.0,1,0
+vanimo-papua-new-guinea,"Vanimo, Papua New Guinea",Papua New Guinea,0.0,1,0
+qalhat-oman,"Qalhat, Oman",Oman,0.0,1,0
+rangiroa-french-polynesia,"Rangiroa, French Polynesia",French Polynesia,0.0,1,0
+qaqortoq-greenland,"Qaqortoq, Greenland",Greenland,0.0,1,0
+van-anda-bc-canada,"Van Anda, BC, Canada",Canada,0.0,1,0
+qingdao-china,"Qingdao, China",China,0.0,1,0
+qualicum-beach-bc-canada,"Qualicum Beach, BC, Canada",Canada,0.0,1,0
+quaqtaq-qc-canada,"Quaqtaq, QC, Canada",Canada,0.0,1,0
+quatsino-bc-canada,"Quatsino, BC, Canada",Canada,0.0,1,0
+queens-cove-bc-canada,"Queens Cove, BC, Canada",Canada,0.0,1,0
+quinhagak-ak-united-states,"Quinhagak, AK, United States",United States,0.0,1,0
+quoyness-united-kingdom,"Quoyness, United Kingdom",United Kingdom,0.0,1,0
+valverde-canary-islands-spain,"Valverde, Canary Islands, Spain",Spain,0.0,1,0
+raglan-new-zealand,"Raglan, New Zealand",New Zealand,0.0,1,0
+ranai-indonesia,"Ranai, Indonesia",Indonesia,0.0,1,0
+ruppione-france,"Ruppione, France",France,0.0,1,0
+saeby-denmark,"Saeby, Denmark",Denmark,0.0,1,0
+torshavn-faroe-islands,"Torshavn, Faroe Islands",Faroe Islands,0.0,1,0
+ume-sweden,"Umeå, Sweden",Sweden,0.0,1,0
+sandnessjen-norway,"Sandnessjøen, Norway",Norway,0.0,1,0
+sandwick-united-kingdom,"Sandwick, United Kingdom",United Kingdom,0.0,1,0
+sandy-point-bahamas,"Sandy Point, Bahamas",Bahamas,0.0,1,0
+sandy-point-vic-australia,"Sandy Point, VIC, Australia",Australia,0.0,1,0
+troon-united-kingdom,"Troon, United Kingdom",United Kingdom,0.0,1,0
+trondheim-norway,"Trondheim, Norway",Norway,0.0,1,0
+santa-cruz-de-la-palma-canary-islands-spain,"Santa Cruz de La Palma, Canary Islands, Spain",Spain,0.0,1,0
+trivandrum-india,"Trivandrum, India",India,0.0,1,0
+santa-isabel-do-rio-negro-brazil,"Santa Isabel do Rio Negro, Brazil",Brazil,0.0,1,0
+trapani-italy,"Trapani, Italy",Italy,0.0,1,0
+santa-maria-do-boiau-brazil,"Santa Maria do Boiaçu, Brazil",Brazil,0.0,1,0
+santa-teresa-gallura-italy,"Santa Teresa Gallura, Italy",Italy,0.0,1,0
+santander-spain,"Santander, Spain",Spain,0.0,1,0
+santarm-brazil,"Santarém, Brazil",Brazil,0.0,1,0
+santo-antnio-do-i-brazil,"Santo Antônio do Içá, Brazil",Brazil,0.0,1,0
+santo-stefano-italy,"Santo Stefano, Italy",Italy,0.0,1,0
+totness-suriname,"Totness, Suriname",Suriname,0.0,1,0
+sao-filipe-cape-verde,"Sao Filipe, Cape Verde",Cape Verde,0.0,1,0
+sao-mateus-portugal,"Sao Mateus, Portugal",Portugal,0.0,1,0
+sao-pedro-cape-verde,"Sao Pedro, Cape Verde",Cape Verde,0.0,1,0
+totalenergies-tyra-denmark,"TotalEnergies Tyra, Denmark",Denmark,0.0,1,0
+totalenergies-halfdan-denmark,"TotalEnergies Halfdan, Denmark",Denmark,0.0,1,0
+sapporo-japan,"Sapporo, Japan",Japan,0.0,1,0
+tortola-virgin-islands-u-k-,"Tortola, Virgin Islands (U.K.)",Virgin Islands (U.K.),0.0,1,0
+sardina-canary-islands-spain,"Sardina, Canary Islands, Spain",Spain,0.0,1,0
+sarita-bc-canada,"Sarita, BC, Canada",Canada,0.0,1,0
+tortel-chile,"Tortel, Chile",Chile,0.0,1,0
+sandgarth-united-kingdom,"Sandgarth, United Kingdom",United Kingdom,0.0,1,0
+sand-point-ak-united-states,"Sand Point, AK, United States",United States,0.0,1,0
+sanana-indonesia,"Sanana, Indonesia",Indonesia,0.0,1,0
+ucluelet-bc-canada,"Ucluelet, BC, Canada",Canada,0.0,1,0
+saint-hilaire-de-riez-france,"Saint-Hilaire-de-Riez, France",France,0.0,1,0
+tarakan-indonesia,"Tarakan, Indonesia",Indonesia,0.0,1,0
+ulleung-south-korea,"Ulleung, South Korea",South Korea,0.0,1,0
+saint-maarten-sint-maarten,"Saint Maarten, Sint Maarten",Sint Maarten,0.0,1,0
+saint-pierre-saint-pierre-and-miquelon,"Saint-Pierre, Saint Pierre and Miquelon",Saint Pierre and Miquelon,0.0,1,0
+sainte-anne-des-monts-qc-canada,"Sainte-Anne-des-Monts, QC, Canada",Canada,0.0,1,0
+saints-bay-guernsey,"Saints Bay, Guernsey",Guernsey,0.0,1,0
+saipan-northern-mariana-islands,"Saipan, Northern Mariana Islands",Northern Mariana Islands,0.0,1,0
+sal-rei-cape-verde,"Sal Rei, Cape Verde",Cape Verde,0.0,1,0
+ugolnye-kopi-russia,"Ugolnye Kopi, Russia",Russia,0.0,1,0
+salalah-oman,"Salalah, Oman",Oman,0.0,1,0
+salinas-ecuador,"Salinas, Ecuador",Ecuador,0.0,1,0
+uchucklesaht-bc-canada,"Uchucklesaht, BC, Canada",Canada,0.0,1,0
+san-sebastian-de-la-gomera-canary-islands-spain,"San Sebastian de la Gomera, Canary Islands, Spain",Spain,0.0,1,0
+salluit-qc-canada,"Salluit, QC, Canada",Canada,0.0,1,0
+salmon-beach-bc-canada,"Salmon Beach, BC, Canada",Canada,0.0,1,0
+saltcoats-united-kingdom,"Saltcoats, United Kingdom",United Kingdom,0.0,1,0
+tyra-denmark,"Tyra, Denmark",Denmark,0.0,1,0
+tungku-brunei,"Tungku, Brunei",Brunei,0.0,1,0
+tumon-bay-guam,"Tumon Bay, Guam",Guam,0.0,1,0
+san-blas-fl-united-states,"San Blas, FL, United States",United States,0.0,1,0
+san-jose-northern-mariana-islands,"San Jose, Northern Mariana Islands",Northern Mariana Islands,0.0,1,0
+tubuai-french-polynesia,"Tubuai, French Polynesia",French Polynesia,0.0,1,0
+tuborg-denmark,"Tuborg, Denmark",Denmark,0.0,1,0
+tual-indonesia,"Tual, Indonesia",Indonesia,0.0,1,0
+tua-pejat-indonesia,"Tua Pejat, Indonesia",Indonesia,0.0,1,0
+aasiaat-greenland,"Aasiaat, Greenland",Greenland,0.0,1,0
+lyngsa-denmark,"Lyngsa, Denmark",Denmark,0.0,1,0
+pantelleria-italy,"Pantelleria, Italy",Italy,0.0,1,0
+donaghadee-united-kingdom,"Donaghadee, United Kingdom",United Kingdom,0.0,1,0
+dingwall-ns-canada,"Dingwall, NS, Canada",Canada,0.0,1,0
+dillingham-ak-united-states,"Dillingham, AK, United States",United States,0.0,1,0
+dikson-russia,"Dikson, Russia",Russia,0.0,1,0
+diego-garcia-british-indian-ocean-territory,"Diego Garcia, British Indian Ocean Territory",British Indian Ocean Territory,0.0,1,0
+dickenson-bay-antigua-and-barbuda,"Dickenson Bay, Antigua and Barbuda",Antigua and Barbuda,0.0,1,0
+dhuvaafaru-maldives,"Dhuvaafaru, Maldives",Maldives,0.0,1,0
+dhangethi-maldives,"Dhangethi, Maldives",Maldives,0.0,1,0
+derna-libya,"Derna, Libya",Libya,0.0,1,0
+denman-island-bc-canada,"Denman Island, BC, Canada",Canada,0.0,1,0
+deception-qc-canada,"Deception, QC, Canada",Canada,0.0,1,0
+das-island-united-arab-emirates,"Das Island, United Arab Emirates",United Arab Emirates,0.0,1,0
+darwin-nt-australia,"Darwin, NT, Australia",Australia,0.0,1,0
+daru-papua-new-guinea,"Daru, Papua New Guinea",Papua New Guinea,0.0,1,0
+dalian-china,"Dalian, China",China,0.0,1,0
+dakhla-morocco,"Dakhla, Morocco",Morocco,0.0,1,0
+cusbay-united-kingdom,"Cusbay, United Kingdom",United Kingdom,0.0,1,0
+curu-brazil,"Curuá, Brazil",Brazil,0.0,1,0
+dodge-cove-bc-canada,"Dodge Cove, BC, Canada",Canada,0.0,1,0
+douglas-isle-of-man,"Douglas, Isle of Man",Isle of Man,0.0,1,0
+haql-saudi-arabia,"Haql, Saudi Arabia",Saudi Arabia,0.0,1,0
+down-craig-united-kingdom,"Down Craig, United Kingdom",United Kingdom,0.0,1,0
+egersund-norway,"Egersund, Norway",Norway,0.0,1,0
+eemshaven-netherlands,"Eemshaven, Netherlands",Netherlands,0.0,1,0
+eek-ak-united-states,"Eek, AK, United States",United States,0.0,1,0
+edya-norway,"Edøya, Norway",Norway,0.0,1,0
+edith-point-bc-canada,"Edith Point, BC, Canada",Canada,0.0,1,0
+echo-bay-bc-canada,"Echo Bay, BC, Canada",Canada,0.0,1,0
+dunvegan-united-kingdom,"Dunvegan, United Kingdom",United Kingdom,0.0,1,0
+dunnet-head-united-kingdom,"Dunnet Head, United Kingdom",United Kingdom,0.0,1,0
+dunnet-bay-united-kingdom,"Dunnet Bay, United Kingdom",United Kingdom,0.0,1,0
+duncanby-bc-canada,"Duncanby, BC, Canada",Canada,0.0,1,0
+duncan-town-bahamas,"Duncan Town, Bahamas",Bahamas,0.0,1,0
+dumai-indonesia,"Dumai, Indonesia",Indonesia,0.0,1,0
+duba-saudi-arabia,"Duba, Saudi Arabia",Saudi Arabia,0.0,1,0
+duart-bay-united-kingdom,"Duart Bay, United Kingdom",United Kingdom,0.0,1,0
+dryad-point-bc-canada,"Dryad Point, BC, Canada",Canada,0.0,1,0
+drbak-norway,"Drøbak, Norway",Norway,0.0,1,0
+dragor-denmark,"Dragor, Denmark",Denmark,0.0,1,0
+current-bahamas,"Current, Bahamas",Bahamas,0.0,1,0
+curralinho-brazil,"Curralinho, Brazil",Brazil,0.0,1,0
+crown-haven-bahamas,"Crown Haven, Bahamas",Bahamas,0.0,1,0
+crooked-island-bahamas,"Crooked Island, Bahamas",Bahamas,0.0,1,0
+coal-harbour-bc-canada,"Coal Harbour, BC, Canada",Canada,0.0,1,0
+cloverdale-or-united-states,"Cloverdale, OR, United States",United States,0.0,1,0
+clarence-town-bahamas,"Clarence Town, Bahamas",Bahamas,0.0,1,0
+civitavecchia-italy,"Civitavecchia, Italy",Italy,0.0,1,0
+christiansted-virgin-islands-virgin-islands-u-s-,"Christiansted, Virgin Islands, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+chisasibi-qc-canada,"Chisasibi, QC, Canada",Canada,0.0,1,0
+chipiona-spain,"Chipiona, Spain",Spain,0.0,1,0
+chignik-lake-ak-united-states,"Chignik Lake, AK, United States",United States,0.0,1,0
+chignik-lagoon-ak-united-states,"Chignik Lagoon, AK, United States",United States,0.0,1,0
+chignik-bay-ak-united-states,"Chignik Bay, AK, United States",United States,0.0,1,0
+chichijima-japan,"Chichijima, Japan",Japan,0.0,1,0
+chetlat-india,"Chetlat, India",India,0.0,1,0
+chenega-ak-united-states,"Chenega, AK, United States",United States,0.0,1,0
+chatham-point-bc-canada,"Chatham Point, BC, Canada",Canada,0.0,1,0
+charlevoix-mi-united-states,"Charlevoix, MI, United States",United States,0.0,1,0
+chania-greece,"Chania, Greece",Greece,0.0,1,0
+cayman-brac-cayman-islands,"Cayman Brac, Cayman Islands",Cayman Islands,0.0,1,0
+coari-brazil,"Coari, Brazil",Brazil,0.0,1,0
+cockburn-town-bahamas,"Cockburn Town, Bahamas",Bahamas,0.0,1,0
+codroy-nl-canada,"Codroy, NL, Canada",Canada,0.0,1,0
+corralejo-canary-islands-spain,"Corralejo, Canary Islands, Spain",Spain,0.0,1,0
+crockness-united-kingdom,"Crockness, United Kingdom",United Kingdom,0.0,1,0
+crescent-beach-ri-united-states,"Crescent Beach, RI, United States",United States,0.0,1,0
+craighouse-united-kingdom,"Craighouse, United Kingdom",United Kingdom,0.0,1,0
+cousins-inlet-bc-canada,"Cousins Inlet, BC, Canada",Canada,0.0,1,0
+corvo-portugal,"Corvo, Portugal",Portugal,0.0,1,0
+corrie-united-kingdom,"Corrie, United Kingdom",United Kingdom,0.0,1,0
+corran-united-kingdom,"Corran, United Kingdom",United Kingdom,0.0,1,0
+coron-philippines,"Coron, Philippines",Philippines,0.0,1,0
+coffman-cove-ak-united-states,"Coffman Cove, AK, United States",United States,0.0,1,0
+coro-venezuela,"Coro, Venezuela",Venezuela,0.0,1,0
+cordova-bay-bc-canada,"Cordova Bay, BC, Canada",Canada,0.0,1,0
+conference-grenada,"Conference, Grenada",Grenada,0.0,1,0
+comox-bc-canada,"Comox, BC, Canada",Canada,0.0,1,0
+coleraine-united-kingdom,"Coleraine, United Kingdom",United Kingdom,0.0,1,0
+cold-bay-ak-united-states,"Cold Bay, AK, United States",United States,0.0,1,0
+coilleag-united-kingdom,"Coilleag, United Kingdom",United Kingdom,0.0,1,0
+egg-island-bc-canada,"Egg Island, BC, Canada",Canada,0.0,1,0
+eight-mile-rock-bahamas,"Eight-Mile Rock, Bahamas",Bahamas,0.0,1,0
+el-goro-canary-islands-spain,"El Goro, Canary Islands, Spain",Spain,0.0,1,0
+gallows-bay-bonaire-sint-eustatius-and-saba,"Gallows Bay, Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba",0.0,1,0
+great-bay-beach-sint-maarten,"Great Bay Beach, Sint Maarten",Sint Maarten,0.0,1,0
+granite-bay-bc-canada,"Granite Bay, BC, Canada",Canada,0.0,1,0
+grand-baie-rodrigues-mauritius,"Grand Baie (Rodrigues), Mauritius",Mauritius,0.0,1,0
+granadilla-de-abona-spain,"Granadilla de Abona, Spain",Spain,0.0,1,0
+gran-canaria-canary-islands-spain,"Gran Canaria, Canary Islands, Spain",Spain,0.0,1,0
+graciosa-portugal,"Graciosa, Portugal",Portugal,0.0,1,0
+governors-harbor-bahamas,"Governors Harbor, Bahamas",Bahamas,0.0,1,0
+golden-bay-malta,"Golden Bay, Malta",Malta,0.0,1,0
+gold-river-bc-canada,"Gold River, BC, Canada",Canada,0.0,1,0
+glenbarr-united-kingdom,"Glenbarr, United Kingdom",United Kingdom,0.0,1,0
+glen-lyon-united-kingdom,"Glen Lyon, United Kingdom",United Kingdom,0.0,1,0
+girvan-united-kingdom,"Girvan, United Kingdom",United Kingdom,0.0,1,0
+gimar-canary-islands-spain,"Güimar, Canary Islands, Spain",Spain,0.0,1,0
+giglio-italy,"Giglio, Italy",Italy,0.0,1,0
+george-town-bahamas,"George Town, Bahamas",Bahamas,0.0,1,0
+ganavan-bay-united-kingdom,"Ganavan Bay, United Kingdom",United Kingdom,0.0,1,0
+gan-maldives,"Gan, Maldives",Maldives,0.0,1,0
+great-bay-virgin-islands-u-s-,"Great Bay, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+great-level-bay-bonaire-sint-eustatius-and-saba,"Great Level Bay, Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba",0.0,1,0
+great-nicobar-india,"Great Nicobar, India",India,0.0,1,0
+haggards-cove-bc-canada,"Haggard's Cove, BC, Canada",Canada,0.0,1,0
+hanstholm-denmark,"Hanstholm, Denmark",Denmark,0.0,1,0
+hanko-finland,"Hanko, Finland",Finland,0.0,1,0
+hamns-finland,"Hamnäs, Finland",Finland,0.0,1,0
+halifax-ns-canada,"Halifax, NS, Canada",Canada,0.0,1,0
+half-moon-bay-cayman-islands,"Half Moon Bay, Cayman Islands",Cayman Islands,0.0,1,0
+haines-ak-united-states,"Haines, AK, United States",United States,0.0,1,0
+hahajima-japan,"Hahajima, Japan",Japan,0.0,1,0
+hachijo-japan,"Hachijo, Japan",Japan,0.0,1,0
+greve-de-lecq-jersey,"Greve de Lecq, Jersey",Jersey,0.0,1,0
+gutcher-united-kingdom,"Gutcher, United Kingdom",United Kingdom,0.0,1,0
+gusukube-japan,"Gusukube, Japan",Japan,0.0,1,0
+gustavus-ak-united-states,"Gustavus, AK, United States",United States,0.0,1,0
+gustavia-saint-barthlemy,"Gustavia, Saint Barthélemy",Saint Barthélemy,0.0,1,0
+gump-of-spurness-united-kingdom,"Gump of Spurness, United Kingdom",United Kingdom,0.0,1,0
+gulliver-mi-united-states,"Gulliver, MI, United States",United States,0.0,1,0
+groudle-bay-isle-of-man,"Groudle Bay, Isle of Man",Isle of Man,0.0,1,0
+galway-ireland,"Galway, Ireland",Ireland,0.0,1,0
+gahdhoo-maldives,"Gahdhoo, Maldives",Maldives,0.0,1,0
+el-mdano-canary-islands-spain,"El Médano, Canary Islands, Spain",Spain,0.0,1,0
+fuvahmulah-maldives,"Fuvahmulah, Maldives",Maldives,0.0,1,0
+farosund-sweden,"Farosund, Sweden",Sweden,0.0,1,0
+fano-denmark,"Fano, Denmark",Denmark,0.0,1,0
+false-pass-ak-united-states,"False Pass, AK, United States",United States,0.0,1,0
+fakfak-indonesia,"Fakfak, Indonesia",Indonesia,0.0,1,0
+fakarava-french-polynesia,"Fakarava, French Polynesia",French Polynesia,0.0,1,0
+fakaofo-tokelau,"Fakaofo, Tokelau",Tokelau,0.0,1,0
+fair-isle-united-kingdom,"Fair Isle, United Kingdom",United Kingdom,0.0,1,0
+faial-portugal,"Faial, Portugal",Portugal,0.0,1,0
+eydhafushi-maldives,"Eydhafushi, Maldives",Maldives,0.0,1,0
+evie-united-kingdom,"Evie, United Kingdom",United Kingdom,0.0,1,0
+esquimalt-bc-canada,"Esquimalt, BC, Canada",Canada,0.0,1,0
+espoo-finland,"Espoo, Finland",Finland,0.0,1,0
+esperanza-bc-canada,"Esperanza, BC, Canada",Canada,0.0,1,0
+ermoupoli-greece,"Ermoupoli, Greece",Greece,0.0,1,0
+endrup-denmark,"Endrup, Denmark",Denmark,0.0,1,0
+elk-bay-bc-canada,"Elk Bay, BC, Canada",Canada,0.0,1,0
+el-quawef-libya,"El-Quawef, Libya",Libya,0.0,1,0
+feolin-ferry-united-kingdom,"Feolin Ferry, United Kingdom",United Kingdom,0.0,1,0
+filizi-greece,"Filizi, Greece",Greece,0.0,1,0
+fionnaphort-united-kingdom,"Fionnaphort, United Kingdom",United Kingdom,0.0,1,0
+fortaleza-brazil,"Fortaleza, Brazil",Brazil,0.0,1,0
+funningsfjordur-faroe-islands,"Funningsfjordur, Faroe Islands",Faroe Islands,0.0,1,0
+funafuti-tuvalu,"Funafuti, Tuvalu",Tuvalu,0.0,1,0
+fresh-creek-bahamas,"Fresh Creek, Bahamas",Bahamas,0.0,1,0
+freeport-tx-united-states,"Freeport, TX, United States",United States,0.0,1,0
+frederiksted-virgin-islands-u-s-,"Frederiksted, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+four-mile-bluff-tas-australia,"Four Mile Bluff, TAS, Australia",Australia,0.0,1,0
+fortune-nl-canada,"Fortune, NL, Canada",Canada,0.0,1,0
+fort-dauphin-madagascar,"Fort Dauphin, Madagascar",Madagascar,0.0,1,0
+fish-camp-ak-united-states,"Fish Camp, AK, United States",United States,0.0,1,0
+forestville-qc-canada,"Forestville, QC, Canada",Canada,0.0,1,0
+fonte-boa-brazil,"Fonte Boa, Brazil",Brazil,0.0,1,0
+flying-fish-cove-christmas-island,"Flying Fish Cove, Christmas Island",Christmas Island,0.0,1,0
+flores-portugal,"Flores, Portugal",Portugal,0.0,1,0
+florence-or-united-states,"Florence, OR, United States",United States,0.0,1,0
+flor-norway,"Florø, Norway",Norway,0.0,1,0
+flamingo-bay-virgin-islands-u-s-,"Flamingo Bay, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+cayenne-french-guiana,"Cayenne, French Guiana",French Guiana,0.0,1,0
+caves-point-bahamas,"Caves Point, Bahamas",Bahamas,0.0,1,0
+cat-island-bahamas,"Cat Island, Bahamas",Bahamas,0.0,1,0
+anadyr-russia,"Anadyr, Russia",Russia,0.0,1,0
+arendal-norway,"Arendal, Norway",Norway,0.0,1,0
+ardyne-point-united-kingdom,"Ardyne Point, United Kingdom",United Kingdom,0.0,1,0
+ardvasar-united-kingdom,"Ardvasar, United Kingdom",United Kingdom,0.0,1,0
+ardneil-bay-united-kingdom,"Ardneil Bay, United Kingdom",United Kingdom,0.0,1,0
+ardnacross-united-kingdom,"Ardnacross, United Kingdom",United Kingdom,0.0,1,0
+ardmair-united-kingdom,"Ardmair, United Kingdom",United Kingdom,0.0,1,0
+ardgour-united-kingdom,"Ardgour, United Kingdom",United Kingdom,0.0,1,0
+ardbeg-point-united-kingdom,"Ardbeg Point, United Kingdom",United Kingdom,0.0,1,0
+archirondel-jersey,"Archirondel, Jersey",Jersey,0.0,1,0
+aracaj-brazil,"Aracajú, Brazil",Brazil,0.0,1,0
+aqaba-jordan,"Aqaba, Jordan",Jordan,0.0,1,0
+apalachee-beach-fl-united-states,"Apalachee Beach, FL, United States",United States,0.0,1,0
+aogashima-japan,"Aogashima, Japan",Japan,0.0,1,0
+annobon-equatorial-guinea,"Annobon, Equatorial Guinea",Equatorial Guinea,0.0,1,0
+annies-bay-bermuda,"Annie's Bay, Bermuda",Bermuda,0.0,1,0
+angra-do-heroismo-portugal,"Angra do Heroismo, Portugal",Portugal,0.0,1,0
+andrott-india,"Andrott, India",India,0.0,1,0
+arica-chile,"Arica, Chile",Chile,0.0,1,0
+arrecife-canary-islands-spain,"Arrecife, Canary Islands, Spain",Spain,0.0,1,0
+arutua-french-polynesia,"Arutua, French Polynesia",French Polynesia,0.0,1,0
+bagre-brazil,"Bagre, Brazil",Brazil,0.0,1,0
+ballyhornan-united-kingdom,"Ballyhornan, United Kingdom",United Kingdom,0.0,1,0
+balluta-bay-malta,"Balluta Bay, Malta",Malta,0.0,1,0
+balla-united-kingdom,"Balla, United Kingdom",United Kingdom,0.0,1,0
+baile-mr-united-kingdom,"Baile Mòr, United Kingdom",United Kingdom,0.0,1,0
+baie-longue-saint-martin,"Baie Longue, Saint Martin",Saint Martin,0.0,1,0
+baie-comeau-qc-canada,"Baie-Comeau, QC, Canada",Canada,0.0,1,0
+bahar-ic-caghaq-malta,"Bahar ic-Caghaq, Malta",Malta,0.0,1,0
+baby-beach-aruba,"Baby Beach, Aruba",Aruba,0.0,1,0
+atafu-tokelau,"Atafu, Tokelau",Tokelau,0.0,1,0
+baa-indonesia,"Baa, Indonesia",Indonesia,0.0,1,0
+ayre-of-cara-united-kingdom,"Ayre of Cara, United Kingdom",United Kingdom,0.0,1,0
+aylesford-ns-canada,"Aylesford, NS, Canada",Canada,0.0,1,0
+autazes-brazil,"Autazes, Brazil",Brazil,0.0,1,0
+aupaluk-qc-canada,"Aupaluk, QC, Canada",Canada,0.0,1,0
+auki-solomon-islands,"Auki, Solomon Islands",Solomon Islands,0.0,1,0
+atalaia-do-norte-brazil,"Atalaia do Norte, Brazil",Brazil,0.0,1,0
+andalsnes-norway,"Andalsnes, Norway",Norway,0.0,1,0
+amwaj-island-bahrain,"Amwaj Island, Bahrain",Bahrain,0.0,1,0
+bamfield-bc-canada,"Bamfield, BC, Canada",Canada,0.0,1,0
+amini-india,"Amini, India",India,0.0,1,0
+al-bayda-libya,"Al Bayda, Libya",Libya,0.0,1,0
+akutan-ak-united-states,"Akutan, AK, United States",United States,0.0,1,0
+akulivik-qc-canada,"Akulivik, QC, Canada",Canada,0.0,1,0
+aktau-kazakhstan,"Aktau, Kazakhstan",Kazakhstan,0.0,1,0
+ajaccio-france,"Ajaccio, France",France,0.0,1,0
+aitutaki-cook-islands,"Aitutaki, Cook Islands",Cook Islands,0.0,1,0
+aikerness-bay-united-kingdom,"Aikerness Bay, United Kingdom",United Kingdom,0.0,1,0
+ahousat-bc-canada,"Ahousat, BC, Canada",Canada,0.0,1,0
+aguimes-canary-islands-spain,"Aguimes, Canary Islands, Spain",Spain,0.0,1,0
+agios-sostis-greece,"Agios Sostis, Greece",Greece,0.0,1,0
+agatti-india,"Agatti, India",India,0.0,1,0
+agats-indonesia,"Agats, Indonesia",Indonesia,0.0,1,0
+agat-guam,"Agat, Guam",Guam,0.0,1,0
+afu-brazil,"Afuá, Brazil",Brazil,0.0,1,0
+addenbroke-island-bc-canada,"Addenbroke Island, BC, Canada",Canada,0.0,1,0
+achnaba-united-kingdom,"Achnaba, United Kingdom",United Kingdom,0.0,1,0
+abu-dhabi-united-arab-emirates,"Abu Dhabi, United Arab Emirates",United Arab Emirates,0.0,1,0
+al-bustan-oman,"Al Bustan, Oman",Oman,0.0,1,0
+al-ghaydah-yemen,"Al Ghaydah, Yemen",Yemen,0.0,1,0
+al-hidd-bahrain,"Al Hidd, Bahrain",Bahrain,0.0,1,0
+almera-spain,"Almería, Spain",Spain,0.0,1,0
+amderma-russia,"Amderma, Russia",Russia,0.0,1,0
+amatur-brazil,"Amaturá, Brazil",Brazil,0.0,1,0
+alyangula-nt-australia,"Alyangula, NT, Australia",Australia,0.0,1,0
+alupang-guam,"Alupang, Guam",Guam,0.0,1,0
+alta-vista-canary-islands-spain,"Alta Vista, Canary Islands, Spain",Spain,0.0,1,0
+alsgarde-denmark,"Alsgarde, Denmark",Denmark,0.0,1,0
+alofi-niue,"Alofi, Niue",Niue,0.0,1,0
+almeirim-brazil,"Almeirim, Brazil",Brazil,0.0,1,0
+al-khobar-saudi-arabia,"Al Khobar, Saudi Arabia",Saudi Arabia,0.0,1,0
+alert-bay-bc-canada,"Alert Bay, BC, Canada",Canada,0.0,1,0
+alenquer-brazil,"Alenquer, Brazil",Brazil,0.0,1,0
+aldeburgh-united-kingdom,"Aldeburgh, United Kingdom",United Kingdom,0.0,1,0
+alakanuk-ak-united-states,"Alakanuk, AK, United States",United States,0.0,1,0
+al-seeb-oman,"Al Seeb, Oman",Oman,0.0,1,0
+al-safat-kuwait,"Al Safat, Kuwait",Kuwait,0.0,1,0
+al-khums-libya,"Al Khums, Libya",Libya,0.0,1,0
+ballywater-united-kingdom,"Ballywater, United Kingdom",United Kingdom,0.0,1,0
+banana-bay-virgin-islands-u-s-,"Banana Bay, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+carrickfergus-united-kingdom,"Carrickfergus, United Kingdom",United Kingdom,0.0,1,0
+bonifacio-france,"Bonifacio, France",France,0.0,1,0
+bunnefjorden-norway,"Bunnefjorden, Norway",Norway,0.0,1,0
+bunkum-bay-montserrat,"Bunkum Bay, Montserrat",Montserrat,0.0,1,0
+bunkeflostand-sweden,"Bunkeflostand, Sweden",Sweden,0.0,1,0
+brondby-denmark,"Brondby, Denmark",Denmark,0.0,1,0
+brnnysund-norway,"Brønnøysund, Norway",Norway,0.0,1,0
+bridgetown-barbados,"Bridgetown, Barbados",Barbados,0.0,1,0
+brewers-bay-virgin-islands-u-s-,"Brewer's Bay, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+breves-brazil,"Breves, Brazil",Brazil,0.0,1,0
+brekstad-norway,"Brekstad, Norway",Norway,0.0,1,0
+breivika-norway,"Breivika, Norway",Norway,0.0,1,0
+brega-libya,"Brega, Libya",Libya,0.0,1,0
+branahuie-bay-united-kingdom,"Branahuie Bay, United Kingdom",United Kingdom,0.0,1,0
+bp-clair-ridge-united-kingdom,"BP Clair Ridge, United Kingdom",United Kingdom,0.0,1,0
+bozyazi-turkey,"Bozyazi, Turkey",Turkey,0.0,1,0
+bowser-bc-canada,"Bowser, BC, Canada",Canada,0.0,1,0
+bosaso-somalia,"Bosaso, Somalia",Somalia,0.0,1,0
+borbby-strandbad-sweden,"Borbby Strandbad, Sweden",Sweden,0.0,1,0
+burgau-portugal,"Burgau, Portugal",Portugal,0.0,1,0
+burravoe-united-kingdom,"Burravoe, United Kingdom",United Kingdom,0.0,1,0
+butedale-bc-canada,"Butedale, BC, Canada",Canada,0.0,1,0
+canouan-saint-vincent-and-the-grenadines,"Canouan, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,0.0,1,0
+carriacou-grenada,"Carriacou, Grenada",Grenada,0.0,1,0
+carana-seychelles,"Carana, Seychelles",Seychelles,0.0,1,0
+caracara-brazil,"Caracaraí, Brazil",Brazil,0.0,1,0
+car-nicobar-india,"Car Nicobar, India",India,0.0,1,0
+capri-strand-sweden,"Capri Strand, Sweden",Sweden,0.0,1,0
+cape-ray-nl-canada,"Cape Ray, NL, Canada",Canada,0.0,1,0
+cape-jervis-sa-australia,"Cape Jervis, SA, Australia",Australia,0.0,1,0
+candelaria-canary-islands-spain,"Candelaria, Canary Islands, Spain",Spain,0.0,1,0
+butler-bay-virgin-islands-u-s-,"Butler Bay, Virgin Islands (U.S.)",Virgin Islands (U.S.),0.0,1,0
+campbell-river-bc-canada,"Campbell River, BC, Canada",Canada,0.0,1,0
+calvi-france,"Calvi, France",France,0.0,1,0
+callantsoog-netherlands,"Callantsoog, Netherlands",Netherlands,0.0,1,0
+calgary-united-kingdom,"Calgary, United Kingdom",United Kingdom,0.0,1,0
+cala-doliva-italy,"Cala d'Oliva, Italy",Italy,0.0,1,0
+cabimas-venezuela,"Cabimas, Venezuela",Venezuela,0.0,1,0
+byxelkrok-sweden,"Byxelkrok, Sweden",Sweden,0.0,1,0
+bonilla-island-bc-canada,"Bonilla Island, BC, Canada",Canada,0.0,1,0
+bold-point-bc-canada,"Bold Point, BC, Canada",Canada,0.0,1,0
+bandaneria-indonesia,"Bandaneria, Indonesia",Indonesia,0.0,1,0
+bod-norway,"Bodø, Norway",Norway,0.0,1,0
+belm-brazil,"Belém, Brazil",Brazil,0.0,1,0
+bella-coola-bc-canada,"Bella Coola, BC, Canada",Canada,0.0,1,0
+bella-bella-bc-canada,"Bella Bella, BC, Canada",Canada,0.0,1,0
+beihai-china,"Beihai, China",China,0.0,1,0
+beaver-island-mi-united-states,"Beaver Island, MI, United States",United States,0.0,1,0
+bay-of-tuquoy-united-kingdom,"Bay of Tuquoy, United Kingdom",United Kingdom,0.0,1,0
+bay-of-london-united-kingdom,"Bay of London, United Kingdom",United Kingdom,0.0,1,0
+baxedes-greece,"Baxedes, Greece",Greece,0.0,1,0
+batu-prahu-indonesia,"Batu Prahu, Indonesia",Indonesia,0.0,1,0
+bastia-france,"Bastia, France",France,0.0,1,0
+basseterre-saint-kitts-and-nevis,"Basseterre, Saint Kitts and Nevis",Saint Kitts and Nevis,0.0,1,0
+barsebck-sweden,"Barsebäck, Sweden",Sweden,0.0,1,0
+barka-oman,"Barka, Oman",Oman,0.0,1,0
+bari-italy,"Bari, Italy",Italy,0.0,1,0
+barcelos-brazil,"Barcelos, Brazil",Brazil,0.0,1,0
+barbers-point-hi-united-states,"Barber’s Point, HI, United States",United States,0.0,1,0
+bangaram-india,"Bangaram, India",India,0.0,1,0
+belm-do-solimes-brazil,"Belém do Solimões, Brazil",Brazil,0.0,1,0
+belmont-united-kingdom,"Belmont, United Kingdom",United Kingdom,0.0,1,0
+bengkalis-indonesia,"Bengkalis, Indonesia",Indonesia,0.0,1,0
+blaabjerg-denmark,"Blaabjerg, Denmark",Denmark,0.0,1,0
+boat-harbour-tas-australia,"Boat Harbour, TAS, Australia",Australia,0.0,1,0
+boat-bluff-bc-canada,"Boat Bluff, BC, Canada",Canada,0.0,1,0
+boa-vista-brazil,"Boa Vista, Brazil",Brazil,0.0,1,0
+bluefields-nicaragua,"Bluefields, Nicaragua",Nicaragua,0.0,1,0
+bliss-landing-bc-canada,"Bliss Landing, BC, Canada",Canada,0.0,1,0
+blind-channel-bc-canada,"Blind Channel, BC, Canada",Canada,0.0,1,0
+blackwaterfoot-united-kingdom,"Blackwaterfoot, United Kingdom",United Kingdom,0.0,1,0
+bitra-india,"Bitra, India",India,0.0,1,0
+benjamin-constant-brazil,"Benjamin Constant, Brazil",Brazil,0.0,1,0
+bintulu-malaysia,"Bintulu, Malaysia",Malaysia,0.0,1,0
+bilbao-spain,"Bilbao, Spain",Spain,0.0,1,0
+bidos-brazil,"Óbidos, Brazil",Brazil,0.0,1,0
+bic-qc-canada,"Bic, QC, Canada",Canada,0.0,1,0
+biak-indonesia,"Biak, Indonesia",Indonesia,0.0,1,0
+bergen-norway,"Bergen, Norway",Norway,0.0,1,0
+berbera-somalia,"Berbera, Somalia",Somalia,0.0,1,0
+hao-french-polynesia,"Hao, French Polynesia",French Polynesia,0.0,1,0
+haradsholm-finland,"Haradsholm, Finland",Finland,0.0,1,0
+pankalan-indonesia,"Pankalan, Indonesia",Indonesia,0.0,1,0
+mcinnes-island-bc-canada,"McInnes Island, BC, Canada",Canada,0.0,1,0
+mcgaurans-beach-vic-australia,"McGaurans Beach, VIC, Australia",Australia,0.0,1,0
+mazatln-mexico,"Mazatlán, Mexico",Mexico,0.0,1,0
+mazara-del-vallo-italy,"Mazara del Vallo, Italy",Italy,0.0,1,0
+maywick-united-kingdom,"Maywick, United Kingdom",United Kingdom,0.0,1,0
+mayaguana-bahamas,"Mayaguana, Bahamas",Bahamas,0.0,1,0
+matthew-town-bahamas,"Matthew Town, Bahamas",Bahamas,0.0,1,0
+mata-utu-wallis-and-futuna,"Mata-Utu, Wallis and Futuna",Wallis and Futuna,0.0,1,0
+martin-valley-bc-canada,"Martin Valley, BC, Canada",Canada,0.0,1,0
+marsala-italy,"Marsala, Italy",Italy,0.0,1,0
+marlas-greece,"Marlas, Greece",Greece,0.0,1,0
+marina-di-ragusa-italy,"Marina di Ragusa, Italy",Italy,0.0,1,0
+marigot-saint-martin,"Marigot, Saint Martin",Saint Martin,0.0,1,0
+mariehamn-finland,"Mariehamn, Finland",Finland,0.0,1,0
+marettimo-italy,"Marettimo, Italy",Italy,0.0,1,0
+mansons-landing-bc-canada,"Mansons Landing, BC, Canada",Canada,0.0,1,0
+maniitsoq-greenland,"Maniitsoq, Greenland",Greenland,0.0,1,0
+manihi-french-polynesia,"Manihi, French Polynesia",French Polynesia,0.0,1,0
+mchugh-point-ak-united-states,"McHugh Point, AK, United States",United States,0.0,1,0
+meersburg-germany,"Meersburg, Germany",Germany,0.0,1,0
+harbledown-island-bc-canada,"Harbledown Island, BC, Canada",Canada,0.0,1,0
+meimen-chile,"Meimen, Chile",Chile,0.0,1,0
+molde-norway,"Molde, Norway",Norway,0.0,1,0
+mo-i-rana-norway,"Mo I Rana, Norway",Norway,0.0,1,0
+mitchell-bay-bc-canada,"Mitchell Bay, BC, Canada",Canada,0.0,1,0
+misuratah-libya,"Misuratah, Libya",Libya,0.0,1,0
+miri-malaysia,"Miri, Malaysia",Malaysia,0.0,1,0
+miquelon-langlade-saint-pierre-and-miquelon,"Miquelon-Langlade, Saint Pierre and Miquelon",Saint Pierre and Miquelon,0.0,1,0
+minicoy-india,"Minicoy, India",India,0.0,1,0
+minamidaito-japan,"Minamidaito, Japan",Japan,0.0,1,0
+milton-nl-canada,"Milton, NL, Canada",Canada,0.0,1,0
+mijo-myeon-south-korea,"Mijo-myeon, South Korea",South Korea,0.0,1,0
+mgarr-ix-xini-malta,"Mgarr ix-Xini, Malta",Malta,0.0,1,0
+metlakatla-bc-canada,"Metlakatla, BC, Canada",Canada,0.0,1,0
+meremisa-estonia,"Meremöisa, Estonia",Estonia,0.0,1,0
+merauke-indonesia,"Merauke, Indonesia",Indonesia,0.0,1,0
+mentigi-indonesia,"Mentigi, Indonesia",Indonesia,0.0,1,0
+mellieha-malta,"Mellieha, Malta",Malta,0.0,1,0
+melaka-malaysia,"Melaka, Malaysia",Malaysia,0.0,1,0
+manele-bay-hi-united-states,"Manele Bay, HI, United States",United States,0.0,1,0
+manama-bahrain,"Manama, Bahrain",Bahrain,0.0,1,0
+mamu-china,"Mamu, China",China,0.0,1,0
+mamoudzou-mayotte,"Mamoudzou, Mayotte",Mayotte,0.0,1,0
+lorengau-papua-new-guinea,"Lorengau, Papua New Guinea",Papua New Guinea,0.0,1,0
+longyearbyen-svalbard-norway,"Longyearbyen, Svalbard, Norway",Norway,0.0,1,0
+lokalahti-finland,"Lokalahti, Finland",Finland,0.0,1,0
+logi-russia,"Logi, Russia",Russia,0.0,1,0
+lochmaddy-united-kingdom,"Lochmaddy, United Kingdom",United Kingdom,0.0,1,0
+lle-rousse-france,"L’Île-Rousse, France",France,0.0,1,0
+little-andaman-india,"Little Andaman, India",India,0.0,1,0
+lista-norway,"Lista, Norway",Norway,0.0,1,0
+linosa-italy,"Linosa, Italy",Italy,0.0,1,0
+linksness-united-kingdom,"Linksness, United Kingdom",United Kingdom,0.0,1,0
+lingga-indonesia,"Lingga, Indonesia",Indonesia,0.0,1,0
+linao-chile,"Linao, Chile",Chile,0.0,1,0
+lihue-hi-united-states,"Lihue, HI, United States",United States,0.0,1,0
+liepaja-latvia,"Liepaja, Latvia",Latvia,0.0,1,0
+licata-italy,"Licata, Italy",Italy,0.0,1,0
+leverburgh-united-kingdom,"Leverburgh, United Kingdom",United Kingdom,0.0,1,0
+levanzo-italy,"Levanzo, Italy",Italy,0.0,1,0
+los-realejos-canary-islands-spain,"Los Realejos, Canary Islands, Spain",Spain,0.0,1,0
+lowestoft-united-kingdom,"Lowestoft, United Kingdom",United Kingdom,0.0,1,0
+ludag-united-kingdom,"Ludag, United Kingdom",United Kingdom,0.0,1,0
+mahajanga-madagascar,"Mahajanga, Madagascar",Madagascar,0.0,1,0
+mallaig-united-kingdom,"Mallaig, United Kingdom",United Kingdom,0.0,1,0
+male-maldives,"Male, Maldives",Maldives,0.0,1,0
+maldonado-uruguay,"Maldonado, Uruguay",Uruguay,0.0,1,0
+makena-hi-united-states,"Makena, HI, United States",United States,0.0,1,0
+makemo-french-polynesia,"Makemo, French Polynesia",French Polynesia,0.0,1,0
+makaha-hi-united-states,"Makaha, HI, United States",United States,0.0,1,0
+mahuma-curaao,"Mahuma, Curaçao",Curaçao,0.0,1,0
+magong-taiwan,"Magong, Taiwan",Taiwan,0.0,1,0
+lund-bc-canada,"Lund, BC, Canada",Canada,0.0,1,0
+magens-bay-vi-united-states,"Magen’s Bay, VI, United States",United States,0.0,1,0
+madang-papua-new-guinea,"Madang, Papua New Guinea",Papua New Guinea,0.0,1,0
+macoah-bc-canada,"Macoah, BC, Canada",Canada,0.0,1,0
+macap-brazil,"Macapá, Brazil",Brazil,0.0,1,0
+maamigili-maldives,"Maamigili, Maldives",Maldives,0.0,1,0
+maafushi-maldives,"Maafushi, Maldives",Maldives,0.0,1,0
+lurin-peru,"Lurin, Peru",Peru,0.0,1,0
+monte-alegre-brazil,"Monte Alegre, Brazil",Brazil,0.0,1,0
+moorea-french-polynesia,"Moorea, French Polynesia",French Polynesia,0.0,1,0
+morant-point-jamaica,"Morant Point, Jamaica",Jamaica,0.0,1,0
+nondalton-ak-united-states,"Nondalton, AK, United States",United States,0.0,1,0
+odie-united-kingdom,"Odie, United Kingdom",United Kingdom,0.0,1,0
+ocean-falls-bc-canada,"Ocean Falls, BC, Canada",Canada,0.0,1,0
+nzeto-angola,"N'zeto, Angola",Angola,0.0,1,0
+nynashamn-sweden,"Nynashamn, Sweden",Sweden,0.0,1,0
+nybro-sweden,"Nybro, Sweden",Sweden,0.0,1,0
+nuuk-greenland,"Nuuk, Greenland",Greenland,0.0,1,0
+numbulwar-nt-australia,"Numbulwar, NT, Australia",Australia,0.0,1,0
+nukunonu-tokelau,"Nukunonu, Tokelau",Tokelau,0.0,1,0
+nukualofa-tonga,"Nuku'alofa, Tonga",Tonga,0.0,1,0
+nuku-hiva-french-polynesia,"Nuku Hiva, French Polynesia",French Polynesia,0.0,1,0
+nuchatlaht-bc-canada,"Nuchatlaht, BC, Canada",Canada,0.0,1,0
+nsby-sweden,"Näsby, Sweden",Sweden,0.0,1,0
+novo-airo-brazil,"Novo Airão, Brazil",Brazil,0.0,1,0
+nova-sintra-cape-verde,"Nova Sintra, Cape Verde",Cape Verde,0.0,1,0
+nothamnsbacken-sweden,"Nothamnsbacken, Sweden",Sweden,0.0,1,0
+north-salina-bonaire-sint-eustatius-and-saba,"North Salina, Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba",0.0,1,0
+north-bay-united-kingdom,"North Bay, United Kingdom",United Kingdom,0.0,1,0
+okha-russia,"Okha, Russia",Russia,0.0,1,0
+ola-russia,"Ola, Russia",Russia,0.0,1,0
+old-bella-bella-bc-canada,"Old Bella Bella, BC, Canada",Canada,0.0,1,0
+osterby-denmark,"Osterby, Denmark",Denmark,0.0,1,0
+pangai-tonga,"Pangai, Tonga",Tonga,0.0,1,0
+palembang-indonesia,"Palembang, Indonesia",Indonesia,0.0,1,0
+pago-pago-american-samoa,"Pago Pago, American Samoa",American Samoa,0.0,1,0
+pacific-city-or-united-states,"Pacific City, OR, United States",United States,0.0,1,0
+oxwich-bay-united-kingdom,"Oxwich Bay, United Kingdom",United Kingdom,0.0,1,0
+ouzinkie-ak-united-states,"Ouzinkie, AK, United States",United States,0.0,1,0
+otter-ferry-united-kingdom,"Otter Ferry, United Kingdom",United Kingdom,0.0,1,0
+oslo-norway,"Oslo, Norway",Norway,0.0,1,0
+olonkinbyen-norway,"Olonkinbyen, Norway",Norway,0.0,1,0
+oskarshamn-sweden,"Oskarshamn, Sweden",Sweden,0.0,1,0
+ormsary-united-kingdom,"Ormsary, United Kingdom",United Kingdom,0.0,1,0
+oriximin-brazil,"Oriximiná, Brazil",Brazil,0.0,1,0
+oran-algeria,"Oran, Algeria",Algeria,0.0,1,0
+opitsat-bc-canada,"Opitsat, BC, Canada",Canada,0.0,1,0
+open-bay-bc-canada,"Open Bay, BC, Canada",Canada,0.0,1,0
+oona-river-bc-canada,"Oona River, BC, Canada",Canada,0.0,1,0
+nopigeia-greece,"Nopigeia, Greece",Greece,0.0,1,0
+nome-ak-united-states,"Nome, AK, United States",United States,0.0,1,0
+morar-united-kingdom,"Morar, United Kingdom",United Kingdom,0.0,1,0
+nikiski-ak-united-states,"Nikiski, AK, United States",United States,0.0,1,0
+nanny-cay-virgin-islands-u-k-,"Nanny Cay, Virgin Islands (U.K.)",Virgin Islands (U.K.),0.0,1,0
+naknek-ak-united-states,"Naknek, AK, United States",United States,0.0,1,0
+nakadomari-japan,"Nakadomari, Japan",Japan,0.0,1,0
+nahodka-russia,"Nahodka, Russia",Russia,0.0,1,0
+myrtle-beach-sc-united-states,"Myrtle Beach, SC, United States",United States,0.0,1,0
+mykonos-greece,"Mykonos, Greece",Greece,0.0,1,0
+mustique-saint-vincent-and-the-grenadines,"Mustique, Saint Vincent and the Grenadines",Saint Vincent and the Grenadines,0.0,1,0
+muscat-oman,"Muscat, Oman",Oman,0.0,1,0
+muroran-japan,"Muroran, Japan",Japan,0.0,1,0
+murdeira-cape-verde,"Murdeira, Cape Verde",Cape Verde,0.0,1,0
+mtunzini-south-africa,"Mtunzini, South Africa",South Africa,0.0,1,0
+moura-brazil,"Moura, Brazil",Brazil,0.0,1,0
+mouly-new-caledonia,"Mouly, New Caledonia",New Caledonia,0.0,1,0
+mossbank-united-kingdom,"Mossbank, United Kingdom",United Kingdom,0.0,1,0
+moss-norway,"Moss, Norway",Norway,0.0,1,0
+morrojable-canary-islands-spain,"Morrojable, Canary Islands, Spain",Spain,0.0,1,0
+morris-bay-antigua-and-barbuda,"Morris Bay, Antigua and Barbuda",Antigua and Barbuda,0.0,1,0
+naousa-greece,"Naousa, Greece",Greece,0.0,1,0
+naples-fl-united-states,"Naples, FL, United States",United States,0.0,1,0
+narragansett-ri-united-states,"Narragansett, RI, United States",United States,0.0,1,0
+negril-jamaica,"Negril, Jamaica",Jamaica,0.0,1,0
+newhalen-ak-united-states,"Newhalen, AK, United States",United States,0.0,1,0
+new-victoria-ns-canada,"New Victoria, NS, Canada",Canada,0.0,1,0
+new-plymouth-new-zealand,"New Plymouth, New Zealand",New Zealand,0.0,1,0
+new-haven-ct-united-states,"New Haven, CT, United States",United States,0.0,1,0
+nesna-norway,"Nesna, Norway",Norway,0.0,1,0
+neom-saudi-arabia,"Neom, Saudi Arabia",Saudi Arabia,0.0,1,0
+neiafu-tonga,"Neiafu, Tonga",Tonga,0.0,1,0
+needhams-point-barbados,"Needham’s Point, Barbados",Barbados,0.0,1,0
+narrow-cape-ak-united-states,"Narrow Cape, AK, United States",United States,0.0,1,0
+nedonna-beach-or-united-states,"Nedonna Beach, OR, United States",United States,0.0,1,0
+neapoli-greece,"Neapoli, Greece",Greece,0.0,1,0
+naxos-greece,"Naxos, Greece",Greece,0.0,1,0
+natuna-indonesia,"Natuna, Indonesia",Indonesia,0.0,1,0
+natal-brazil,"Natal, Brazil",Brazil,0.0,1,0
+nassau-bahamas,"Nassau, Bahamas",Bahamas,0.0,1,0
+narvik-norway,"Narvik, Norway",Norway,0.0,1,0
+lesund-norway,"Ålesund, Norway",Norway,0.0,1,0
+les-les-de-la-madeleine-qc-canada,"Les Îles-de-la-Madeleine, QC, Canada",Canada,0.0,1,0
+lena-point-ak-united-states,"Lena Point, AK, United States",United States,0.0,1,0
+hyllestad-norway,"Hyllestad, Norway",Norway,0.0,1,0
+juneau-ak-united-states,"Juneau, AK, United States",United States,0.0,1,0
+joo-pessoa-brazil,"João Pessoa, Brazil",Brazil,0.0,1,0
+jayapura-indonesia,"Jayapura, Indonesia",Indonesia,0.0,1,0
+jask-iran,"Jask, Iran",Iran,0.0,1,0
+ivujivik-qc-canada,"Ivujivik, QC, Canada",Canada,0.0,1,0
+ivory-island-bc-canada,"Ivory Island, BC, Canada",Canada,0.0,1,0
+itacoatiara-brazil,"Itacoatiara, Brazil",Brazil,0.0,1,0
+isle-au-haut-me-united-states,"Isle au Haut, ME, United States",United States,0.0,1,0
+iskele-cyprus,"Iskele, Cyprus",Cyprus,0.0,1,0
+ishikari-japan,"Ishikari, Japan",Japan,0.0,1,0
+iojima-japan,"Iojima, Japan",Japan,0.0,1,0
+inverloch-vic-australia,"Inverloch, VIC, Australia",Australia,0.0,1,0
+invercargill-new-zealand,"Invercargill, New Zealand",New Zealand,0.0,1,0
+inukjuak-qc-canada,"Inukjuak, QC, Canada",Canada,0.0,1,0
+illiamna-ak-united-states,"Illiamna, AK, United States",United States,0.0,1,0
+ilhus-brazil,"Ilhéus, Brazil",Brazil,0.0,1,0
+igiugig-ak-united-states,"Igiugig, AK, United States",United States,0.0,1,0
+juta-brazil,"Jutaí, Brazil",Brazil,0.0,1,0
+kadmat-india,"Kadmat, India",India,0.0,1,0
+kahe-point-hi-united-states,"Kahe Point, HI, United States",United States,0.0,1,0
+kangiqsujuaq-qc-canada,"Kangiqsujuaq, QC, Canada",Canada,0.0,1,0
+kavieng-papua-new-guinea,"Kavieng, Papua New Guinea",Papua New Guinea,0.0,1,0
+kavaratti-india,"Kavaratti, India",India,0.0,1,0
+kaunakakai-hi-united-states,"Kaunakakai, HI, United States",United States,0.0,1,0
+kaukura-french-polynesia,"Kaukura, French Polynesia",French Polynesia,0.0,1,0
+katthammarsvik-sweden,"Katthammarsvik, Sweden",Sweden,0.0,1,0
+kapolei-hi-united-states,"Kapolei, HI, United States",United States,0.0,1,0
+kangirsuk-qc-canada,"Kangirsuk, QC, Canada",Canada,0.0,1,0
+kangiqsualujjuaq-qc-canada,"Kangiqsualujjuaq, QC, Canada",Canada,0.0,1,0
+kahului-hi-united-states,"Kahului, HI, United States",United States,0.0,1,0
+kampung-tekek-malaysia,"Kampung Tekek, Malaysia",Malaysia,0.0,1,0
+kamorta-india,"Kamorta, India",India,0.0,1,0
+kalpeni-india,"Kalpeni, India",India,0.0,1,0
+kalafati-greece,"Kalafati, Greece",Greece,0.0,1,0
+kains-island-bc-canada,"Kains Island, BC, Canada",Canada,0.0,1,0
+kaimana-indonesia,"Kaimana, Indonesia",Indonesia,0.0,1,0
+kaiete-point-bc-canada,"Kaiete Point, BC, Canada",Canada,0.0,1,0
+ibiza-spain,"Ibiza, Spain",Spain,0.0,1,0
+hyde-creek-bc-canada,"Hyde Creek, BC, Canada",Canada,0.0,1,0
+kekaha-hi-united-states,"Kekaha, HI, United States",United States,0.0,1,0
+hvik-norway,"Håvik, Norway",Norway,0.0,1,0
+hirara-japan,"Hirara, Japan",Japan,0.0,1,0
+hillsboro-or-united-states,"Hillsboro, OR, United States",United States,0.0,1,0
+herlandsvika-norway,"Herlandsvika, Norway",Norway,0.0,1,0
+heriot-bay-bc-canada,"Heriot Bay, BC, Canada",Canada,0.0,1,0
+hemnesberget-norway,"Hemnesberget, Norway",Norway,0.0,1,0
+helsinki-finland,"Helsinki, Finland",Finland,0.0,1,0
+helsingr-denmark,"Helsingør, Denmark",Denmark,0.0,1,0
+helsingborg-sweden,"Helsingborg, Sweden",Sweden,0.0,1,0
+heim-norway,"Åheim, Norway",Norway,0.0,1,0
+hawksbill-bahamas,"Hawksbill, Bahamas",Bahamas,0.0,1,0
+hawaii-kai-hi-united-states,"Hawaii Kai, HI, United States",United States,0.0,1,0
+havelock-india,"Havelock, India",India,0.0,1,0
+havelet-bay-guernsey,"Havelet Bay, Guernsey",Guernsey,0.0,1,0
+haugesund-norway,"Haugesund, Norway",Norway,0.0,1,0
+hateruma-japan,"Hateruma, Japan",Japan,0.0,1,0
+hasle-denmark,"Hasle, Denmark",Denmark,0.0,1,0
+hartley-bay-bc-canada,"Hartley Bay, BC, Canada",Canada,0.0,1,0
+hirtshals-denmark,"Hirtshals, Denmark",Denmark,0.0,1,0
+hithadhoo-maldives,"Hithadhoo, Maldives",Maldives,0.0,1,0
+hitiaa-french-polynesia,"Hitia'a, French Polynesia",French Polynesia,0.0,1,0
+horten-norway,"Horten, Norway",Norway,0.0,1,0
+huxi-township-taiwan,"Huxi Township, Taiwan",Taiwan,0.0,1,0
+hulhumale-maldives,"Hulhumale, Maldives",Maldives,0.0,1,0
+hudishibana-aruba,"Hudishibana, Aruba",Aruba,0.0,1,0
+huahine-french-polynesia,"Huahine, French Polynesia",French Polynesia,0.0,1,0
+hoxa-united-kingdom,"Hoxa, United Kingdom",United Kingdom,0.0,1,0
+houstrup-denmark,"Houstrup, Denmark",Denmark,0.0,1,0
+hot-springs-cove-bc-canada,"Hot Springs Cove, BC, Canada",Canada,0.0,1,0
+hornby-island-bc-canada,"Hornby Island, BC, Canada",Canada,0.0,1,0
+hitra-norway,"Hitra, Norway",Norway,0.0,1,0
+honolulu-hi-united-states,"Honolulu, HI, United States",United States,0.0,1,0
+homer-ak-united-states,"Homer, AK, United States",United States,0.0,1,0
+holyhead-united-kingdom,"Holyhead, United Kingdom",United Kingdom,0.0,1,0
+holmar-united-kingdom,"Holmar, United Kingdom",United Kingdom,0.0,1,0
+hollis-ak-united-states,"Hollis, AK, United States",United States,0.0,1,0
+holberg-bc-canada,"Holberg, BC, Canada",Canada,0.0,1,0
+hiva-oa-french-polynesia,"Hiva Oa, French Polynesia",French Polynesia,0.0,1,0
+keawaula-hi-united-states,"Keawaula, HI, United States",United States,0.0,1,0
+kenai-ak-united-states,"Kenai, AK, United States",United States,0.0,1,0
+leiston-united-kingdom,"Leiston, United Kingdom",United Kingdom,0.0,1,0
+kristinelund-sweden,"Kristinelund, Sweden",Sweden,0.0,1,0
+laeso-denmark,"Laeso, Denmark",Denmark,0.0,1,0
+la-maddalena-italy,"La Maddalena, Italy",Italy,0.0,1,0
+kyuquot-bc-canada,"Kyuquot, BC, Canada",Canada,0.0,1,0
+kwikwasutinuxw-haxwamis-bc-canada,"Kwikwasut'inuxw Haxwa’mis, BC, Canada",Canada,0.0,1,0
+kwakiutl-cluxewe-bc-canada,"Kwakiutl (Cluxewe), BC, Canada",Canada,0.0,1,0
+kwajalein-marshall-islands,"Kwajalein, Marshall Islands",Marshall Islands,0.0,1,0
+kwa-ibo-nigeria,"Kwa Ibo, Nigeria",Nigeria,0.0,1,0
+kuwait-city-kuwait,"Kuwait City, Kuwait",Kuwait,0.0,1,0
+kuujjuarapik-qc-canada,"Kuujjuarapik, QC, Canada",Canada,0.0,1,0
+kuujjuaq-qc-canada,"Kuujjuaq, QC, Canada",Canada,0.0,1,0
+kuroshima-japan,"Kuroshima, Japan",Japan,0.0,1,0
+kurilsk-russia,"Kurilsk, Russia",Russia,0.0,1,0
+kupang-indonesia,"Kupang, Indonesia",Indonesia,0.0,1,0
+kungsbacka-sweden,"Kungsbacka, Sweden",Sweden,0.0,1,0
+kumejima-japan,"Kumejima, Japan",Japan,0.0,1,0
+kulhudhufushi-maldives,"Kulhudhufushi, Maldives",Maldives,0.0,1,0
+kudahuvadhoo-maldives,"Kudahuvadhoo, Maldives",Maldives,0.0,1,0
+lagavulin-united-kingdom,"Lagavulin, United Kingdom",United Kingdom,0.0,1,0
+lagunen-sweden,"Lagunen, Sweden",Sweden,0.0,1,0
+lahaina-hi-united-states,"Lahaina, HI, United States",United States,0.0,1,0
+larvik-norway,"Larvik, Norway",Norway,0.0,1,0
+lefdal-norway,"Lefdal, Norway",Norway,0.0,1,0
+lecanvey-ireland,"Lecanvey, Ireland",Ireland,0.0,1,0
+leava-wallis-and-futuna,"Leava, Wallis and Futuna",Wallis and Futuna,0.0,1,0
+lax-kwalaams-bc-canada,"Lax Kw'alaams, BC, Canada",Canada,0.0,1,0
+las-toninas-argentina,"Las Toninas, Argentina",Argentina,0.0,1,0
+las-palmas-spain,"Las Palmas, Spain",Spain,0.0,1,0
+las-caletillas-spain,"Las Caletillas, Spain",Spain,0.0,1,0
+larsen-bay-ak-united-states,"Larsen Bay, AK, United States",United States,0.0,1,0
+laig-united-kingdom,"Laig, United Kingdom",United Kingdom,0.0,1,0
+larne-united-kingdom,"Larne, United Kingdom",United Kingdom,0.0,1,0
+largs-united-kingdom,"Largs, United Kingdom",United Kingdom,0.0,1,0
+lanse--beaufils-qc-canada,"L'Anse-à-Beaufils, QC, Canada",Canada,0.0,1,0
+lannion-france,"Lannion, France",France,0.0,1,0
+lancresse-bay-guernsey,"L'Ancresse Bay, Guernsey",Guernsey,0.0,1,0
+lampedusa-italy,"Lampedusa, Italy",Italy,0.0,1,0
+lamaline-nl-canada,"Lamaline, NL, Canada",Canada,0.0,1,0
+krst-norway,"Kårstø, Norway",Norway,0.0,1,0
+kristiansund-norway,"Kristiansund, Norway",Norway,0.0,1,0
+kep-aru-indonesia,"Kep. Aru, Indonesia",Indonesia,0.0,1,0
+kristiansand-norway,"Kristiansand, Norway",Norway,0.0,1,0
+kitimat-bc-canada,"Kitimat, BC, Canada",Canada,0.0,1,0
+kitamaat-village-bc-canada,"Kitamaat Village, BC, Canada",Canada,0.0,1,0
+kitadaito-japan,"Kitadaito, Japan",Japan,0.0,1,0
+kista-sweden,"Kista, Sweden",Sweden,0.0,1,0
+kingscote-sa-australia,"Kingscote, SA, Australia",Australia,0.0,1,0
+kingisepp-russia,"Kingisepp, Russia",Russia,0.0,1,0
+kingcome-inlet-bc-canada,"Kingcome Inlet, BC, Canada",Canada,0.0,1,0
+king-cove-ak-united-states,"King Cove, AK, United States",United States,0.0,1,0
+kiltan-india,"Kiltan, India",India,0.0,1,0
+kiloran-bay-united-kingdom,"Kiloran Bay, United Kingdom",United Kingdom,0.0,1,0
+killala-ireland,"Killala, Ireland",Ireland,0.0,1,0
+kilchoan-ferry-united-kingdom,"Kilchoan Ferry, United Kingdom",United Kingdom,0.0,1,0
+kilchatten-bay-united-kingdom,"Kilchatten Bay, United Kingdom",United Kingdom,0.0,1,0
+kikori-papua-new-guinea,"Kikori, Papua New Guinea",Papua New Guinea,0.0,1,0
+kihei-hi-united-states,"Kihei, HI, United States",United States,0.0,1,0
+ketchikan-ak-united-states,"Ketchikan, AK, United States",United States,0.0,1,0
+ketapang-indonesia,"Ketapang, Indonesia",Indonesia,0.0,1,0
+kitkatla-bc-canada,"Kitkatla, BC, Canada",Canada,0.0,1,0
+kkar-finland,"Kökar, Finland",Finland,0.0,1,0
+klagshamn-sweden,"Klagshamn, Sweden",Sweden,0.0,1,0
+kota-mappi-indonesia,"Kota Mappi, Indonesia",Indonesia,0.0,1,0
+kribi-cameroon,"Kribi, Cameroon",Cameroon,0.0,1,0
+krdla-estonia,"Kärdla, Estonia",Estonia,0.0,1,0
+kralendijk-bonaire-netherlands,"Kralendijk, Bonaire, Netherlands",Netherlands,0.0,1,0
+krabozavodskoye-russia,"Krabozavodskoye, Russia",Russia,0.0,1,0
+kourou-french-guiana,"Kourou, French Guiana",French Guiana,0.0,1,0
+kotzebue-ak-united-states,"Kotzebue, AK, United States",United States,0.0,1,0
+kotka-finland,"Kotka, Finland",Finland,0.0,1,0
+kosrae-micronesia,"Kosrae, Micronesia",Micronesia,0.0,1,0
+klaipeda-lithuania,"Klaipeda, Lithuania",Lithuania,0.0,1,0
+kolobrzeg-poland,"Kolobrzeg, Poland",Poland,0.0,1,0
+kolhufushi-maldives,"Kolhufushi, Maldives",Maldives,0.0,1,0
+koko-head-hi-united-states,"Koko Head, HI, United States",United States,0.0,1,0
+kokhanok-ak-united-states,"Kokhanok, AK, United States",United States,0.0,1,0
+kodiak-ak-united-states,"Kodiak, AK, United States",United States,0.0,1,0
+ko-olina-hi-united-states,"Ko Olina, HI, United States",United States,0.0,1,0
+klemtu-bc-canada,"Klemtu, BC, Canada",Canada,0.0,1,0
+zuwara-libya,"Zuwara, Libya",Libya,0.0,1,0
